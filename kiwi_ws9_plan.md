@@ -1,0 +1,138 @@
+<!-- ============================================================
+     MIRROR COPY — generated 2026-09-07 02:09Z (UTC) by chat-Claude from Claude project knowledge.
+     Source of truth is project knowledge. This file is a READ-ONLY snapshot.
+
+     ⚠️ QUOTE THE TIMESTAMP ABOVE BEFORE YOU QUOTE ANYTHING ELSE FROM THIS FILE.
+     On 2026-09-04 a lane reported a freshly-minted entry "is not written" because this
+     mirror was two days and six entries stale. It was right about the mirror and wrong
+     about canon. Staleness must surface as a reported fact, never as a silent premise.
+
+     NEVER read from this mirror:
+       - current block / current position / HEAD
+       - next-available ID counters (D-WS7, D-WS9, BUG)
+     Those come from your PROMPT ONLY. Deriving a counter by grepping this file — headings
+     or pointer line — is exactly the banned move, and it has already been made once.
+
+     kiwi_remediation_progress.md is DELIBERATELY ABSENT: it is the single source of
+     position (§A), and a second copy on disk is a second claimant by construction.
+     design_tokens_4.ts is DELIBERATELY ABSENT: it has drifted from the repo;
+     artifacts/kiwi/constants/tokens.ts is the only truth for tokens.
+
+     If a ruling in this file contradicts your prompt: SAY SO. Do not silently pick one.
+     ============================================================ -->
+
+# Kiwi — WS9 Plan: UI Redesign Application (+ Web Presence Track)
+
+**Created:** July 3, 2026 (Fable 5 session)
+**Status:** ◑ **IN PROGRESS.** ⚠️ **§A — THIS FILE DOES NOT STATE CURRENT POSITION.** Current block, HEAD and next block live in `kiwi_remediation_progress.md` §1, the single source (ruled August 5, 2026). Deliberately not restated here.
+
+⚠️ **AUGUST 5, 2026 — READ THIS BEFORE READING ANYTHING BELOW.** Until today this line said *"⏸ Planned — execution gated on WS7 close + pending items in §3."* **That was stale by an entire workstream** and it was the single worst staleness in canon: a fresh chat reading this file top-down saw a workstream that had not started, with a §3 checklist of prerequisites that all cleared in July. **§3 is now marked historical in full — do not action it.** §4's block list is the durable content here; §8's original ordering is superseded and annotated in place.
+**Owner docs this builds on:** `design-tokens_4.ts` (LOCKED), `kiwi_prep_cook_design_spec.md` (LOCKED), `kiwi_prep_cook_mockup.html`, `kiwi_screens_mockup.html` (July 3), R1–R6 flow rulings + A1 direction (locked June 12, in `kiwi_ux_redesign_handoff.md` — ⚠️ not yet in project knowledge, see §3.1)
+**Audience:** Fresh chat commissioning WS9, and Hans for sequencing decisions.
+
+---
+
+## 1. Scope
+
+WS9 applies the locked A1 "Cookbook, evolved (Fraunces)" design and the locked flow rulings across every screen (~25 surfaces), fixes the structural task-flow issues found in the June audit as it restyles, and stands up Kiwi's web presence (marketing site + web app access). It builds ON TOP of what exists — this is a restyle + rewire of built screens, not a rebuild. Prep & Cook is the exception: WS7 is building it greenfield directly to the A1 spec, so WS9 only touches it if drift is found.
+
+**In scope:** tokens v4 swap; shared-component restyle; per-screen layout changes (two-lane home + teaching arc, R5 wizard merge, R2 plan rows, R3 grocery vocab/grouping, R6 onboarding Skip); Batch 1–3 task-flow fixes once ruled; image-treatment pipeline wiring; website publish; web app export + login wiring.
+**Not in scope:** Track 3 code/security/build audit (commission separately); Stripe/retailers (WS10); voice/copy pass beyond the locked Copy tokens; new features of any kind on web (web = same app, exported).
+
+## 2. Locked inputs (do not re-derive)
+
+- **Design system:** `design-tokens_4.ts` — drop-in replacement for 3b. Palette, Fraunces/DM Sans, radii, ImageTreatment, Components, CookMode quantity style.
+- **Flow rulings R1–R6** (June 12): R1 two differentiated wizard entries — **AMENDED July 3 (Hans):** the make lane is ONE Tell Kiwi card; its two chips carry the zero-typing paths ("✦ Surprise me" + "Use my preferences"). The separate "Plan from my preferences" card is removed — two preferences entries on one screen was redundant. Preserves R1's intent (multiple mental models) with less surface. · R2 plan rows collapse to View + Swap, one swap sheet, Cook in row · R3 one grocery vocabulary (Grocery List / Order Online / Email List) · R4 home grocery button smart-routes, visually secondary · R5 wizard results merge (Use this plan = expand+save+activate → Plan Review; View details optional) · R6 real Skip on onboarding steps 2+3, arrival-framed destination chooser.
+- **Home:** two-lane ("what do you want to eat?" — make lane + Tried & True take lane), tonight-strip present-not-dominant, Option B teaching arc on home (visual treatment PROPOSED in the July 3 mockup, pending Hans approval §3.3), 4 browse tabs, Prep & Cook NOT a tab.
+- **Visual references:** `kiwi_prep_cook_mockup.html` (3 cook screens) + `kiwi_screens_mockup.html` (home ×2, wizard results, plan review, grocery, meal detail). Mockups are references, not specs. Meal photos in the mockups are placeholder stock URLs standing in for the real stock-by-tag + AI-fallback pipeline (§6).
+
+## 3. ~~Pending before execution~~ — ⚠️ HISTORICAL, ALL CLEARED (marked August 5, 2026)
+
+⚠️ **NOTHING IN §3 IS PENDING. DO NOT ACTION ANY OF IT.** Every item below cleared during July 2026. §3.1's "BLOCKED on two file uploads" resolved long ago and one of the two named files (`kiwi_ws9_resume_handoff.md`) was a paste-in working doc that was consumed and never existed in project knowledge. §3.2/§3.3/§3.4/§3.4b/§3.5 all completed — the rulings are canonical in `kiwi_deferred_decisions_log.md` and the per-screen spec is `kiwi_ws9_screen_plan.md`. **Retained verbatim below only as the record of what the plan originally gated on.**
+
+### §3 as originally written (historical)
+
+**3.1 Canonical pass — BLOCKED on two file uploads.** Hans uploads `kiwi_ux_redesign_handoff.md` + `kiwi_ws9_resume_handoff.md` (downloaded June 12–13, on his disk) to project knowledge. Then any chat logs the 15 verbatim D-WS9 deferral entries + applies the codebase-map edits per the resume handoff. NO reconstruction from memory (§26.3). The workstream renumber is already recorded in `kiwi_navigation.md` (July 3).
+**3.2 Batch 1–3 task rulings** (Hans + chat): Batch 1 meal editing (inline ingredient edit, servings persistence, plan-scoped "just this time" edits, dish add/swap, the import-context + fake-compost bugs) · Batch 2 plans & wizard (plan deletion + undo, duplicate/reuse, deactivate-this-week, wizard carry-over + pre-save editing) · Batch 3 grocery/cooking/account (grouping + shopper reorder + no-op sort fix, done-shopping momentum, mark-cooked write path, preference reactivity, per-section add-item, email triage). Recommendations exist in the resume handoff; mockup support helps here (Fable 5 preferred, see §8).
+**3.3 Two visual approvals from the July 3 mockup:** (a) teaching-arc treatment on first-run home; (b) inline ingredient tap-to-edit popover on Meal Detail (this doubles as the visual for Batch 1's biggest ruling).
+**3.4 Tell-vs-Ask naming call** — `tellkiwi.tsx` (plan-level) vs `ask-kiwi.tsx` (single-meal) unification, decided during per-screen spec.
+**3.4b NEW SCOPE (July 3): "Surprise me" AI prompt.** No prompt exists for the Surprise-me chip yet. Needs a new key in `seeds/aiPrompts.ts` (per §7 workflow) generating a plan grounded in popular/mainstream web meals within the user's preference constraints. Open sub-decision for Hans: popularity source — (a) curated seed list of crowd-pleaser meals refreshed occasionally, (b) AI's own knowledge of popular meals (zero infra), or (c) live web-grounding (heaviest). Log as a D-WS9 entry at the canonical pass; build lands with Block 3c (wizard flow).
+**3.5 Per-screen spec** — chat-Claude writes it screen-by-screen across the ~25 surfaces (flow changes + A1 layout + component usage + PRD-redline implications per screen). Prep & Cook entries point at its existing spec. This is the document the apply blocks build from.
+
+## 4. Build plan — three layers, blocks per §18
+
+Fresh Claude Code chat per block; pass next-available D-WS9 and BUG IDs into every prompt (§6/§28); Phase 3 inline reports (§3); audit before each close; full canonical-set refresh at block close (§23.1).
+
+**Layer 1 — Block 1: tokens VERIFY pass (correction July 4, 2026 — not a build block).** Tokens v4 (`design-tokens_4.ts`) have been live in-app since WS7-8-pre (June 17) — the swap already happened. Block 1 is therefore a verify pass, not a build: confirm the v4 file is what's mounted (no 3b remnants), confirm Fraunces + DM Sans load via expo-font, and audit for components reading raw hex that bypasses tokens (Phase 1 read-only). Short, low risk.
+**Layer 2 — Block 2: shared components.** The leverage layer — fix once, every screen inherits: MealRow (R2 shape), card/chip/button variants, Tried & True rail card, active-plan strip, italic-dash SectionLabel, image-treatment wrapper (fixed aspect per slot, container-matched radius, warm multiply overlay), Tell Kiwi card. Structural bugs living inside shared components get fixed in the same touch.
+**Layer 3 — Blocks 3+: screen groups** (composition changes, from the per-screen spec):
+- **3a Home + nav** — two-lane layout, teaching arc (first-run), tonight strip, R4 smart-route grocery button, 4-tab nav.
+- **3b Onboarding** — R6 Skip on steps 2+3, arrival reframe.
+- **3c Wizard + results** — R5 merge (one decision, one wait, land on Plan Review), R1 entry differentiation, wizard carry-over per Batch 2 rulings.
+- **3d Plan Review** — R2 rows + one swap sheet, plan mutations per Batch 2 (delete/undo, duplicate, deactivate), action bar with R3 vocab.
+- **3e Grocery** — ✅ **CLOSED July 31, 2026.** Commits `a8bbce9` (index) · `c954caa` (detail + provenance) · `686ebe5` (composted guard) · `1a19858` (device tweaks). **No migration.** Suites **882 mobile / 1472 api-server** (+2 / +3), tsc clean both. **Device-confirmed.**
+  - **Shipped:** R3 vocabulary on the index · per-item **meal provenance labels** ("For X, Y") via a new `sources` include + `mealId→title` join · a **top-anchored progress meter** that persists while scrolling · the **D-WS9-090 composted guard** (`isArchived`/`compostedAt` on the plan payload, four CTAs hidden, one line, **"Use again" live**) · **four dead stubs removed.**
+  - ⚠️ **Most of this row's original scope ALREADY EXISTED and Phase 0 found it:** by-aisle grouping, check-off persistence, and the done-shopping → prep-momentum handoff were all built. **The block turned out to be mostly deletion plus one join.** *(Original scope line kept for reference: "R3 vocab everywhere, by-aisle grouping with meal provenance, check-off ergonomics, done-shopping → prep momentum, sort fix, Order Online premium-gated.")*
+  - ⚠️ **"Order Online premium-gated" was NOT built and that is deliberate** — it was a dead `Alert` stub and was **removed, not gated** (D-WS9-099). **Order Online returns at roadmap row 8 (Instacart); Email List at the new roadmap row 3a**, right after WS9A hosting.
+  - ⚠️ **The sort "fix" was a no-op — the sort was already correct.** Canon's long-standing "both sorts are no-ops that sort by title" claim was **stale**; B6 had fixed it. `createdAt` is an ISO string, so `localeCompare` is sound. **What is real: the sort is page-local over ≤20 rows (D-WS9-098).**
+  - ⚠️ **D-WS9-090 shipped but is UNVERIFIED ON DEVICE and is believed UNREACHABLE.** Hans challenged the premise (*"I'm not sure why that would be possible"*) and was right — both indexes filter archived rows, no archive view exists, and **3d's grocery-list archival cascade closed the last in-session path.** The scope was shrunk to a guard on that basis. **It is defense against live CTAs acting on a dead plan, not a screen anyone will see. Do not record it as device-confirmed.**
+- **3f Meal/Dish detail + editing** — A1 hero treatment, Batch 1 rulings (inline ingredient edit, servings, "just this time"), dish add/swap/remove (D-WS9-016), import-context + compost bug fixes.
+  - ⚠️ **SPLIT INTO FIVE SUB-BLOCKS** after Phase 0 found **nine screens**, not the assumed set (Hans ruled audit-first, split from measured state).
+  - **3f-1 ✅ CLOSED August 2, 2026** — `d2ea32a`. meal/dish Detail restyle · **BUG-035 closed at 15 sites** · D-WS9-017 labels · dead type picker removed. **No migration.** Suites **882 / 1472**, baseline held exactly. Device-confirmed.
+  - **3f-2 ✅ CLOSED August 3, 2026** — seven commits `5360d03` → `e37048b`. Both builders restyled to A1 · **BUG-057 FIXED (two defects: stub hydration + unconditional create-on-save fork)** · cuisine relabelled to a generation hint and hidden in edit mode · assist toggles hide when content exists · quantity entry rebuilt (decimal + fraction + validation + save-pending state) · premium pills removed from dish-builder · `meal-builder:2324` → `Radius.full`. **No migration.** Suites **894 mobile (Δ +12 real unit tests) / 1472 api-server**, tsc clean. Device-confirmed and pushed.
+  - **3f-2b** ⛔ **SHELVED August 4, 2026 — COMMISSIONED, PHASE-0 AUDITED, AND DECLINED WITHOUT A BUILD. No code, no commit, HEAD unchanged at `e37048b`.**
+    - **Phase 0 verified the block was CHEAP, not expensive** — both models already carry `tags` (`Meal` `schema.prisma:530`, **`Dish` `:436`**), the server already persists them, **no migration and no server change** were needed, and **the feared D-WS7-050 dish collision never fired** (chips are descriptors; cuisine/difficulty are separate typed columns).
+    - ⚠️ **IT WAS DECLINED ON PURPOSE, NOT COST.** Hans: *"there's not much point in building something that someone can tag if the tags aren't usable"*, then — **what is the purpose of tags over the preference-aligned attributes of a meal or dish?** Most of the proposed chip vocabulary duplicated typed or computed fields (`estimatedTimeMinutes`, macros, `servingsDefault`, `allergens`) and **a user-typed value can contradict the computed one.**
+    - ⚠️ **STANDING LESSON: ask what READS a field before building what WRITES it.** The block reached build-ready before anyone asked what would consume its output.
+    - **Superseded by D-WS9-109** — typed attributes generation actually reads. **Owner is the post-WS9 plan-generation track, NOT WS9 restyle.**
+    - **D-WS9-101 ⛔ DECLINED** (and ⚠️ **a false claim in it retracted — PRD §9.6's `ILIKE` search was NEVER BUILT**) · **D-WS9-107 ✅ RESOLVED** · **+D-WS9-108** (Kiwi-assist either/or, ruled correct, no change).
+  - **3f-3 ✅ CLOSED August 4, 2026** — two commits `32f4e58` (Phase 1) → `5c2eb17` (Phase 1b), device-verified across all three paths. **Mobile-only: no migration, no server change.** Suites **908 mobile / 0 fail** (894 → 904 → 908), `tsc --noEmit` clean; **api-server untouched, still 1472 / 0 fail / 2 skip.**
+    - **Thread B — D-WS9-005 ✅ FIXED, and this is the valuable half.** Import from the Change Meal path now **completes the swap** instead of abandoning it. `resolvePostSaveNav` **extended, not duplicated**, with a third outcome `plan-replace`; precedence **`replace > append > detail`**, explicit and commented. Routes through **`changeMealForPlanItem`** (server delete+create, day preserved, PRD §8.4.2), **never `addMealToPlan`** (append-only, no `planItemId` param). "Create manually" from the swap context takes the same replace path. **Two-write partial failure surfaces a blocking Alert and does NOT navigate** — the old meal stays safely in the slot.
+    - ⚠️ **D-WS9-005's JULY 5 RULING WAS WRONG AND WAS NOT BUILT AS WRITTEN.** It said to mirror `AddMealsSheet` — the **append** context — in a **replace** context, which would have added the imported meal and left the old one in the slot. ⚠️ **Its file citation was also stale** (`ChangeMealSheet.tsx` was merged into `SwapMealSheet.tsx` at 3d Part 4). **Both corrections are recorded on the entry itself.**
+    - ⚠️ **PHASE 1b HARDENED A GUARANTEE THAT WAS RESTING ON CALLER STRUCTURE.** "An edit never becomes a slot replace" was **true but unenforced** — it held only because `onSave`'s `isEditFromPlanContext` branch returned early. Now intrinsic to the resolver (`mealId` present → `detail`), with the branch ordering kept as a second line of defense. **16 `postSaveNav` tests green.** ⚠️ **The question that found it was *"what ENFORCES this?"*, not *"is this true?"***
+    - **Thread A — PARTIAL, by accepted decline.** New `components/ImportSourceCards.tsx` unifies the byte-duplicated `NewSourceCard` across `AddMealsSheet` (append) and `SwapMealSheet` (replace); completion parameterized via new pure `lib/builder/importEntryParams.ts`; header copy unified to *"Bring in something new."* ⚠️ **The meal-builder mode picker (site 3) was NOT folded in** — its `ModeCard`s are **selectable mode switches**, not navigation. **Accepted → D-WS9-110, and ⚠️ appearance convergence is still owed at 3f-4.**
+    - **Thread C — Change Recipe client branch deleted.** Unreachability proven across all seven points; trigger string `source: "change-recipe"` **written by nothing in the repo.** ⚠️ **`changeRecipeForPlanItem` is LIVE and was correctly left untouched** (`:617`/`:659`) — it powers the "just this time / apply always" flow. **A name-matching deletion trap, caught.** D-WS7-216's backend ruling is unchanged.
+    - **A1 restyle — zero code, and that was correct.** ⚠️ **The import screens were ALREADY A1**, migrated a month earlier in `6bee031` (*"migrate to v4 design tokens (A1) — Fraunces/DM Sans, terracotta primary, 75 files"*), token-identical to `AskKiwiView`. **The chooser already renders equal siblings with no URL privilege — §10.4's requirement was already met.** ⚠️ **§27.2's reuse check prevented a rebuild of something already shipped.**
+    - **+1 BUG: BUG-060** (macro float display, P2 → the cleanup block).
+  - **3f-3 CLEANUP ✅ CLOSED August 4, 2026** — `3b5c8e5`, device-tested, **PUSHED (`e37048b..3b5c8e5`, ref range read from the push output).** Suites **909 mobile / 0 fail**, tsc clean. **BUG-060 FIXED** · `import-url` copy → "Import Recipe" · `import-image` hierarchy → one primary.
+    - ⚠️ **THE SPEC'D ONE-DECIMAL PRECISION WAS WITHDRAWN AT PHASE 0 AND THAT IS THE BLOCK'S VALUE.** `formatMacro`/`formatMacroLine` already round, and **fifteen surfaces already route through them** — the spec would have changed all fifteen and rewritten a passing test contract to fix a **one-line** defect. **Integer grams retained; macros are AI-estimated, so a decimal advertises precision the data lacks.**
+    - ⚠️ **The defect was on the Add Meals picker, NOT Meal Detail — canon named the wrong screen and chat-Claude propagated it into two docs before writing a build spec on it.** Corrected.
+    - ⚠️ **The Phase 0 grep could not have found it:** `toFixed|Math.round|formatMacro` matches nothing in a raw `${...}g` template literal. **Sweep for the shape of the defect, not the remedy.**
+    - **+D-WS9-111** (added-meal ordering — ⚠️ **collides with PRD §8 `[LOCKED]`, UNRULED**) · **+D-WS9-112** (§10.3.3 import-result screen ⛔ **DECLINED**).
+  - **3f-4** Ask-Kiwi creator extraction + swap-sheet wire (D-WS9-018) + **BUG-058**. ⚠️ **NOW ALSO OWNS THREE DEVICE FINDINGS FROM 3f-3, all in `SwapMealSheet.tsx` — Hans ruled same file, one pass:** **(1)** import options are **buried** under a long meal list on Swap for Different Meal — Hans wants a **visible scroll boundary** and **infinite scroll** (*"the scroll, load, scroll more is acceptable"*). **(2)** ⚠️ **typography differs and the fix is NOT obvious — two competing UNVERIFIED hypotheses (styling divergence vs. sheet-constrained scale), and if the scale reading is right, "match the styling" makes finding (1) WORSE. The two are coupled; do not fix either in isolation.** **(3)** ⚠️ **THE CAPPED LIST MAY BE BUG-058'S ACTUAL CAUSE** — Hans observed the meal list *"stops after a set quantity."* **If the list is capped BEFORE ranking, the AI is ranking whatever survived the cut, and there may be no similarity defect at all. MEASURE THE CORPUS FIRST.** ⚠️ **Similarity means preparation and eating experience, NOT protein — a fix that tightens ingredient matching makes it worse.**
+  - **3f-5** net-new backend: single-ingredient PATCH · add/remove-dish · meal+dish soft-delete. ⚠️ **Both of the UX spec's STOP-gates were INVERTED — 3f is greenfield on the PATCH and the creator, not a consumer of finished pieces.**
+- **3g Library tabs + Profile + remainder** — Plans/Meals tabs restyle, profile, settings, empty states; deferred WS7 search/sort UI lands here (D-WS7-048 family).
+Each block gets its own Claude Code prompt with the PRD-grounded scope summary (§25) and relevant bug-log rows (§28) folded in.
+
+## 5. PRD redlines — queue, land at WS9 close (§8)
+
+⚠️ **NEW (WS9 3e, July 31, 2026) — PRD §12.14 vs R3 + B6. Section number grep-verified at `kiwi_prd_v1_1_working.md:3336`.** §12.14 is marked **`[LOCKED, per prototype s-groceries]`** and specifies a **four-state status vocabulary** (`Draft / Active / Ordered / Completed`) plus **four row actions** (`View, Get List, Order, Reuse`). ⚠️ **B6 already deleted `Get List` and `Reuse`, and R3 replaces the vocabulary with three labels (Grocery List · Order Online · Email List).** The live badge is a **derivable whitelist** (`This Week / Completed / Ordered`), and the code comment already notes §12.14's four-state model was never ratified. **Redline §12.14 to match R3 + the shipped badge.** ⚠️ **This is the seventh queued redline, and the second case this arc of a section marked LOCKED describing something the artifact does not do** — *canon is reliable about what was DECIDED and unreliable about what EXISTS.*
+
+⚠️ **NEW (3f-3 + cleanup, August 4, 2026) — FOUR MORE, bringing the queue to FOURTEEN+.** **§10.3.3** import-result screen — ✅ **RULED by Hans (Option A): REDLINE, DO NOT BUILD.** Never existed; straight-to-builder is fewer steps and §9 treats added steps on the core path as friction debt. → **D-WS9-112.** · **§8.4.3 + §10.2** — the Change Recipe **client** is deleted while the backend is retained, so §8.4.3 describes a flow with no client and §10.2 still lists it as an entry point; ⚠️ **"deferred" vs "removed" is Hans's product call, UNRULED.** · **§10.4.1** — its *"Primary Choose from Library / Secondary Take Photo"* line is marked `[REDLINE May 13, 2026 — shipped reality]`, so it **documented the code rather than prescribing a design**; Hans ruled both photo-source buttons secondary and **the PRD follows the code, not the reverse.** · **§11.4 `[LOCKED]`** — ⚠️ **it lists Cook Now results (§7.5) and My Meals rows (§9.3.4, "542 cal/serving") as macro display surfaces and NEITHER renders macros.** ⚠️ **Carried to 3f-4 Phase 0 as one grep before this redline is trusted:** `AddMealsSheet` builds a `macrosLine` and mounts `MealRow` — if it passes that line in as a prop, §9.3.4 is **built-but-unwired**, not never-built. · **"Search Online Recipes"** — premium-gated in §8.3.8/§8.4.2, **NOT BUILT**, zero matches.
+
+Known queue so far: R5 vs §5.5 · R6 vs §3.4/§3.5 · home IA (two-lane + teaching arc + Option B nav decision) vs the home/IA section · Prep & Cook net-new cook-flow section (from its spec) · Prep & Cook not-a-tab vs any nav spec · Hosting & Events as new scope · Batch-ruling outcomes as they land. Verify every section number before citing (§26.2 — Plan Review is §8, not §15).
+
+## 6. Image pipeline (implements the ImageTreatment tokens)
+
+Strategy locked June 12: **stock-by-tag with AI-generated fallback, unified by treatment** (no controlled photography). Implementation: Layer 2 ships the treatment wrapper (aspect per slot: rail 150/74, meal card 4:3, hero 16:10, thumb 1:1 @42px; radius matches container; rgba(194,79,37,.06) multiply overlay). The sourcing side — tag→stock lookup, AI fallback generation, caching, and licensing choice (Getty vs Unsplash-licensed vs fully AI) — is a **separate decision + likely its own block**; log as a D-WS9 deferral at the canonical pass if not already among the 15. Until it lands, screens render the treatment wrapper over whatever image field exists, with the warm-gradient placeholder as the empty state (exactly as the mockups demonstrate).
+
+## 7. Web presence track (runs beside, not inside, the app blocks)
+
+⚠️ **7a HOST UNVERIFIED (flagged August 5, 2026):** the line below says GoDaddy, and the roadmap's launch-gap checklist agrees. **Neither has been confirmed against where `kitchenwizard.ai` actually serves from.** If it moved, both are stale. One look settles it; do not scope an upload from this line first.
+
+**7a Website — DONE July 3, publish anytime.** `kiwi-website/index.html` + `login.html` (A1-branded marketing site; login shell). Hans uploads both to GoDaddy web root. `[HANS]` comments mark: contact email, privacy/terms links, post-trial pricing line, and `WEB_APP_URL` in login.html.
+⚠️ **7b RESTS ON AN UNTESTED ASSUMPTION (flagged August 5, 2026).** The *"zero new build"* claim below has **never been verified**. `kiwi_cc_prompt_expo_web_probe.md` is a written-but-never-executed CC prompt that exists precisely to test it, and **no result is recorded anywhere in canon.** ⚠️ **Run the probe before scoping 7b.** If the export needs real rework, 7b is not "one execution block" and the WS9A pairing changes shape.
+
+**7b Web app — one execution block, sequenced with WS8.** The web app is the existing Expo app exported to web (`npx expo export --platform web`) — same screens, same features, zero new build. Prereqs (why it rides with WS8): public API URL; server CORS + browser-auth config (cookie/token semantics for a web origin); web font loading for Fraunces/DM Sans; Phase 1 audit of native modules needing web fallbacks. Output: static bundle uploaded to GoDaddy at `/app/` or `app.` subdomain.
+**7c Wire the front door.** Set `WEB_APP_URL` in login.html; site → login → app becomes one path. **Do 7b AFTER Layer 1–2 land if timing allows**, so the web app debuts in A1 rather than shipping the old look and re-exporting.
+
+## 8. Sequencing + model dependency
+
+⚠️ **THE ORIGINAL ORDER BELOW IS SUPERSEDED (annotated August 5, 2026).** It puts WS8 infra *before* Blocks 1–3, which is not what happened and not what the roadmap says. **`kiwi_roadmap.md` is canonical for cross-workstream sequencing and wins over this line.** Actual order: WS9 Blocks 1 → 2 → 3a…3g → WS9 close → **then** WS9A/WS8 hosting → row 3a email → row 8 Instacart → row 8a latency → row 9 auth+Stripe. Retained below as the July 3 record.
+
+~~Order: **WS7 close → §3.1 canonical pass → §3.2/§3.3 rulings → §3.5 per-screen spec → WS8 (infra + 7b prereqs) → WS9 Blocks 1→2→3a…3g → 7b/7c export + wire → WS9 close (PRD redlines + canonical refresh).**~~ Blocks 1–2 don't depend on WS8 and can start straight after the spec if WS8 lags.
+**Fable 5 window:** model-dependent work = visual design judgment (mockups §3.3, Batch-ruling support, per-screen spec quality). Model-independent = everything in §4, §6, §7 execution (Claude Code does the building; any capable chat model can commission from the spec). Priority while the window is open: settle §3.3 approvals and as many Batch rulings as possible, then the per-screen spec.
+
+## 9. Close criteria
+
+All Layer 1–3 blocks committed + device-tested; Batch 1–3 rulings implemented or explicitly re-deferred with IDs; PRD redline batch landed (§5); bug-log P1/P2 on touched surfaces closed; web app live behind login; full canonical-set refresh per §23.1; WS9 complete-handoff doc frozen.
