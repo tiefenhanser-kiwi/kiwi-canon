@@ -1,0 +1,341 @@
+<!-- ============================================================
+     MIRROR COPY — generated 2026-09-17 20:55Z (UTC) by chat-Claude from Claude project knowledge.
+     Source of truth is project knowledge. This file is a READ-ONLY snapshot.
+
+     ⚠️ QUOTE THE TIMESTAMP ABOVE BEFORE YOU QUOTE ANYTHING ELSE FROM THIS FILE.
+     On 2026-09-04 a lane reported a freshly-minted entry "is not written" because this
+     mirror was two days and six entries stale. It was right about the mirror and wrong
+     about canon. Staleness must surface as a reported fact, never as a silent premise.
+
+     NEVER read from this mirror:
+       - current block / current position / HEAD
+       - next-available ID counters (D-WS7, D-WS9, BUG)
+     Those come from your PROMPT ONLY. Deriving a counter by grepping this file — headings
+     or pointer line — is exactly the banned move, and it has already been made once.
+
+     kiwi_remediation_progress.md is DELIBERATELY ABSENT: it is the single source of
+     position (§A), and a second copy on disk is a second claimant by construction.
+     design_tokens_4.ts is DELIBERATELY ABSENT: it has drifted from the repo;
+     artifacts/kiwi/constants/tokens.ts is the only truth for tokens.
+
+     If a ruling in this file contradicts your prompt: SAY SO. Do not silently pick one.
+     ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kiwi · Prep & Cook — A1 mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF7EF; --ink:#2D2A24; --terra:#C24F25; --terra-deep:#a84520;
+    --sage:#5C7350; --muted:#8A8474; --border:#E4DCCB; --border-strong:#D8D0BD;
+    --card:#FFFFFF; --gold-bg:#F6E8C8; --gold-tx:#996E1B;
+    --on-sage:#F4F1E6; --on-sage-sub:#D5DCCB;
+    --serif:'Fraunces',Georgia,serif; --sans:'DM Sans',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#EFE7D6;font-family:var(--sans);color:var(--ink);padding:24px 0 60px;}
+  .wrap{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:28px;justify-content:center;align-items:flex-start;}
+  .col{display:flex;flex-direction:column;align-items:center;gap:10px;}
+  .label{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--muted);}
+  .phone{width:390px;background:var(--paper);border-radius:34px;border:1px solid var(--border-strong);
+    box-shadow:0 8px 30px rgba(90,64,48,.12);overflow:hidden;display:flex;flex-direction:column;height:780px;}
+  .status{height:30px;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted);padding-top:6px;}
+  .hdr{display:flex;align-items:center;gap:10px;padding:6px 18px 12px;}
+  .hdr .back{font-size:20px;color:var(--ink);width:24px;}
+  .hdr h1{font-family:var(--serif);font-weight:500;font-size:22px;}
+  .hdr .sub{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin-top:1px;}
+  .body{flex:1;overflow-y:auto;padding:4px 18px 24px;}
+  .body::-webkit-scrollbar{width:0;}
+  .eyebrow{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--muted);margin:18px 2px 10px;}
+  .eyebrow.first{margin-top:6px;}
+
+  /* hub cards */
+  .lane{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:16px;margin-bottom:12px;}
+  .lane.sage{background:var(--sage);border:none;}
+  .lane h2{font-family:var(--serif);font-weight:500;font-size:19px;margin-bottom:3px;}
+  .lane.sage h2{color:var(--on-sage);}
+  .lane p{font-size:13px;color:var(--muted);line-height:1.45;}
+  .lane.sage p{color:var(--on-sage-sub);}
+  .lane .row{display:flex;align-items:center;gap:13px;}
+  .lane .ico{width:42px;height:42px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;font-size:21px;}
+  .ico.terra{background:#fbeee5;color:var(--terra);}
+  .ico.sageico{background:rgba(244,241,230,.16);color:var(--on-sage);}
+  .cta{margin-top:13px;width:100%;border:none;border-radius:12px;padding:12px;font-family:var(--sans);
+    font-weight:600;font-size:14px;cursor:pointer;}
+  .cta.terra{background:var(--terra);color:var(--on-sage);}
+  .cta.cream{background:var(--on-sage);color:var(--sage);}
+
+  /* meal queue rows in hub */
+  .qrow{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:10px 12px;margin-bottom:9px;}
+  .qrow .thumb{width:46px;height:46px;border-radius:10px;background:#e9ddc7 center/cover;flex:none;position:relative;overflow:hidden;}
+  .qrow .thumb::after{content:"";position:absolute;inset:0;background:rgba(194,79,37,.06);mix-blend-mode:multiply;}
+  .qrow .info{flex:1;min-width:0;}
+  .qrow .nm{font-family:var(--serif);font-weight:500;font-size:15px;line-height:1.2;}
+  .qrow .meta{font-size:11.5px;color:var(--muted);margin-top:2px;}
+  .pill{font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px;white-space:nowrap;}
+  .pill.prepped{background:#e7eee2;color:var(--sage);}
+  .pill.partial{background:var(--gold-bg);color:var(--gold-tx);}
+  .pill.raw{background:#f1ece1;color:var(--muted);}
+
+  /* cook session */
+  .seg{display:flex;gap:5px;padding:2px 0 14px;}
+  .seg .s{height:5px;border-radius:99px;flex:1;background:var(--border-strong);}
+  .seg .s.done{background:var(--sage);}
+  .seg .s.cur{background:var(--terra);}
+  .steplbl{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--terra);margin:4px 0 16px;}
+  .steplbl .src{color:var(--muted);}
+
+  .step{margin-bottom:14px;}
+  .step.done{opacity:.42;}
+  .step.up{opacity:.5;}
+  .step .chk{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:var(--sage);margin-bottom:4px;}
+  .step .txt{font-family:var(--serif);font-weight:400;line-height:1.34;}
+  .step.cur .txt{font-size:22px;}
+  .step.done .txt,.step.up .txt{font-size:16px;}
+  .q{color:var(--terra);font-weight:700;}
+  .step.cur{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 16px 14px;
+    box-shadow:0 2px 8px rgba(90,64,48,.07);}
+  .timer{display:inline-flex;align-items:center;gap:6px;margin-top:13px;background:#fbeee5;color:var(--terra);
+    font-weight:600;font-size:13px;padding:7px 13px;border-radius:99px;}
+  .why{display:inline-block;margin-top:12px;margin-left:10px;font-size:12.5px;color:var(--muted);
+    border-bottom:1px dotted var(--border-strong);cursor:pointer;}
+  .nextprev{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin-top:10px;}
+  .divider{display:flex;align-items:center;gap:10px;margin:18px 2px;color:var(--muted);}
+  .divider .ln{flex:1;height:1px;background:var(--border);}
+  .divider .tx{font-family:var(--serif);font-style:italic;font-size:13px;}
+  .skipbar{background:#e7eee2;border:1px solid #cfddc3;border-radius:14px;padding:12px 14px;margin-bottom:14px;
+    display:flex;align-items:center;gap:11px;}
+  .skipbar .t{flex:1;font-size:13px;color:var(--sage);line-height:1.35;}
+  .skipbar .t b{font-weight:600;}
+  .skipbar button{border:1px solid var(--sage);background:transparent;color:var(--sage);font-family:var(--sans);
+    font-weight:600;font-size:12.5px;padding:7px 12px;border-radius:10px;cursor:pointer;white-space:nowrap;}
+
+  .footer{padding:12px 18px 18px;border-top:1px solid var(--border);display:flex;gap:10px;background:var(--paper);}
+  .footer button{flex:1;border-radius:12px;padding:13px;font-family:var(--sans);font-weight:600;font-size:14px;cursor:pointer;}
+  .footer .ghost{flex:none;width:54px;background:var(--card);border:1px solid var(--border-strong);color:var(--ink);}
+  .footer .go{background:var(--terra);border:none;color:var(--on-sage);}
+
+  .grp{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px;margin-bottom:12px;}
+  .grp .gh{font-family:var(--serif);font-weight:500;font-size:16px;margin-bottom:3px;}
+  .grp .gs{font-size:12px;color:var(--muted);margin-bottom:11px;}
+  .combine{font-size:11px;font-weight:600;color:var(--terra);background:#fbeee5;display:inline-block;
+    padding:2px 8px;border-radius:99px;margin-bottom:9px;}
+  .li{display:flex;gap:9px;font-size:14px;line-height:1.3;padding:6px 0;border-top:1px solid var(--border);}
+  .li:first-of-type{border-top:none;}
+  .li .bx{width:18px;height:18px;border-radius:5px;border:1.5px solid var(--border-strong);flex:none;margin-top:1px;}
+  .li .srctag{font-size:10.5px;color:var(--muted);margin-left:auto;align-self:center;white-space:nowrap;}
+  .note{font-size:12px;color:var(--muted);font-style:italic;font-family:var(--serif);text-align:center;margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ SCREEN 1 — HUB ============ -->
+  <div class="col">
+    <div class="label">1 · Prep &amp; Cook hub</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr">
+        <div class="back">‹</div>
+        <div>
+          <h1>Prep &amp; Cook</h1>
+          <div class="sub">— this week's plan · 5 meals —</div>
+        </div>
+      </div>
+      <div class="body">
+
+        <div class="eyebrow first">— cook right now —</div>
+        <div class="lane">
+          <div class="row">
+            <div class="ico terra">🍳</div>
+            <div style="flex:1">
+              <h2>Cook a meal</h2>
+              <p>Pick tonight's meal and Kiwi walks you through it, step by step.</p>
+            </div>
+          </div>
+          <button class="cta terra">Choose a meal to cook</button>
+        </div>
+
+        <div class="eyebrow">— get ahead —</div>
+        <div class="lane sage">
+          <div class="row">
+            <div class="ico sageico">📋</div>
+            <div style="flex:1">
+              <h2>Prep the week</h2>
+              <p>One session. Kiwi combines the prep across all your meals so weeknights are just cooking.</p>
+            </div>
+          </div>
+          <button class="cta cream">Start week prep · ~40 min</button>
+        </div>
+
+        <div class="eyebrow">— this week's meals —</div>
+
+        <div class="qrow">
+          <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=200')"></div>
+          <div class="info">
+            <div class="nm">Honey-garlic salmon</div>
+            <div class="meta">Tonight · 25 min · serves 4</div>
+          </div>
+          <span class="pill prepped">Prepped ✓</span>
+        </div>
+
+        <div class="qrow">
+          <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=200')"></div>
+          <div class="info">
+            <div class="nm">Sheet-pan chicken fajitas</div>
+            <div class="meta">Tue · 30 min · serves 4</div>
+          </div>
+          <span class="pill partial">Mostly prepped</span>
+        </div>
+
+        <div class="qrow">
+          <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=200')"></div>
+          <div class="info">
+            <div class="nm">Mushroom risotto</div>
+            <div class="meta">Wed · 40 min · serves 4</div>
+          </div>
+          <span class="pill raw">Not prepped</span>
+        </div>
+
+        <div class="qrow">
+          <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200')"></div>
+          <div class="info">
+            <div class="nm">Margherita flatbreads</div>
+            <div class="meta">Thu · 20 min · serves 4</div>
+          </div>
+          <span class="pill raw">Not prepped</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SCREEN 2 — SINGLE MEAL COOK ============ -->
+  <div class="col">
+    <div class="label">2 · Cook a meal — scroll &amp; anchor</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr">
+        <div class="back">‹</div>
+        <div>
+          <h1>Honey-garlic salmon</h1>
+          <div class="sub">— step 4 of 9 —</div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="seg">
+          <div class="s done"></div><div class="s done"></div><div class="s done"></div>
+          <div class="s cur"></div><div class="s"></div><div class="s"></div>
+          <div class="s"></div><div class="s"></div><div class="s"></div>
+        </div>
+
+        <!-- skip-prep bar appears because this meal was already prepped -->
+        <div class="skipbar">
+          <span style="font-size:18px;color:var(--sage)">✓</span>
+          <div class="t">You <b>prepped this on Sunday</b> — salmon's marinating, garlic's minced.</div>
+          <button>Skip to cooking</button>
+        </div>
+
+        <!-- done steps, dimmed, scrollable back -->
+        <div class="step done">
+          <span class="chk">✓ done</span>
+          <div class="txt">Pat the salmon dry and season both sides.</div>
+        </div>
+        <div class="step done">
+          <span class="chk">✓ done</span>
+          <div class="txt">Whisk the glaze: <span class="q">3 tbsp honey</span>, <span class="q">2 tbsp soy sauce</span>, <span class="q">3 cloves garlic</span>, minced.</div>
+        </div>
+        <div class="step done">
+          <span class="chk">✓ done</span>
+          <div class="txt">Heat <span class="q">1 tbsp oil</span> in a large skillet over medium-high.</div>
+        </div>
+
+        <!-- CURRENT step — the anchor -->
+        <div class="steplbl">— now · the cook —</div>
+        <div class="step cur">
+          <div class="txt">Sear the salmon skin-side down for <span class="q">4 minutes</span>, until the edges turn opaque.</div>
+          <div class="timer">⏱ Start 4:00 timer</div>
+          <span class="why">why this step?</span>
+        </div>
+        <div class="nextprev">Next · Flip &amp; glaze →</div>
+
+        <!-- upcoming, dimmed -->
+        <div class="step up" style="margin-top:18px">
+          <div class="txt">Flip the salmon, brush with the glaze, cook <span class="q">3 more minutes</span>.</div>
+        </div>
+        <div class="step up">
+          <div class="txt">Add <span class="q">1 tsp basil</span> and a squeeze of lemon to finish.</div>
+        </div>
+
+      </div>
+      <div class="footer">
+        <button class="ghost">←</button>
+        <button class="go">Done — next step</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SCREEN 3 — WEEK PREP ============ -->
+  <div class="col">
+    <div class="label">3 · Prep the week — combined steps</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr">
+        <div class="back">‹</div>
+        <div>
+          <h1>Week prep</h1>
+          <div class="sub">— 4 meals combined · ~40 min —</div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="seg">
+          <div class="s done"></div><div class="s cur"></div><div class="s"></div>
+          <div class="s"></div><div class="s"></div>
+        </div>
+
+        <div class="steplbl">— stage 2 of 5 · all your chopping —</div>
+
+        <!-- a combined group: one action serving several meals -->
+        <div class="step cur" style="margin-bottom:16px">
+          <span class="combine">combines 3 meals</span>
+          <div class="txt">Dice <span class="q">3 onions</span> all at once. You'll split them across tonight's fajitas, Wed's risotto, and Thu's flatbread.</div>
+          <div class="why" style="margin-left:0">why batch this?</div>
+        </div>
+
+        <div class="grp">
+          <div class="gh">Where each goes</div>
+          <div class="gs">Kiwi sorts your prep into labelled containers</div>
+          <div class="li"><div class="bx"></div><div><span class="q">1 onion</span> → fajitas</div><span class="srctag">Tue</span></div>
+          <div class="li"><div class="bx"></div><div><span class="q">1 onion</span> → risotto base</div><span class="srctag">Wed</span></div>
+          <div class="li"><div class="bx"></div><div><span class="q">½ onion</span> → flatbread</div><span class="srctag">Thu</span></div>
+        </div>
+
+        <div class="nextprev">Next · Mince all the garlic →</div>
+
+        <div class="step up" style="margin-top:18px">
+          <span class="combine" style="background:#eee7da;color:var(--muted)">combines 2 meals</span>
+          <div class="txt">Mince <span class="q">6 cloves garlic</span> — for the salmon glaze and the risotto.</div>
+        </div>
+        <div class="step up">
+          <div class="txt">Marinate the salmon now so it's ready Monday. <span class="q">3 tbsp honey</span>, <span class="q">2 tbsp soy</span>.</div>
+        </div>
+
+        <div class="note">When you cook these later, Kiwi skips the prep you did here.</div>
+
+      </div>
+      <div class="footer">
+        <button class="ghost">←</button>
+        <button class="go">Done — next stage</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

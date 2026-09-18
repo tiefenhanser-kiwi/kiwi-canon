@@ -1,0 +1,471 @@
+<!-- ============================================================
+     MIRROR COPY — generated 2026-09-17 20:55Z (UTC) by chat-Claude from Claude project knowledge.
+     Source of truth is project knowledge. This file is a READ-ONLY snapshot.
+
+     ⚠️ QUOTE THE TIMESTAMP ABOVE BEFORE YOU QUOTE ANYTHING ELSE FROM THIS FILE.
+     On 2026-09-04 a lane reported a freshly-minted entry "is not written" because this
+     mirror was two days and six entries stale. It was right about the mirror and wrong
+     about canon. Staleness must surface as a reported fact, never as a silent premise.
+
+     NEVER read from this mirror:
+       - current block / current position / HEAD
+       - next-available ID counters (D-WS7, D-WS9, BUG)
+     Those come from your PROMPT ONLY. Deriving a counter by grepping this file — headings
+     or pointer line — is exactly the banned move, and it has already been made once.
+
+     kiwi_remediation_progress.md is DELIBERATELY ABSENT: it is the single source of
+     position (§A), and a second copy on disk is a second claimant by construction.
+     design_tokens_4.ts is DELIBERATELY ABSENT: it has drifted from the repo;
+     artifacts/kiwi/constants/tokens.ts is the only truth for tokens.
+
+     If a ruling in this file contradicts your prompt: SAY SO. Do not silently pick one.
+     ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kiwi · Core screens — A1 mockup (July 3, 2026)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF7EF; --ink:#2D2A24; --terra:#C24F25; --terra-deep:#a84520;
+    --sage:#5C7350; --muted:#8A8474; --border:#E4DCCB; --border-strong:#D8D0BD;
+    --card:#FFFFFF; --gold-bg:#F6E8C8; --gold-tx:#996E1B;
+    --on-sage:#F4F1E6; --on-sage-sub:#D5DCCB; --text2:#6B5E4D;
+    --serif:'Fraunces',Georgia,serif; --sans:'DM Sans',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#EFE7D6;font-family:var(--sans);color:var(--ink);padding:24px 0 60px;}
+  .wrap{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;gap:28px;justify-content:center;align-items:flex-start;}
+  .col{display:flex;flex-direction:column;align-items:center;gap:10px;}
+  .col>.label{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--muted);max-width:390px;text-align:center;}
+  .col>.label b{color:var(--terra);font-weight:600;font-style:normal;}
+  .phone{width:390px;background:var(--paper);border-radius:34px;border:1px solid var(--border-strong);
+    box-shadow:0 8px 30px rgba(90,64,48,.12);overflow:hidden;display:flex;flex-direction:column;height:780px;}
+  .status{height:30px;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted);padding-top:6px;flex:none;}
+  .body{flex:1;overflow-y:auto;padding:4px 18px 14px;}
+  .body::-webkit-scrollbar{width:0;}
+  .eyebrow{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--muted);text-align:center;margin:16px 2px 10px;}
+  .eyebrow.first{margin-top:4px;}
+
+  /* header */
+  .hdr{display:flex;align-items:baseline;justify-content:space-between;padding:6px 18px 10px;flex:none;}
+  .hdr .greet{font-family:var(--serif);font-style:italic;font-weight:500;font-size:23px;}
+  .hdr .mark{font-family:var(--serif);font-style:italic;font-weight:600;font-size:19px;color:#3a5235;}
+  .hdr2{display:flex;align-items:center;gap:10px;padding:6px 18px 10px;flex:none;}
+  .hdr2 .back{font-size:20px;width:24px;color:var(--ink);}
+  .hdr2 .t{font-family:var(--serif);font-weight:500;font-size:22px;line-height:1.1;}
+  .hdr2 .s{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin-top:2px;}
+
+  /* Tell Kiwi card (make lane, primary) */
+  .tell{background:var(--sage);border-radius:18px;padding:16px 16px 14px;margin-bottom:10px;}
+  .tell h2{font-family:var(--serif);font-style:italic;font-weight:500;font-size:19px;color:var(--on-sage);margin-bottom:3px;}
+  .tell p{font-size:12.5px;color:var(--on-sage-sub);margin-bottom:11px;}
+  .tell .input{background:var(--paper);border-radius:99px;padding:12px 17px;font-family:var(--serif);
+    font-style:italic;font-size:14.5px;color:var(--muted);}
+  .tell .chips{display:flex;gap:8px;margin-top:10px;}
+  .tchip{border:1.2px solid rgba(244,241,230,.55);color:var(--on-sage);border-radius:99px;
+    padding:6px 13px;font-size:12px;font-weight:500;}
+
+  /* secondary make card */
+  .prefcard{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:12px 14px;margin-bottom:4px;}
+  .prefcard .ico{width:38px;height:38px;border-radius:11px;background:#fbeee5;color:var(--terra);
+    display:flex;align-items:center;justify-content:center;font-size:18px;flex:none;}
+  .prefcard .nm{font-family:var(--serif);font-weight:500;font-size:15.5px;}
+  .prefcard .meta{font-size:11.5px;color:var(--muted);margin-top:1px;}
+  .prefcard .go{margin-left:auto;color:var(--terra);font-weight:700;font-size:16px;}
+
+  /* teaching arc (first-run only) — PROPOSED treatment */
+  .arc{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:13px 15px 12px;margin-bottom:12px;}
+  .arc .al{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);text-align:center;margin-bottom:8px;}
+  .arc .flow{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;}
+  .arc .w{font-family:var(--serif);font-weight:500;font-size:14.5px;}
+  .arc .w.lit{color:var(--terra);}
+  .arc .a{color:var(--border-strong);font-size:12px;}
+  .arc .sub{font-size:11.5px;color:var(--muted);text-align:center;margin-top:7px;}
+
+  /* tried & true rail */
+  .rail{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px;margin:0 -18px;padding-left:18px;padding-right:18px;}
+  .rail::-webkit-scrollbar{height:0;}
+  .rcard{width:150px;flex:none;background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+  .rcard .img{height:74px;background:#e9ddc7;position:relative;}
+  .rcard .img::after{content:"";position:absolute;inset:0;background:rgba(194,79,37,.06);mix-blend-mode:multiply;}
+  .rcard .img.a{background:url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=60') center/cover no-repeat,linear-gradient(120deg,#e6cba6,#d99e6b);}
+  .rcard .img.b{background:url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=400&q=60') center/cover no-repeat,linear-gradient(120deg,#d8dfc8,#a9b98f);}
+  .rcard .img.c{background:url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=60') center/cover no-repeat,linear-gradient(120deg,#e8d7c2,#c9a184);}
+  .rcard .img.d{background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=60') center/cover no-repeat,linear-gradient(120deg,#e3d3b8,#b8a67e);}
+  .rcard .cat{position:absolute;top:7px;left:7px;background:rgba(251,247,239,.92);color:var(--ink);
+    font-size:10px;font-weight:700;border-radius:99px;padding:3px 9px;z-index:1;}
+  .rcard .in{padding:9px 11px 11px;}
+  .rcard .nm{font-family:var(--serif);font-weight:500;font-size:13.5px;line-height:1.22;}
+  .rcard .meta{font-size:10.5px;color:var(--muted);margin-top:4px;}
+
+  /* tonight strip */
+  .strip{display:flex;align-items:center;gap:11px;background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:9px 12px;margin-bottom:12px;}
+  .strip .thumb{width:42px;height:42px;border-radius:10px;background:url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=200&q=60') center/cover no-repeat,linear-gradient(120deg,#e6cba6,#cf9a63);flex:none;position:relative;overflow:hidden;}
+  .strip .thumb::after{content:"";position:absolute;inset:0;background:rgba(194,79,37,.06);mix-blend-mode:multiply;}
+  .strip .nm{font-family:var(--serif);font-weight:500;font-size:14.5px;}
+  .strip .meta{font-size:11px;color:var(--muted);margin-top:1px;}
+  .strip .cook{margin-left:auto;color:var(--terra);font-weight:700;font-size:13.5px;}
+
+  /* secondary home buttons (R4) */
+  .secrow{display:flex;gap:10px;margin-top:2px;}
+  .secbtn{flex:1;background:var(--card);border:1.2px solid var(--border-strong);border-radius:12px;
+    padding:11px;text-align:center;font-weight:600;font-size:13px;}
+
+  /* bottom nav — 4 browse tabs */
+  .nav{flex:none;display:flex;border-top:1px solid var(--border);background:var(--paper);padding:9px 6px 14px;}
+  .nav .t{flex:1;text-align:center;font-size:10.5px;color:var(--muted);font-weight:600;}
+  .nav .t .i{font-size:18px;display:block;margin-bottom:2px;}
+  .nav .t.on{color:#3a5235;}
+
+  /* wizard results (R5) */
+  .plancard{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:15px;margin-bottom:12px;}
+  .plancard.pick{border:1.6px solid var(--terra);}
+  .plancard h3{font-family:var(--serif);font-weight:500;font-size:18px;}
+  .plancard .meta{font-size:12px;color:var(--muted);margin:3px 0 9px;}
+  .plancard .meals{font-size:13px;color:var(--text2);line-height:1.55;}
+  .plancard .meals b{font-weight:600;color:var(--ink);}
+  .pcbtns{display:flex;gap:9px;margin-top:12px;}
+  .btn{border:none;border-radius:12px;padding:11px;font-family:var(--sans);font-weight:600;font-size:13.5px;text-align:center;}
+  .btn.terra{background:var(--terra);color:var(--paper);flex:1.6;}
+  .btn.ghost{background:transparent;border:1.2px solid var(--border-strong);color:var(--ink);flex:1;}
+  .waitnote{font-family:var(--serif);font-style:italic;font-size:12.5px;color:var(--muted);text-align:center;margin-top:2px;}
+
+  /* plan review rows (R2) */
+  .prhead{display:flex;align-items:baseline;justify-content:space-between;margin:2px 2px 10px;}
+  .prhead .wk{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);}
+  .mrow{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:11px 13px;margin-bottom:9px;}
+  .mrow .top{display:flex;align-items:center;gap:11px;}
+  .mrow .day{font-family:var(--serif);font-style:italic;font-size:12.5px;color:var(--muted);width:32px;flex:none;}
+  .mrow .thumb{width:44px;height:44px;border-radius:10px;flex:none;position:relative;overflow:hidden;}
+  .mrow .thumb::after{content:"";position:absolute;inset:0;background:rgba(194,79,37,.06);mix-blend-mode:multiply;}
+  .mrow .nm{font-family:var(--serif);font-weight:500;font-size:15px;line-height:1.2;}
+  .mrow .meta{font-size:11px;color:var(--muted);margin-top:2px;}
+  .mrow .cook{margin-left:auto;color:var(--terra);font-weight:700;font-size:13px;flex:none;}
+  .mrow .acts{display:flex;gap:8px;margin-top:9px;margin-left:43px;}
+  .act{border:1.2px solid var(--border-strong);border-radius:10px;padding:6px 15px;font-size:12px;font-weight:600;background:transparent;}
+  .actionbar{display:flex;gap:10px;margin-top:14px;}
+
+  /* grocery (R3) */
+  .gsub{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin:0 2px 12px;}
+  .gcat{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--muted);margin:14px 2px 6px;text-align:center;}
+  .gitem{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);
+    border-radius:12px;padding:10px 13px;margin-bottom:7px;}
+  .gchk{width:21px;height:21px;border-radius:7px;border:1.4px solid var(--border-strong);flex:none;
+    display:flex;align-items:center;justify-content:center;font-size:12px;}
+  .gitem.done .gchk{background:var(--sage);border-color:var(--sage);color:var(--on-sage);}
+  .gitem.done .gnm{color:var(--muted);text-decoration:line-through;}
+  .gnm{font-size:14px;}
+  .gsrc{font-size:10.5px;color:var(--muted);margin-top:1px;}
+  .gqty{margin-left:auto;font-size:12.5px;color:var(--muted);font-weight:600;flex:none;}
+  .gprog{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:11px 14px;margin-bottom:12px;}
+  .gprog .bar{flex:1;height:6px;border-radius:99px;background:var(--border);overflow:hidden;}
+  .gprog .bar i{display:block;height:100%;width:38%;background:var(--sage);border-radius:99px;}
+  .gprog .n{font-size:12px;color:var(--text2);font-weight:600;flex:none;}
+  .gdone{background:#e7eee2;border:1px solid #cfddc3;border-radius:14px;padding:13px 15px;margin-top:12px;}
+  .gdone .t{font-family:var(--serif);font-weight:500;font-size:15px;color:var(--sage);}
+  .gdone .s{font-size:12px;color:var(--text2);margin-top:2px;}
+
+  /* meal detail */
+  .hero{height:150px;margin:0 -18px 0;background:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=60') center/cover no-repeat,linear-gradient(120deg,#e6cba6,#cf9a63);position:relative;}
+  .hero::after{content:"";position:absolute;inset:0;background:rgba(194,79,37,.06);mix-blend-mode:multiply;}
+  .mdt{font-family:var(--serif);font-weight:600;font-size:24px;line-height:1.12;margin:14px 0 4px;}
+  .mdm{font-size:12.5px;color:var(--muted);margin-bottom:12px;}
+  .macros{display:flex;gap:8px;margin-bottom:14px;}
+  .mbox{flex:1;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:9px 6px;text-align:center;}
+  .mbox .v{font-family:var(--serif);font-weight:600;font-size:16px;}
+  .mbox .k{font-size:10px;color:var(--muted);margin-top:1px;letter-spacing:.04em;text-transform:uppercase;}
+  .ing{display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--border);font-size:14px;}
+  .ing:last-of-type{border-bottom:none;}
+  .ing .q{color:var(--muted);margin-left:auto;font-size:13px;flex:none;}
+  .ing.sel{background:var(--card);border:1.4px solid var(--terra);border-radius:12px;padding:10px 12px;margin:2px -8px;}
+  .pop{background:var(--ink);color:var(--paper);border-radius:12px;padding:10px 13px;margin:8px -8px 6px;
+    display:flex;gap:14px;font-size:12.5px;font-weight:600;position:relative;}
+  .pop::before{content:"";position:absolute;top:-6px;left:38px;border:6px solid transparent;border-bottom-color:var(--ink);border-top:none;}
+  .pop span{opacity:.55;}
+  .proptag{display:inline-block;background:var(--gold-bg);color:var(--gold-tx);font-size:10px;font-weight:700;
+    border-radius:99px;padding:3px 9px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ═══ 1 · HOME — FIRST RUN ═══ -->
+  <div class="col">
+    <div class="label">Home — <b>first run</b> · two-lane + proposed teaching arc (collapses after first plan)</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr"><span class="greet">Good evening, Hans</span><span class="mark">kiwi</span></div>
+      <div class="body">
+
+        <div class="arc">
+          <div class="al">— kitchen made easy —</div>
+          <div class="flow">
+            <span class="w lit">meals</span><span class="a">→</span>
+            <span class="w">plans</span><span class="a">→</span>
+            <span class="w">groceries</span><span class="a">→</span>
+            <span class="w">prep</span><span class="a">→</span>
+            <span class="w">cook</span>
+          </div>
+          <div class="sub">One flow, start to finish. It begins below.</div>
+        </div>
+
+        <div class="eyebrow first">— what do you want to eat? —</div>
+        <div class="tell">
+          <h2>Tell Kiwi</h2>
+          <p>Say it in your words — a mood, a cuisine, a whole week.</p>
+          <div class="input">something cozy for a rainy week…</div>
+          <div class="chips"><span class="tchip">✦ Surprise me</span><span class="tchip">Use my preferences</span></div>
+        </div>
+
+        <div class="eyebrow">— tried &amp; true —</div>
+        <div class="rail">
+          <div class="rcard"><div class="img a"><span class="cat">Hosting</span></div><div class="in"><div class="nm">4th of July BBQ for 12</div><div class="meta">serves 12 · by Kiwi Kitchen</div></div></div>
+          <div class="rcard"><div class="img b"><span class="cat">Featured</span></div><div class="in"><div class="nm">Mediterranean Week</div><div class="meta">★ 4.8 · 2.1k cooks</div></div></div>
+          <div class="rcard"><div class="img c"><span class="cat">Featured</span></div><div class="in"><div class="nm">20-Minute Dinners</div><div class="meta">★ 4.7 · 1.4k cooks</div></div></div>
+          <div class="rcard"><div class="img d"><span class="cat">Top Rated</span></div><div class="in"><div class="nm">Comfort Classics</div><div class="meta">★ 4.9 · 3.2k cooks</div></div></div>
+        </div>
+
+        <div class="secrow" style="margin-top:14px;">
+          <div class="secbtn">Grocery List</div>
+          <div class="secbtn">Prep &amp; Cook</div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="t on"><span class="i">⌂</span>Home</div>
+        <div class="t"><span class="i">▤</span>Plans</div>
+        <div class="t"><span class="i">◱</span>Meals</div>
+        <div class="t"><span class="i">✓</span>Groceries</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 2 · HOME — RETURNING ═══ -->
+  <div class="col">
+    <div class="label">Home — <b>returning</b> · arc collapsed, tonight strip present-not-dominant</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr"><span class="greet">Good evening, Hans</span><span class="mark">kiwi</span></div>
+      <div class="body">
+
+        <div class="strip">
+          <div class="thumb"></div>
+          <div><div class="nm">Tonight · Lemon herb salmon</div><div class="meta">with rice &amp; charred broccoli · prepped ✓</div></div>
+          <div class="cook">Cook</div>
+        </div>
+
+        <div class="eyebrow first">— plan something new —</div>
+        <div class="tell">
+          <h2>Tell Kiwi</h2>
+          <p>Say it in your words — a mood, a cuisine, a whole week.</p>
+          <div class="input">grilled chicken &amp; rice, mac n cheese, and…</div>
+          <div class="chips"><span class="tchip">✦ Surprise me</span><span class="tchip">Use my preferences</span></div>
+        </div>
+
+        <div class="eyebrow">— tried &amp; true —</div>
+        <div class="rail">
+          <div class="rcard"><div class="img a"><span class="cat">Hosting</span></div><div class="in"><div class="nm">4th of July BBQ for 12</div><div class="meta">serves 12 · by Kiwi Kitchen</div></div></div>
+          <div class="rcard"><div class="img b"><span class="cat">Featured</span></div><div class="in"><div class="nm">Mediterranean Week</div><div class="meta">★ 4.8 · 2.1k cooks</div></div></div>
+          <div class="rcard"><div class="img d"><span class="cat">My Plans</span></div><div class="in"><div class="nm">Our Usual Week</div><div class="meta">last cooked Jun 21</div></div></div>
+        </div>
+
+        <div class="secrow" style="margin-top:14px;">
+          <div class="secbtn">Grocery List</div>
+          <div class="secbtn">Prep &amp; Cook</div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="t on"><span class="i">⌂</span>Home</div>
+        <div class="t"><span class="i">▤</span>Plans</div>
+        <div class="t"><span class="i">◱</span>Meals</div>
+        <div class="t"><span class="i">✓</span>Groceries</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 3 · WIZARD RESULTS (R5) ═══ -->
+  <div class="col">
+    <div class="label">Wizard results — <b>R5 merged</b> · "Use this plan" = expand + save + activate → Plan Review. One decision, one wait.</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr2"><span class="back">‹</span><div><div class="t">Kiwi cooked up</div><div class="s">three ways to do your week</div></div></div>
+      <div class="body">
+
+        <div class="plancard pick">
+          <h3>Cozy Comfort Week</h3>
+          <div class="meta">5 dinners · serves 4 · ~40 min avg</div>
+          <div class="meals"><b>Braised chicken thighs</b> &amp; polenta · <b>Mushroom sage orzo</b> · <b>Slow-baked ziti</b> · <b>Miso salmon</b> &amp; greens · <b>Sunday pot roast</b></div>
+          <div class="pcbtns">
+            <button class="btn terra">Use this plan</button>
+            <button class="btn ghost">View details</button>
+          </div>
+        </div>
+
+        <div class="plancard">
+          <h3>Rainy Week, Fast</h3>
+          <div class="meta">5 dinners · serves 4 · ~25 min avg</div>
+          <div class="meals"><b>Gnocchi &amp; greens skillet</b> · <b>Chicken tinga tacos</b> · <b>Tomato soup</b> &amp; grilled cheese · <b>Stir-fry night</b> · <b>Pesto rigatoni</b></div>
+          <div class="pcbtns">
+            <button class="btn terra">Use this plan</button>
+            <button class="btn ghost">View details</button>
+          </div>
+        </div>
+
+        <div class="plancard">
+          <h3>Stews &amp; Slow Burns</h3>
+          <div class="meta">5 dinners · serves 4 · prep-ahead friendly</div>
+          <div class="meals"><b>Beef bourguignon</b> · <b>White bean chicken chili</b> · <b>Lentil coconut curry</b> · <b>French onion pasta</b> · <b>Shakshuka night</b></div>
+          <div class="pcbtns">
+            <button class="btn terra">Use this plan</button>
+            <button class="btn ghost">View details</button>
+          </div>
+        </div>
+
+        <div class="waitnote">— choosing builds your full plan · about 15 seconds —</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4 · PLAN REVIEW (R2 + R3) ═══ -->
+  <div class="col">
+    <div class="label">Plan Review — <b>R2</b> rows: View + Swap only, Cook in row · <b>R3</b> vocabulary in the action bar</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr2"><span class="back">‹</span><div><div class="t">Cozy Comfort Week</div><div class="s">active · week of Jun 29</div></div></div>
+      <div class="body">
+        <div class="prhead"><span class="wk">— 5 dinners · serves 4 —</span></div>
+
+        <div class="mrow">
+          <div class="top"><span class="day">Mon</span><div class="thumb" style="background:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=200&q=60') center/cover no-repeat,linear-gradient(120deg,#e6cba6,#cf9a63);"></div>
+            <div><div class="nm">Braised chicken thighs</div><div class="meta">&amp; creamy polenta · 45 min · prepped ✓</div></div>
+            <span class="cook">Cook</span></div>
+          <div class="acts"><button class="act">View</button><button class="act">Swap</button></div>
+        </div>
+
+        <div class="mrow">
+          <div class="top"><span class="day">Tue</span><div class="thumb" style="background:url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=200&q=60') center/cover no-repeat,linear-gradient(120deg,#d8dfc8,#a9b98f);"></div>
+            <div><div class="nm">Mushroom sage orzo</div><div class="meta">one pot · 30 min</div></div>
+            <span class="cook">Cook</span></div>
+          <div class="acts"><button class="act">View</button><button class="act">Swap</button></div>
+        </div>
+
+        <div class="mrow">
+          <div class="top"><span class="day">Wed</span><div class="thumb" style="background:url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=200&q=60') center/cover no-repeat,linear-gradient(120deg,#e8d7c2,#c9a184);"></div>
+            <div><div class="nm">Slow-baked ziti</div><div class="meta">makes leftovers · 55 min</div></div>
+            <span class="cook">Cook</span></div>
+          <div class="acts"><button class="act">View</button><button class="act">Swap</button></div>
+        </div>
+
+        <div class="mrow">
+          <div class="top"><span class="day">Thu</span><div class="thumb" style="background:url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=200&q=60') center/cover no-repeat,linear-gradient(120deg,#e3d3b8,#b8a67e);"></div>
+            <div><div class="nm">Miso salmon &amp; greens</div><div class="meta">sheet pan · 25 min</div></div>
+            <span class="cook">Cook</span></div>
+          <div class="acts"><button class="act">View</button><button class="act">Swap</button></div>
+        </div>
+
+        <div class="actionbar">
+          <button class="btn terra">Grocery List</button>
+          <button class="btn ghost">Prep &amp; Cook</button>
+        </div>
+        <div class="waitnote" style="margin-top:10px;">— swap opens one sheet: change meal · find similar · edit recipe —</div>
+      </div>
+      <div class="nav">
+        <div class="t"><span class="i">⌂</span>Home</div>
+        <div class="t on"><span class="i">▤</span>Plans</div>
+        <div class="t"><span class="i">◱</span>Meals</div>
+        <div class="t"><span class="i">✓</span>Groceries</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 5 · GROCERY LIST (R3) ═══ -->
+  <div class="col">
+    <div class="label">Grocery List — <b>R3</b> one vocabulary · by-aisle grouping with meal provenance · done → prep momentum</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr2"><span class="back">‹</span><div><div class="t">Grocery List</div><div class="s">Cozy Comfort Week · 5 meals</div></div></div>
+      <div class="body">
+
+        <div class="gprog"><span class="n">8 of 21</span><div class="bar"><i></i></div><span class="n" style="color:var(--muted);">38%</span></div>
+
+        <div class="gcat">— produce —</div>
+        <div class="gitem done"><span class="gchk">✓</span><div><div class="gnm">Cremini mushrooms</div><div class="gsrc">orzo</div></div><span class="gqty">1 lb</span></div>
+        <div class="gitem done"><span class="gchk">✓</span><div><div class="gnm">Lemons</div><div class="gsrc">salmon · chicken</div></div><span class="gqty">3</span></div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Yellow onions</div><div class="gsrc">ziti · chicken · orzo</div></div><span class="gqty">4</span></div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Fresh sage</div><div class="gsrc">orzo</div></div><span class="gqty">1 bunch</span></div>
+
+        <div class="gcat">— dairy —</div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Parmesan, block</div><div class="gsrc">ziti · orzo · polenta</div></div><span class="gqty">8 oz</span></div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Whole-milk ricotta</div><div class="gsrc">ziti</div></div><span class="gqty">15 oz</span></div>
+
+        <div class="gcat">— meat &amp; seafood —</div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Chicken thighs, bone-in</div><div class="gsrc">braised chicken</div></div><span class="gqty">2 lb</span></div>
+        <div class="gitem"><span class="gchk"></span><div><div class="gnm">Salmon fillets</div><div class="gsrc">miso salmon</div></div><span class="gqty">4</span></div>
+
+        <div class="gdone">
+          <div class="t">Done shopping?</div>
+          <div class="s">Get ahead — prep the week in one session. →</div>
+        </div>
+
+        <div class="actionbar">
+          <button class="btn ghost">Email List</button>
+          <button class="btn ghost" style="color:var(--gold-tx);border-color:var(--gold-bg);background:var(--gold-bg);">Order Online ✦</button>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="t"><span class="i">⌂</span>Home</div>
+        <div class="t"><span class="i">▤</span>Plans</div>
+        <div class="t"><span class="i">◱</span>Meals</div>
+        <div class="t on"><span class="i">✓</span>Groceries</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 6 · MEAL DETAIL + proposed inline swap ═══ -->
+  <div class="col">
+    <div class="label">Meal Detail — A1 hero treatment · <b>tap-ingredient inline edit is PROPOSED</b> (Batch 1 ruling pending, not locked)</div>
+    <div class="phone">
+      <div class="status">9:41</div>
+      <div class="hdr2"><span class="back">‹</span><div><div class="t">Meal Detail</div></div></div>
+      <div class="body">
+        <div class="hero"></div>
+        <div class="mdt">Braised chicken thighs &amp; creamy polenta</div>
+        <div class="mdm">45 min · serves 4 · Italian-ish comfort · prepped ✓</div>
+
+        <div class="macros">
+          <div class="mbox"><div class="v">620</div><div class="k">kcal</div></div>
+          <div class="mbox"><div class="v">42g</div><div class="k">protein</div></div>
+          <div class="mbox"><div class="v">38g</div><div class="k">carbs</div></div>
+          <div class="mbox"><div class="v">31g</div><div class="k">fat</div></div>
+        </div>
+
+        <div class="eyebrow" style="text-align:left;margin-left:2px;">— ingredients —</div>
+        <div class="ing"><span>Chicken thighs, bone-in</span><span class="q">2 lb</span></div>
+        <div class="ing"><span>Yellow onion, sliced</span><span class="q">1 large</span></div>
+
+        <span class="proptag">Proposed — Batch 1</span>
+        <div class="ing sel"><span>Dry white wine</span><span class="q">½ cup</span></div>
+        <div class="pop">Swap <span>·</span> Adjust amount <span>·</span> Just this time</div>
+
+        <div class="ing"><span>Instant polenta</span><span class="q">1 cup</span></div>
+        <div class="ing"><span>Parmesan, grated</span><span class="q">½ cup</span></div>
+        <div class="ing"><span>Fresh thyme</span><span class="q">4 sprigs</span></div>
+
+        <div class="actionbar" style="margin-top:16px;">
+          <button class="btn terra">Cook Now</button>
+          <button class="btn ghost">Add to Plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
