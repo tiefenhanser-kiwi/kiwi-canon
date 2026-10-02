@@ -1,0 +1,5 @@
+# The Claude desktop app saves files delivered in chat into "Claude outputs" inside a connected folder.
+# Those are chat-only by working agreements section 26.5 (prompts, scripts, handoffs) - never commit them.
+Claude outputs/
+# Junk from a September 7 sync; safe to delete.
+kiwi_working_agreements-1.md
