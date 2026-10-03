@@ -40,7 +40,7 @@ is the only truth for tokens.
 | kiwi_navigation.md | project knowledge | **2026-09-17 21:05Z** (the eight moved docs corrected in every row; the locked-PRD filename fixed — it is a DOT not an underscore) |
 | kiwi_prd_v1_1_working.md | project knowledge | 2026-09-02 (unchanged in project knowledge since Aug 12) |
 | kiwi_codebase_map.md | project knowledge | **2026-09-07** |
-| kiwi_roadmap.md | project knowledge | **2026-09-10 01:06Z** (one Launch-gap line: honest cook times · the 30-minute catalog supplement during UAT · D-WS9-236) |
+| kiwi_roadmap.md | project knowledge | **2026-10-03 20:25Z** (row 19 the import browser; row 12 sequenced; the Tier 3 order amended for the Prep & Cook pass; two stale "§1" pointers fixed — D-WS9-303) |
 | kiwi_ws9_plan.md | project knowledge | **2026-09-07** |
 | kiwi_ws9_screen_plan.md | project knowledge | **2026-09-07** |
 | kiwi_ux_redesign_spec.md | project knowledge | **2026-09-07** |
@@ -124,3 +124,4 @@ Say so. Do not silently pick one.
 
 - **2026-09-30 18:49Z** — `kiwi_deferred_decisions_log_ARCHIVE_2026-09-30.md` added (58 resolved, uncited entries, verbatim; SHA-256 in its header). `kiwi_prd_v1_1_working.md` is now MIRROR-ONLY (left project knowledge; the mirror copy was byte-verified against the project copy first). ⚠️ The deferred log's project-knowledge path is `/kiwi_deferred_decisions_log.md` (leading slash) since the September 30 delete-then-write; content is identical to this mirror's copy.
 - **2026-10-03 17:12Z** — this batch: the two logs, `kiwi_prep_cook_pass_scope.md` v3, `kiwi_competitive_landscape.md` (new). Sizes verified by `device_list_dir` after the commit. ⚠️ `Claude outputs\` is present in the mirror root again; it is not canon.
+- **2026-10-03 20:25Z** — `kiwi_roadmap.md` re-mirrored after the D-WS9-303 rows.
