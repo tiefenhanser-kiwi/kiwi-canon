@@ -1,5 +1,5 @@
 <!-- ============================================================
-     MIRROR COPY — generated 2026-10-04 16:13Z (UTC) by chat-Claude from Claude project knowledge.
+     MIRROR COPY — generated 2026-10-30 01:35Z (UTC) by chat-Claude from Claude project knowledge.
      Source of truth is project knowledge. This file is a READ-ONLY snapshot.
 
      ⚠️ QUOTE THE TIMESTAMP ABOVE BEFORE YOU QUOTE ANYTHING ELSE FROM THIS FILE.
@@ -57,7 +57,7 @@
 
 **The rule: the `- **Status:**` field is the ONLY claimant. Headings carry the symptom, never a verdict.** Emoji and `FIXED`/`OPEN` markers are being removed from headings as entries are touched; **do not add new ones.** ⚠️ **And at every block close, write the status back for every bug the block closed** — the September 4 allergen lanes closed two P-level bugs and updated neither.
 
-**Next available BUG ID: BUG-356** (updated 2026-10-04 — **BUG-353 (a streamed generation never opens the paywall; resubmission B1) · BUG-354 (container names over 120 characters fail the response) · BUG-355 (Prep the Week text: four defects from Hans's October 4 device pass) minted; BUG-349 · 350 · 351 FIXED on dev and device-confirmed**). *Prior:* **BUG-353** (updated 2026-10-03 — **BUG-349 (prep-then-cook never connects: `isPrepped` unreachable, the prepped Cook Mode view) · BUG-350 (prep-week 502 on long shared-food steps) · BUG-351 (`heldForCookDay` stripped) · BUG-352 (carrot / celery seed categories swapped) minted from the Prep & Cook Part I census; BUG-337 · 338 · 344 · 346 brought current**). *Prior:* **BUG-349** (updated 2026-10-01 — **BUG-347 (welcome at max font) · BUG-348 (grocery edit save / un-shop) minted from Hans's device pass**). *Prior:* **BUG-347** (updated 2026-10-01 — **BUG-344 (single-dish Cook Mode footer) · BUG-345 (grocery row display slips) · BUG-346 (Prep the Week classification, seen on screen) minted from QA quick check 1**). *Prior:* **BUG-344** (updated 2026-10-01 — **BUG-343 minted (a failing Cook Mode test hangs the suite)**). *Prior:* **BUG-343** (updated 2026-10-01 — **BUG-342 minted (a meal copy never re-derives its time stamp); BUG-340 · 341 fixed on dev**). *Prior:* **BUG-342** (updated 2026-09-30 22:45Z — **BUG-340 (anchovy paste read as raw flesh) · BUG-341 (Cook Mode vs card minutes, seen on screen by the QA harness) minted**). *Prior:* **BUG-340** (updated 2026-09-30 18:10Z — BUG-339 FIXED on dev; BUG-337 · 338 measured, in progress). *Prior:* BUG-340 (updated 2026-09-30 16:31Z — **BUG-336 (a time range highlighted in pieces) · BUG-337 (Cook Mode timing) · BUG-338 (Prep the Week) · BUG-339 (an internal tag shown) minted from Hans's E2 re-test and chat-Claude's browser pass**). *Prior:* BUG-336 (updated 2026-09-30 02:05Z — **BUG-334 (the doubled fraction in steps) minted from the block E device pass · BUG-335 minted and VOIDED the same night (Hans: Tell Kiwi landing a near meal is not a defect); BUG-058's pool measured**). *Prior:* BUG-334 (updated 2026-09-29 17:37Z — **BUG-333 minted (CC, B4): pickled-jalapeño yield is the oz ÷ 8 shape**; BUG-160 · 321 · 326 · 329 FIXED on dev by block C (1.1); BUG-331 built, device pass owed). *Prior:* BUG-333 (updated 2026-09-29 15:29Z — **BUG-332 minted: imported recipes sometimes get no image, and product words / brand names can yield a packaging shot; Hans's prompt rule recorded**; BUG-331 → IN PROGRESS in block C as D-WS9-058's build). *Prior:* BUG-332 (updated 2026-09-29 01:33Z — **BUG-331 minted: the meal-detail "Ingredients" label above "Adjust for servings" is hard to see and its tap does nothing; Hans: pre-go-live; rides grocery block C → 1.1**; status fields brought in line with their lead bullets for BUG-323 · 327 · 328 · 330). *Prior:* BUG-331 (updated 2026-09-29 01:06Z — B2 built: BUG-323 · 330 FIXED on dev, BUG-160 half, BUG-210 guard; no new ID) — **BUG-330 minted: a dry pint of cherry tomatoes against a weight need under-orders (298 g bought vs 340 g needed) — a per-ingredient pack-yield gap, B1's mechanism**). *Prior:* BUG-330** (updated September 28, 2026, 17:49Z — **BUG-328 · 329 minted from the grocery census + Cookbook Block 3: three catalog meals labelled ≤ 30 min whose steps sum to 1.8–2.4× (QA-flagged, held out of the Cookbook); a count unit pluralised below one ("¼ bunches")**). *Prior:* BUG-328 (updated September 28, 2026, 16:16Z — **BUG-327 minted: the Cookbook browse page shows "0 dinners" and nothing else when filters match nothing, P3**). *Prior:* BUG-327 (updated September 28, 2026, ~16:00Z — **Cookbook Block 2 landed: BUG-324 and BUG-325 FIXED on the web; BUG-322 RE-SCOPED to the app only (the Cookbook's SQL had filtered bought steps since Block 1; the app's recipe payload does not); BUG-326 minted — an `amountRefs` span that does not contain its quantity makes the app's replace-rendering print nonsense ("Divide 1.5 pounds of 4 ground beef"), P3**). *Prior:* BUG-326 (updated September 28, 2026, ~14:30Z — **BUG-324 (P1, Hans: Cookbook images — browse cards render 240 × 1024 px, recipe hero 752 px square fills the first screen) and BUG-325 (P2/P3, Hans: Cookbook steps lack the app's terracotta amount highlights and time-sensitive markers) minted; BUG-322 RE-DIAGNOSED — likely the BOUGHT path of a swappable component rendered beside the scratch path, not a catalog defect; Cookbook Block 2 verifies and fixes the web side**). *Prior:* BUG-324 (updated September 28, 2026, ~03:40Z — **BUG-323 minted from Cookbook Block 1: catalog ingredient-name casing is inconsistent ("4 cloves Garlic", "1 Yellow onion", "12 ounces Linguine") and renders as authored, P3 data; BUG-322 amended — the sweep does NOT catch `22a4ad40`, the meal is not in the opening 100, Block 2 adds a manual exclusion**). *Prior:* BUG-323 (updated September 28, 2026, ~02:20Z — **Block 2b BROWSER RE-TEST: BUG-314 ✅ and BUG-315 ✅ confirmed fixed in the browser; BUG-316 unit-tested only (no gap candidate appeared); BUG-321 (unit words never pluralised — "2 cup", "2 tablespoon", P3) and BUG-322 (catalog content: a phantom "taco seasoning" step and a duplicated step in meal `22a4ad40`; a catalog step/ingredient consistency sweep is owed, P3 data) minted from it**). *Prior:* BUG-321 (updated September 28, 2026, ~00:30Z — **BUG-317 FIXED by Stripe S2 `50fb1d2` (count units dropped on all three ingredient screens); BUG-319 (fractional counts "3¼ lemons" — `formatQuantity`'s ceiling list lacks `each`; P3, Hans's call) and BUG-320 (a `dishes[]` PATCH is wipe-and-recreate and resets a rebuilt dish's macros to the column default 0; P2, pre-existing) minted from S2's report**). *Prior:* BUG-319 (updated September 27, 2026, late — **BUG-318 minted AND FIXED by Stripe S1 Part F `692ed63`: `.env.example` had none of the six OAuth env vars OAuth Block 1 added**). *Prior:* BUG-318 (updated September 27, 2026, evening — **BUG-314 · 315 · 316 FIXED by row 13 Block 2b (`8e347a0` · `5f6b574` · `a64e7e2`, local on `next`); BUG-317 minted from its report: count units render literally — "1 each large shrimp" — on the member AND guest ingredient lines, P3, a one-line display ruling**). *Prior:* BUG-317 (updated September 27, 2026 — **BUG-314 · 315 · 316 minted from the row 13 Block 2 BROWSER PASS (chat-Claude drove it in the built-in browser against the local server on the dev DB): the cold `/test-kitchen` entry bounces to `/sign-in` although the guest session is created; the guest recipe screen drops ingredient units and renders no steps; the catalog-gap banner renders off-screen**). *Prior:* BUG-314 (updated September 27, 2026 — BUG-311 · 312 · 313 FIXED by row 13 Block 1b, local and undeployed; no new mints). *Prior:* BUG-314 (updated September 26, 2026 — **BUG-308 · 309 (the store-prep lane's two, both FIXED `e76b50b`) · 310 (Profile's change-password section stays expanded after cancel, P3) · 311 · 312 · 313 (row 13 Block 1's audit: the permanently-red date fixture, `GET /meals/:id` reads any private meal for a signed-in caller — P2 privacy — and the three undocumented `AI_*` vars; all three assigned to Block 1b)**). *Prior:* BUG-308 (updated September 19, 2026, ~19:29Z — **BUG-303 through BUG-307 minted from the row 8 Phase 0 audit (`lane-row8-p0`): the never-written `isOptional` column, the two "2 cans" rows whose text and column disagree, the baked pack prefix still being written, three non-units in the unit slot, and the latent `fluid ounce` spelling**). *Prior:* BUG-303 (updated September 19, 2026, ~02:10Z — **BUG-301 and BUG-302 minted from the Blocks 3 + 4 device pass: the bulk-intake failure on "frozen cheese pizza" and the list/detail image lag**). *Prior:* BUG-301 (updated September 19, 2026, ~00:40Z — **BUG-300 minted: the limiter keys on the full IPv6 address, surfaced by BUG-223's two-network measurement**). *Prior:* BUG-300 (updated September 18, 2026, ~20:15Z — **BUG-299 minted: the Cloud Run container will not boot after Block 1c; the deploy is BLOCKED**). *Prior:* BUG-299 (updated September 18, 2026, ~19:00Z — **BUG-297 minted from the Block 1c report (the PATCH hole in the image ruling) and BUG-298 from the SECOND standalone device pass (the Add Meals header grouping)**). *Prior:* BUG-297 (updated September 18, 2026, ~01:30Z — **BUG-295 and BUG-296 minted from the FIRST STANDALONE DEVICE PASS (preview APK against Cloud Run)**; BUG-223 amended with its first real-world observation. *Prior:* BUG-295 (updated September 17, 2026, ~11:00Z — BUG-294 / 292 / 293 all FIXED by the arc close-out lane (`lane-pfc`), device spot-check owed). *Prior:* BUG-295 — BUG-294 minted from the device re-test (8 of 8 passed); the plan-flow arc is DEVICE-PROVEN. *Prior:* BUG-294 — BUG-292 and BUG-293 minted from the Block 3 report; BUG-289 / 290 / 291 all FIXED by that lane and BUG-283 CLOSED device-confirmed. *Prior:* BUG-292 — BUG-289 / 290 / 291 minted from the plan-flow device pass (16 of 18 passed); BUG-286 rebuilt to Hans's ruling and BUG-288 FIXED, both device-verified. *Prior:* BUG-289 — BUG-287 (PATCH edits drop `amountRefs`) and BUG-288 (Ask-Kiwi meals save without description or tags) minted from the post-pass lane reports; BUG-280 / 281 / 282 / 283 (server) / 284 / 285 / 286 (import side) all FIXED by those lanes). *Prior:* BUG-287 (BUG-284, 285, 286 minted from Hans's device pass; BUG-280 RULED). *Prior:* BUG-284 (BUG-283 minted from the Block 2b report; BUG-278 FIXED both halves; BUG-282's client half built). *Prior:* BUG-283 (BUG-281 and BUG-282 minted from the Block 2 lane reports; BUG-278 server half built; BUG-279's residual closed). *Prior:* BUG-281 (BUG-278, 279, 280 minted from the Block 1 + import-lane reports; BUG-273 BUILT, BUG-274 FIXED by the follow-up `8f19cdb`, BUG-276 FIXED). *Prior:* BUG-278 (BUG-275–277 minted from Phase 0). *Prior:* BUG-275 (BUG-273 and BUG-274 minted, both on the Ask-Kiwi meal import).** *(Verify by heading-grep — `max(heading-grep, pointer line)` is the authority, §A(1). Position and in-flight state live in the current-position block at the top of `kiwi_remediation_progress.md`, NOT here; the dated narration this line used to carry — 73 KB of it — is verbatim in `kiwi_bug_log_ARCHIVE_2026-09-12.md` in the mirror.)*
+**Next available BUG ID: BUG-624** (updated 2026-10-30 00:50Z — **BUG-612 minted by CLIENT-7; 613 VOID**). *Prior:* **BUG-624** (updated 2026-10-30 00:30Z — **SERVER-10 used none of BUG-618–621; chat-Claude minted BUG-618 from SERVER-10 E; BUG-619–623 RESERVED for QA-8; BUG-612–613 pending CLIENT-7's report**). *Prior:* **BUG-622** (updated 2026-10-29 18:15Z — **BUG-609 minted by SERVER-9; 610 · 611 VOID; BUG-614 minted by QA-NIGHT-2, 615 VOID; BUG-616 · 617 minted by chat-Claude from SERVER-9's report; BUG-612–613 still reserved for CLIENT-7; BUG-618–621 RESERVED for SERVER-10**). *Prior:* **BUG-616** (updated 2026-10-29 12:00Z — **BUG-604–608 minted from the Oct 28 night run; BUG-609–611 RESERVED for SERVER-9; 612–613 for CLIENT-7; 614–615 for QA-NIGHT-2**). *Prior:* **BUG-604** (updated 2026-10-29 03:00Z — **BUG-576–578 VOID (SERVER-8); BUG-592–597 minted by QA-COOK-1, 598 · 599 VOID; BUG-600–602 VOID (CLIENT-6)**). *Prior:* **BUG-604** (updated 2026-10-29 01:25Z — **BUG-603 minted: common passwords accepted**). *Prior:* **BUG-603** (updated 2026-10-28 23:55Z — **BUG-579–581 VOID (CLIENT-5); BUG-590 · 591 minted by chat-Claude; BUG-592–599 RESERVED for QA-COOK-1; BUG-600–602 for CLIENT-6; BUG-576–578 still reserved for SERVER-8**). *Prior:* **BUG-590** (updated 2026-10-28 21:20Z — **BUG-582–587 minted by QA-NIGHT-1; 588 · 589 VOID**). *Prior:* **BUG-590** (updated 2026-10-28 13:40Z — **BUG-582–589 RESERVED for QA-NIGHT-1**). *Prior:* **BUG-582** (updated 2026-10-28 13:00Z — **BUG-571 · 572 minted by QA-7; 573–575 VOID; BUG-576–578 RESERVED for SERVER-8; BUG-579–581 for CLIENT-5**). *Prior:* **BUG-576** (updated 2026-10-28 03:30Z — **BUG-564 minted by CLIENT-4; 565 · 566 VOID; BUG-567 · 568 minted by SERVER-7; 569 VOID; BUG-571–575 RESERVED for QA-7**). *Prior:* **BUG-571** (updated 2026-10-28 01:55Z — **BUG-570 minted: "Send my list", a P2 enhancement**). *Prior:* **BUG-570** (updated 2026-10-27 23:59Z — **BUG-559 · 560 · 561 minted by QA-6; 562–563 VOID; BUG-564–566 RESERVED for CLIENT-4; BUG-567–569 for SERVER-7**). *Prior:* **BUG-564** (updated 2026-10-27 11:30Z — **BUG-550–552 · 555 VOID; BUG-553 · 554 minted by SERVER-6; BUG-556–558 minted by chat-Claude from CLIENT-3's probe; BUG-559–563 RESERVED for QA-6**). *Prior:* **BUG-556** (updated 2026-10-27 01:50Z — **BUG-544–546 · 548–549 VOID; BUG-547 minted by LIFE-2; BUG-550–552 RESERVED for CLIENT-3; BUG-553–555 for SERVER-6**). *Prior:* **BUG-550** (updated 2026-10-26 23:20Z — **BUG-547–549 RESERVED for LIFE-2; 544–546 for THX-4 client**). *Prior:* **BUG-547** (updated 2026-10-26 19:15Z — **BUG-536 · 537 · 538 minted by THX-4 server; 539–543 VOID; BUG-544–546 RESERVED for THX-4 client; BUG-525 and BUG-529 BUILT**). *Prior:* **BUG-544** (updated 2026-10-26 12:00Z — **BUG-535 minted (SHOP-0: the stray "pack"); BUG-536–539 RESERVED for THX-4 server, BUG-540–543 for 1.2-NATIVE — a range unused at their audit becomes VOID stubs**). *Prior:* **BUG-535** (updated 2026-10-26 02:40Z — **BUG-526–534 minted from Hans's release #5 device pass (Pixel dev build + dev server): the dead "Skip to cooking" control · prepped chips missing on a weeknight plan meal · Add dish to a plan meal does nothing (P1) · the casserole with no serve step · Thanksgiving plans under Top Rated · feast copies in My Meals · an 80 s cooking sequence (P1) · two feast images · the prep-area copy and named bowls; BUG-512 FIXED on production**). *Prior:* **BUG-526** (updated 2026-10-25 22:45Z — **BUG-525 minted (a fresh store install runs the embedded October 10 bundle on first launch; the neighbour's iPhone = BUG-441's second sighting; fix: `fallbackToCacheTimeout` in the 1.2 binary + an in-app update reload by OTA)**). *Prior:* **BUG-525** (updated 2026-10-25 22:00Z — **BUG-522 · 523 · 524 minted by THX-3d round 5 (Vegetarian's Wellington 16 min early at 4; New Twist's Parmesan "immediately" late; a duplicate gravy keep-warm); round 5 + CLIENT-2b audited PASS and PUSHED (`cd69d5d0..781a8c43`, 10 commits): BUG-508 (chip rule) · 509 B4 (the chip, client) · 512 (`dumpFeaturedSpec.ts`) · 514 · 515 · 521 BUILT; release #5 runbook delivered (chat-only)**). *Prior:* **BUG-522** (updated 2026-10-25 19:05Z — **BUG-514 · 515 minted by CLIENT-2 (wording: an empty citrus phrase; a count noun vs its number) · BUG-520 · 521 minted by THX-3d round 4 (household pan-count text; Classic's potatoes plated at T−30); BUG-516–519 UNUSED (CLIENT-2's range) — VOID stubs below; BUG-496 · 497 · 507 (server half) · 509 (B1–B3) · 510 · 512 (E1 · E3) BUILT on `next`, not pushed; BUG-508 REFUSED by the lane with data (see the entry)**). *Prior:* **BUG-514** (updated 2026-10-25 16:30Z — **BUG-513 minted (the reset email links the raw URL; Hans wants a hyperlink). ⚠️ The pointer had stood at 496 while BUG-508–512 were minted Oct 25 07:45Z — corrected by heading-grep; `max(heading-grep, pointer line)` held**). *Prior:* **BUG-496** (updated 2026-10-22 22:00Z — **BUG-493 · 494 (the weeknight read) · 495 (the long holds) minted; BUG-492 BUILT (round 2); THX-3d round 3 and PREP-3 Phase 0 written**). *Prior:* **BUG-493** (updated 2026-10-22 18:40Z — **BUG-492 minted (the novice-cook read of the feast dumps); SEC-2b · WEB-4d · THX-3d round 1 audited PASS: BUG-488 · 490 · 491 BUILT, 473 · 479 · 483 finished; the display table re-ruled (unscaled amounts never round; produce to the nearest ½)**). *Prior:* **BUG-492** (updated 2026-10-22 14:30Z — **BUG-488–491 minted from THX-3d Phase 0 and chat-Claude's read of the five feast dumps; SEC-3b audited PASS (`588344b` · `752ef85` · `83fefb0`)**). *Prior:* **BUG-488** (updated 2026-10-22 11:40Z — no mint; **SEC-2 (20 commits, suite 4,345/0/3) + SEC-3 (6 commits, kiwi 2,833) audited PASS: BUG-466 · 473–478 · 481–484 · 486 BUILT; SEC-2b ∥ SEC-3b follow-ups (guestToken compatibility, the real `trialDeniedReason` field, the Turnstile host, the login-lock window, the CSP export guard)**). *Prior:* **BUG-488** (updated 2026-10-22 01:50Z — no mint; **BUG-407 production stamp applied: 216 copies → 0**). *Prior:* **BUG-488** (updated 2026-10-22 01:40Z — **BUG-487 minted (the Cookbook grid on the web). The production `patch.ts` was APPLIED Oct 21 ~21:30 ET: 74 changes across 5 feasts, and the re-run showed 0**). *Prior:* **BUG-487** (updated 2026-10-22 01:25Z — **BUG-486 minted (the feedback email carries the version). Oct 21 release: Android OTA group `c3c40e0c` (update `01a1612e`)**). *Prior:* **BUG-486** (updated 2026-10-21 14:40Z — **BUG-473–485 minted from SEC-1, the read-only security review (2 high, 7 medium, 4 low); SEC-2 ∥ SEC-3 assigned. Checked fine: secrets in git history, webhooks, OAuth token checks, reset tokens, CORS, XSS, error responses. IDOR was code-read only; SEC-2 adds ownership tests**). *Prior:* **BUG-473** (updated 2026-10-21 13:00Z — no mint; **THX-3c finished and audited PASS: BUG-463 BUILT; BUG-468's follow-ups built**). *Prior:* **BUG-473** (updated 2026-10-21 12:10Z — no mint; **THX-3c (stopped at B) and WEB-4c audited: BUG-462 · 464 · 465 · 466 · 468 · 470 · 471 BUILT, 463 partly, BUG-469 CLOSED**). *Prior:* **BUG-473** (updated 2026-10-21 02:20Z — **BUG-472 minted: "Mark as staple" on grocery rows (Hans, P1 enhancement)**). *Prior:* **BUG-472** (updated 2026-10-21 02:05Z — **BUG-470 · 471 (web scroll and Home header, from Hans's first look at the released web app); RELEASED October 20: server `kiwi-api-00030-ngk` (`eb1201b`), Android OTA group `339daa10` (`556a0d6`), web**). *Prior:* **BUG-470** (updated 2026-10-21 01:45Z — **BUG-467 (the Plans list stops at 20) · BUG-468 (the feast's knife work is nowhere) · BUG-469 (the Quick Slaw dressing container) minted from DIAG-1 and DIAG-2; BUG-460 gains the smash-burger refs**). *Prior:* **BUG-467** (updated 2026-10-20 22:30Z — **BUG-462–466 minted from the THX-3b and WEB-4b audits; BUG-454 · 455 · 456 · 457 · 459 BUILT on `next`, BUG-458 partly**). *Prior:* **BUG-462** (updated 2026-10-20 13:15Z — **BUG-454–461 minted from the THX-3 and WEB-4 audits (October 20); BUG-424 · 425 · 426 · 443 · 444 · 445 · 447 · 449 · 450 · 451 · 452 · 453 BUILT on `next`; BUG-448 CLOSED by design**). *Prior:* **BUG-454** (updated 2026-10-20 01:35Z — **BUG-447–453 minted from Hans's October 19 Pixel pass (Thanksgiving prep and cook, large text, the ingredients toggle, the servings cap); BUG-439 · 441 device-confirmed**). *Prior:* **BUG-447** (updated 2026-10-19 13:05Z — **BUG-446 minted from the FIX-8 audit (a completed checkout for a user with no subscription row 500-loops)**). *Prior:* **BUG-446** (updated 2026-10-19 01:15Z — **BUG-442 (other meal-copy paths still copy one meal at a time in a 5 s transaction) · BUG-443 (step amounts that are not ingredient quantities scale with servings) · BUG-444 (Prep the Week's server-written text skips the new display rounding) · BUG-445 (the app cannot show which update bundle it runs) minted from the FIX-6 and FIX-7 audits; BUG-435 · 436 · 437 · 438 · 439 BUILT on `next`; BUG-404's file corrected; BUG-242 device-confirmed; BUG-405 cleared by counsel**). *Prior:* **BUG-442** (updated 2026-10-18 17:35Z — **BUG-439 (large text: footer buttons clipped, the Featured chip reads “feat”) · BUG-440 (adding from the Cookbook inside a plan shows nothing of that plan, P2 enhancement) · BUG-441 (the featured preview on the Play app shows no photos) minted from Hans's Session 2 pass; BUG-435 measured on production: no P2028 in 7 days, use-template worked → P2**). *Prior:* **BUG-439** (updated 2026-10-18 15:20Z — **BUG-435 (featured “use this plan” times out, P1 to measure on production) · BUG-436 (Top Rated suggestions skip allergens and diet) · BUG-437 (amounts scaled to 2 servings print ½ egg, ⅜ tsp, ⅝ lb) · BUG-438 (one card with six tags fails a whole plan stream) minted from the FIX-4 and FIX-5 audits**). *Prior:* **BUG-435** (updated 2026-10-17 20:50Z — **BUG-430 · 431 · 432 · 433 · 434 minted from FIX-3 and SAFE-1; BUG-058 · 118 · 344 · 395 · 429 · 013 · 088 FIXED on `next` (FIX-2 / FIX-3); BUG-242 fixed with one regression open**). *Prior:* **BUG-430** (updated 2026-10-17 12:00Z — **BUG-419 · 420 · 421 · 422 · 423 · 424 · 425 · 426 · 427 · 428 · 429 minted from QA-1, BOOK-1C2, PREP-2 and TRIAGE-0; BUG-416 · 417 · 418 FIXED on `next`; TRIAGE-0's verdicts recorded on BUG-085 · 102 · 155 · 161 · 210 · 241 · 164 · 225 · 150 · 346 · 245 (fixed) and BUG-058 · 344 · 242 · 118 · 395 · 088 · 013 (assigned)**). *Prior:* **BUG-419** (updated 2026-10-16 00:45Z — **BUG-418 minted: a feast's derived times count its make-ahead work on Thursday's clock**). *Prior:* **BUG-418** (updated 2026-10-15 15:45Z — **BUG-416 (system meal tags show as chips) · BUG-417 (saved-through-a-copy heart mismatch) minted; BUG-413 root-caused by PREP-0, assigned to PREP-1**). *Prior:* **BUG-416** (updated 2026-10-15 02:05Z — **BUG-414 (Friday edits drop the leftovers flags) · BUG-415 (a feast swap loses its ×10) minted; BUG-403 · 408 · 411 FIXED on `next`; BUG-410 VOID, not reproducible**). *Prior:* **BUG-414** (updated 2026-10-15 01:35Z — **BUG-413 minted: Prep the Week 502s when a phase passes 30 steps**). *Prior:* **BUG-413** (updated 2026-10-15 01:00Z — **BUG-412 minted: catalog self-swaps and unit hygiene**). *Prior:* **BUG-412** (updated 2026-10-14 21:05Z — no mint; **BUG-398 → P3, no longer a featuring gate (Hans)**). *Prior:* **BUG-412** (updated 2026-10-14 12:45Z — **BUG-410 (`/plans/from-meals` takes any day) · BUG-411 (adds to archived or past plans) minted from BOOK-1S; BUG-407 FIXED on `next`**). *Prior:* **BUG-410** (updated 2026-10-14 03:00Z, ahead of the clock (written ~02:20Z) — **BUG-408 (a 6–8 dish import fails at save) · BUG-409 (optional ingredients always bought) minted**). *Prior:* **BUG-408** (updated 2026-10-14 02:25Z — **BUG-407 minted: catalog copies carry no allergen stamp**). *Prior:* **BUG-407** (updated 2026-10-14 00:55Z, by the clock; the 01:20Z stamp before it ran ahead — no mint; **BUG-406 FIXED, live**). *Prior:* **BUG-407** (updated 2026-10-14 01:20Z — no mint; **BUG-406: SITE-2 audited PASS**). *Prior:* **BUG-407** (updated 2026-10-14 00:30Z — **BUG-404 (the cutover SQL misses D-WS9-310's date) · BUG-405 (Terms and Privacy predate web billing) · BUG-406 (the site predates the Android release) minted**). *Prior:* **BUG-404** (updated 2026-10-13 22:45Z — no mint; **BUG-396 FIXED (PREVIEW-1, live on the web)**). *Prior:* **BUG-404** (updated 2026-10-13 03:30Z — no mint; **BUG-399 · 401 FIXED on `next` (SRV-2 B/C), BUG-396 → PREVIEW-1, BUG-398 Hans's scope note**). *Prior:* **BUG-404** (updated 2026-10-13 02:45Z — **BUG-399 (Checkout needs `customer_update` for automatic tax) · BUG-400 (web Subscribe dead before enforcement; FIXED `1eb4e92`) · BUG-401 (Manage after a failed checkout) · BUG-402 (mahi-mahi not in the fish vocabulary) · BUG-403 (archived templates adoptable by id) minted; BUG-398 measured wider (1,084 of 1,325 meals)**). *Prior:* **BUG-399** (updated 2026-10-13 01:30Z — **BUG-395 (the "can't reach Kiwi" degradation, to measure) from Hans · BUG-396 (plan preview: a failed use closes silently) · BUG-397 (multi-dish meals: hot dishes finish early; cranberry scheduled hot) · BUG-398 (allergen stamps miss store-bought compounds) minted from FEAT-0**). *Prior:* **BUG-395** (updated 2026-10-12 — **BUG-391 · 392 · 393 (prep: one key for an ingredient at two moments; a wet binder named a sauce jar; one step with two moments) minted from SRV-1's report; BUG-394 (Pick header copy) from WEB-2's; BUG-358 · 359 · 365 · 370 · 372 · 374 · 380 · 386 · 387 · 388 · 389 · 390 FIXED on `next` (`3f73752`…`4694fd9`), BUG-364 FIXED on native, BUG-373 CLOSED not reproducible**). *Prior:* **BUG-391** (updated 2026-10-10 — **BUG-386 (plan-item add not idempotent, server) · BUG-387 (retry after a failed add drops builder edits) · BUG-388 (native Test Kitchen title twice, briefly) · BUG-389 (Google web button width frozen at first render) minted from WEB-1's report; BUG-390 ("Groceries" wraps mid-word in the teaching arc) from Hans; BUG-379 · 382 · 383 · 384 · 385 FIXED on dev by WEB-1 (web deploy pending)**). *Prior:* **BUG-386** (updated 2026-10-09, evening — **BUG-382 (the web back button no-ops on a cold entry, intermittent) · BUG-383 (no Order Online on the web plan review) · BUG-384 ("Remove from plan" does nothing; relabel "Compost" — Hans) · BUG-385 (Ask Kiwi → Save → Save again duplicates the meal in the plan) minted from Hans's first web early-access pass; all four → the web-polish lane after the 1.1 submission**). *Prior:* **BUG-382** (updated 2026-10-09 — **BUG-370 (the api-server suite's `unauthenticatedSurface` test is env-driven and goes red on a dev `.env`) · BUG-371 (`grocery-f/bug334-repair.ts` fails typecheck on a filter; F.2 skipped for 1.1) · BUG-372 (`ws9-seed-ai-prompts-only.ts` has no database-host guard) · BUG-373 (pick thumbnails lost on a reload of the Pick screen) · BUG-374 (a member's picks are capped at 14 with no message) · BUG-375 (a guest's `build-plans` 409 shows no door) · BUG-376 (`catalog-fix.ts` prints "to DEV" on production) · BUG-377 (a guest session with an unfinished sign-up resumes for 24 h) · BUG-378 (Netlify drops dot-segment paths — the web export's fonts never deployed; ✅ FIXED by R3-2) · BUG-379 (the web Test Kitchen entry renders its title twice) · BUG-380 (the Pick screen's select affordance is not legible enough — Hans) · BUG-381 (the dev `.env` carries the production Instacart key against the dev host) minted from C5 / R3-0 / R3-1 / Part 2 / the web pass; BUG-360 · 366 · 367 · 368 · 369 FIXED (G1 + C4 + C5) and device-confirmed October 7–8**). *Prior:* **BUG-370** (updated 2026-10-07 — **BUG-363 (text drawn into stale boxes after a live font-size change — a React Native switch; P3 post-launch) · BUG-364 (the Google button is Google's own rendering — hand-roll post-launch, Hans) · BUG-365 (field placeholders cut at the largest text) · BUG-366 (no meal images on the guest plan screen) · BUG-367 (the guest 'you've built your plan' notice has no sign-up link) · BUG-368 ('Try again' resends a spent Turnstile token) · BUG-369 (the visible checkbox's 20 s timer) minted from C3's report and Hans's October 7 phone pass; BUG-347 · 361 FIXED and device-confirmed; BUG-362 ruled harmless for store builds; BUG-360 re-targeted to 1.1 BEFORE submission (G1 + C4)**). *Prior:* **BUG-363** (updated 2026-10-06 — **BUG-360 (the native Test Kitchen runs only the three-plan path) · BUG-361 (Turnstile on native: a few seconds and a visible checkbox) · BUG-362 (a dev warning: linking configured in multiple places, unverified) minted from Hans's round 1–2 phone pass; BUG-347 re-observed on the C1 build and moved before the submission; BUG-357 device-confirmed; BUG-353 · 356 · 357 merged to `next` (`4090a5e`)**). *Prior:* **BUG-360** (updated 2026-10-05, later — **BUG-358 (a prep jar mixes ingredients that enter at different moments) · BUG-359 (Prep the Week wording residue) minted from the J.1c report; BUG-354 · 355 FIXED on dev (J.1c); BUG-353 · 356 · 357 BUILT on `ui/resub-c2-purchase`**). *Prior:* **BUG-358** (updated 2026-10-05 — **BUG-356 (a store subscription keeps billing after account deletion) · BUG-357 (`EXPO_PUBLIC_*` read through an alias never reaches a build: the Google button never renders) minted from the B1 and C1 reports; BUG-353's server half done**). *Prior:* **BUG-356** (updated 2026-10-04 — **BUG-353 (a streamed generation never opens the paywall; resubmission B1) · BUG-354 (container names over 120 characters fail the response) · BUG-355 (Prep the Week text: four defects from Hans's October 4 device pass) minted; BUG-349 · 350 · 351 FIXED on dev and device-confirmed**). *Prior:* **BUG-353** (updated 2026-10-03 — **BUG-349 (prep-then-cook never connects: `isPrepped` unreachable, the prepped Cook Mode view) · BUG-350 (prep-week 502 on long shared-food steps) · BUG-351 (`heldForCookDay` stripped) · BUG-352 (carrot / celery seed categories swapped) minted from the Prep & Cook Part I census; BUG-337 · 338 · 344 · 346 brought current**). *Prior:* **BUG-349** (updated 2026-10-01 — **BUG-347 (welcome at max font) · BUG-348 (grocery edit save / un-shop) minted from Hans's device pass**). *Prior:* **BUG-347** (updated 2026-10-01 — **BUG-344 (single-dish Cook Mode footer) · BUG-345 (grocery row display slips) · BUG-346 (Prep the Week classification, seen on screen) minted from QA quick check 1**). *Prior:* **BUG-344** (updated 2026-10-01 — **BUG-343 minted (a failing Cook Mode test hangs the suite)**). *Prior:* **BUG-343** (updated 2026-10-01 — **BUG-342 minted (a meal copy never re-derives its time stamp); BUG-340 · 341 fixed on dev**). *Prior:* **BUG-342** (updated 2026-09-30 22:45Z — **BUG-340 (anchovy paste read as raw flesh) · BUG-341 (Cook Mode vs card minutes, seen on screen by the QA harness) minted**). *Prior:* **BUG-340** (updated 2026-09-30 18:10Z — BUG-339 FIXED on dev; BUG-337 · 338 measured, in progress). *Prior:* BUG-340 (updated 2026-09-30 16:31Z — **BUG-336 (a time range highlighted in pieces) · BUG-337 (Cook Mode timing) · BUG-338 (Prep the Week) · BUG-339 (an internal tag shown) minted from Hans's E2 re-test and chat-Claude's browser pass**). *Prior:* BUG-336 (updated 2026-09-30 02:05Z — **BUG-334 (the doubled fraction in steps) minted from the block E device pass · BUG-335 minted and VOIDED the same night (Hans: Tell Kiwi landing a near meal is not a defect); BUG-058's pool measured**). *Prior:* BUG-334 (updated 2026-09-29 17:37Z — **BUG-333 minted (CC, B4): pickled-jalapeño yield is the oz ÷ 8 shape**; BUG-160 · 321 · 326 · 329 FIXED on dev by block C (1.1); BUG-331 built, device pass owed). *Prior:* BUG-333 (updated 2026-09-29 15:29Z — **BUG-332 minted: imported recipes sometimes get no image, and product words / brand names can yield a packaging shot; Hans's prompt rule recorded**; BUG-331 → IN PROGRESS in block C as D-WS9-058's build). *Prior:* BUG-332 (updated 2026-09-29 01:33Z — **BUG-331 minted: the meal-detail "Ingredients" label above "Adjust for servings" is hard to see and its tap does nothing; Hans: pre-go-live; rides grocery block C → 1.1**; status fields brought in line with their lead bullets for BUG-323 · 327 · 328 · 330). *Prior:* BUG-331 (updated 2026-09-29 01:06Z — B2 built: BUG-323 · 330 FIXED on dev, BUG-160 half, BUG-210 guard; no new ID) — **BUG-330 minted: a dry pint of cherry tomatoes against a weight need under-orders (298 g bought vs 340 g needed) — a per-ingredient pack-yield gap, B1's mechanism**). *Prior:* BUG-330** (updated September 28, 2026, 17:49Z — **BUG-328 · 329 minted from the grocery census + Cookbook Block 3: three catalog meals labelled ≤ 30 min whose steps sum to 1.8–2.4× (QA-flagged, held out of the Cookbook); a count unit pluralised below one ("¼ bunches")**). *Prior:* BUG-328 (updated September 28, 2026, 16:16Z — **BUG-327 minted: the Cookbook browse page shows "0 dinners" and nothing else when filters match nothing, P3**). *Prior:* BUG-327 (updated September 28, 2026, ~16:00Z — **Cookbook Block 2 landed: BUG-324 and BUG-325 FIXED on the web; BUG-322 RE-SCOPED to the app only (the Cookbook's SQL had filtered bought steps since Block 1; the app's recipe payload does not); BUG-326 minted — an `amountRefs` span that does not contain its quantity makes the app's replace-rendering print nonsense ("Divide 1.5 pounds of 4 ground beef"), P3**). *Prior:* BUG-326 (updated September 28, 2026, ~14:30Z — **BUG-324 (P1, Hans: Cookbook images — browse cards render 240 × 1024 px, recipe hero 752 px square fills the first screen) and BUG-325 (P2/P3, Hans: Cookbook steps lack the app's terracotta amount highlights and time-sensitive markers) minted; BUG-322 RE-DIAGNOSED — likely the BOUGHT path of a swappable component rendered beside the scratch path, not a catalog defect; Cookbook Block 2 verifies and fixes the web side**). *Prior:* BUG-324 (updated September 28, 2026, ~03:40Z — **BUG-323 minted from Cookbook Block 1: catalog ingredient-name casing is inconsistent ("4 cloves Garlic", "1 Yellow onion", "12 ounces Linguine") and renders as authored, P3 data; BUG-322 amended — the sweep does NOT catch `22a4ad40`, the meal is not in the opening 100, Block 2 adds a manual exclusion**). *Prior:* BUG-323 (updated September 28, 2026, ~02:20Z — **Block 2b BROWSER RE-TEST: BUG-314 ✅ and BUG-315 ✅ confirmed fixed in the browser; BUG-316 unit-tested only (no gap candidate appeared); BUG-321 (unit words never pluralised — "2 cup", "2 tablespoon", P3) and BUG-322 (catalog content: a phantom "taco seasoning" step and a duplicated step in meal `22a4ad40`; a catalog step/ingredient consistency sweep is owed, P3 data) minted from it**). *Prior:* BUG-321 (updated September 28, 2026, ~00:30Z — **BUG-317 FIXED by Stripe S2 `50fb1d2` (count units dropped on all three ingredient screens); BUG-319 (fractional counts "3¼ lemons" — `formatQuantity`'s ceiling list lacks `each`; P3, Hans's call) and BUG-320 (a `dishes[]` PATCH is wipe-and-recreate and resets a rebuilt dish's macros to the column default 0; P2, pre-existing) minted from S2's report**). *Prior:* BUG-319 (updated September 27, 2026, late — **BUG-318 minted AND FIXED by Stripe S1 Part F `692ed63`: `.env.example` had none of the six OAuth env vars OAuth Block 1 added**). *Prior:* BUG-318 (updated September 27, 2026, evening — **BUG-314 · 315 · 316 FIXED by row 13 Block 2b (`8e347a0` · `5f6b574` · `a64e7e2`, local on `next`); BUG-317 minted from its report: count units render literally — "1 each large shrimp" — on the member AND guest ingredient lines, P3, a one-line display ruling**). *Prior:* BUG-317 (updated September 27, 2026 — **BUG-314 · 315 · 316 minted from the row 13 Block 2 BROWSER PASS (chat-Claude drove it in the built-in browser against the local server on the dev DB): the cold `/test-kitchen` entry bounces to `/sign-in` although the guest session is created; the guest recipe screen drops ingredient units and renders no steps; the catalog-gap banner renders off-screen**). *Prior:* BUG-314 (updated September 27, 2026 — BUG-311 · 312 · 313 FIXED by row 13 Block 1b, local and undeployed; no new mints). *Prior:* BUG-314 (updated September 26, 2026 — **BUG-308 · 309 (the store-prep lane's two, both FIXED `e76b50b`) · 310 (Profile's change-password section stays expanded after cancel, P3) · 311 · 312 · 313 (row 13 Block 1's audit: the permanently-red date fixture, `GET /meals/:id` reads any private meal for a signed-in caller — P2 privacy — and the three undocumented `AI_*` vars; all three assigned to Block 1b)**). *Prior:* BUG-308 (updated September 19, 2026, ~19:29Z — **BUG-303 through BUG-307 minted from the row 8 Phase 0 audit (`lane-row8-p0`): the never-written `isOptional` column, the two "2 cans" rows whose text and column disagree, the baked pack prefix still being written, three non-units in the unit slot, and the latent `fluid ounce` spelling**). *Prior:* BUG-303 (updated September 19, 2026, ~02:10Z — **BUG-301 and BUG-302 minted from the Blocks 3 + 4 device pass: the bulk-intake failure on "frozen cheese pizza" and the list/detail image lag**). *Prior:* BUG-301 (updated September 19, 2026, ~00:40Z — **BUG-300 minted: the limiter keys on the full IPv6 address, surfaced by BUG-223's two-network measurement**). *Prior:* BUG-300 (updated September 18, 2026, ~20:15Z — **BUG-299 minted: the Cloud Run container will not boot after Block 1c; the deploy is BLOCKED**). *Prior:* BUG-299 (updated September 18, 2026, ~19:00Z — **BUG-297 minted from the Block 1c report (the PATCH hole in the image ruling) and BUG-298 from the SECOND standalone device pass (the Add Meals header grouping)**). *Prior:* BUG-297 (updated September 18, 2026, ~01:30Z — **BUG-295 and BUG-296 minted from the FIRST STANDALONE DEVICE PASS (preview APK against Cloud Run)**; BUG-223 amended with its first real-world observation. *Prior:* BUG-295 (updated September 17, 2026, ~11:00Z — BUG-294 / 292 / 293 all FIXED by the arc close-out lane (`lane-pfc`), device spot-check owed). *Prior:* BUG-295 — BUG-294 minted from the device re-test (8 of 8 passed); the plan-flow arc is DEVICE-PROVEN. *Prior:* BUG-294 — BUG-292 and BUG-293 minted from the Block 3 report; BUG-289 / 290 / 291 all FIXED by that lane and BUG-283 CLOSED device-confirmed. *Prior:* BUG-292 — BUG-289 / 290 / 291 minted from the plan-flow device pass (16 of 18 passed); BUG-286 rebuilt to Hans's ruling and BUG-288 FIXED, both device-verified. *Prior:* BUG-289 — BUG-287 (PATCH edits drop `amountRefs`) and BUG-288 (Ask-Kiwi meals save without description or tags) minted from the post-pass lane reports; BUG-280 / 281 / 282 / 283 (server) / 284 / 285 / 286 (import side) all FIXED by those lanes). *Prior:* BUG-287 (BUG-284, 285, 286 minted from Hans's device pass; BUG-280 RULED). *Prior:* BUG-284 (BUG-283 minted from the Block 2b report; BUG-278 FIXED both halves; BUG-282's client half built). *Prior:* BUG-283 (BUG-281 and BUG-282 minted from the Block 2 lane reports; BUG-278 server half built; BUG-279's residual closed). *Prior:* BUG-281 (BUG-278, 279, 280 minted from the Block 1 + import-lane reports; BUG-273 BUILT, BUG-274 FIXED by the follow-up `8f19cdb`, BUG-276 FIXED). *Prior:* BUG-278 (BUG-275–277 minted from Phase 0). *Prior:* BUG-275 (BUG-273 and BUG-274 minted, both on the Ask-Kiwi meal import).** *(Verify by heading-grep — `max(heading-grep, pointer line)` is the authority, §A(1). Position and in-flight state live in the current-position block at the top of `kiwi_remediation_progress.md`, NOT here; the dated narration this line used to carry — 73 KB of it — is verbatim in `kiwi_bug_log_ARCHIVE_2026-09-12.md` in the mirror.)*
 
 **Structure (September 17, 2026 — second archive pass):** 31 more ✅ FIXED / CLOSED / ⛔ entries (BUG-225 and above, plus three older closed ones: BUG-038 · 049 · 159) moved VERBATIM to `kiwi_bug_log_ARCHIVE_2026-09-17.md` in the mirror, under the same rule as September 12 — the `- **Status:**` field is the claimant, and a fixed entry stays live only while an OPEN bug, an open decision or the position block depends on it (kept live on that test: BUG-104 · 205 · 224 · 233 · 234 · 255 · 263 · 270 · 273 · 274 · 289 · 292; the VOID stubs stay). Entries in = entries out, verified by ID set. ⚠️ **Heading-grep here no longer finds the moved IDs — count them in the archives.** Chat-Claude did this under the standing lever (§24.9 / §24.10) at the plan-flow arc close; Hans rules whether it stands.
 
@@ -263,7 +263,7 @@ Three layers disagree and **only two of them enforce anything**: Prisma is free-
 **SEPARATE PRODUCT QUESTION, NOT PART OF THIS BUG.** Hans: *"that should be collected from signup."* ⚠️ **Whether phone is collected at signup is UNKNOWN and is a product decision, not a defect.** If signup does not collect it, **mint a deferral then** — do not fold a feature gap into a bug fix.
 
 - **Priority:** **P2** — does not block the current commit. ⚠️ **Escalate to P1 if the save reports success**, because silent data loss on an account field is worse than a visible failure.
-- **Status:** 🔴 **OPEN.** · **Target:** **3g** owns `profile.tsx` and `manage-account.tsx`. ⚠️ **If the field-drop class is confirmed, the sweep is D-WS9-152's, not 3g's.**
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16: the edit saves on Enter or blur, survives a reload, and `/auth/me` returns it). Leftover, P3: clearing the field is silently ignored. · *Previously:* 🔴 **OPEN.** · **Target:** **3g** owns `profile.tsx` and `manage-account.tsx`. ⚠️ **If the field-drop class is confirmed, the sweep is D-WS9-152's, not 3g's.**
 - **Cross-ref:** BUG-068 · BUG-076 · BUG-083 · BUG-002 · D-WS9-152 · D-WS7-169.
 
 ---
@@ -332,7 +332,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 ### BUG-013 — Demoted prep steps shown muted instead of omitted (+ render-hide alone breaks the server rollup)
 - **Surface:** Week Prep / Screen 3 render + (coupled) server `isPrepped` derivation.
 - **Symptom:** Steps that should be demoted out of prep (e.g. a lone cooking-fat measure) are shown muted rather than omitted.
-- **Status:** 🔴 OPEN — **both halves are Block 2** (tightened July 4: the earlier "render-omit = Block 1" framing was imprecise — per this bug's own verified root cause, render-hiding a demoted step ALONE breaks the Cook gate, so the render-omit and the server-exclude must land together in Block 2; implements the already-logged D-WS7-184). The narration-side demotion rule (BUG-014) DID land in Block 1 (`da857bc`) — `skipSuggested` is now set correctly; this bug is the omit + exclude consumption of that signal.
+- **Status:** ✅ **LEFTOVER FIXED on `next` (local, October 17; live with the next deploy + OTA) by FIX-3:** the client renumbers kept steps 1..n per phase and remaps "step N" citations. FIX-3 found the server's own phase numbers can skip with nothing omitted; the client fix covers both. · *Previously:* 🟡 **FIXED except one leftover, ASSIGNED → FIX-3:** omitted steps keep their original numbers, so the visible numbers skip (3 → 5 → 8), seen in all three TRIAGE-0 walks. · *Previously:* 🔴 OPEN — **both halves are Block 2** (tightened July 4: the earlier "render-omit = Block 1" framing was imprecise — per this bug's own verified root cause, render-hiding a demoted step ALONE breaks the Cook gate, so the render-omit and the server-exclude must land together in Block 2; implements the already-logged D-WS7-184). The narration-side demotion rule (BUG-014) DID land in Block 1 (`da857bc`) — `skipSuggested` is now set correctly; this bug is the omit + exclude consumption of that signal.
 - **Priority:** P2 (with a P1 facet: the naive render-hide-alone fix would break the Cook gate — see BUG-015).
 - **Target:** WS7-8b Block 2 (render-omit + server exclude together).
 - **Root cause (VERIFIED, CC Phase 0):** render-hiding demoted steps ALONE breaks the server rollup — `isPrepped = every contributing stepKey checked` (`prepCompletion.ts:47-84`, esp. `:69`); the step set from `loadPrepStepSet` recomputes with NO AI (`prepStepSet.ts:44-61`) → blind to `skipSuggested`, treats demoted steps as required. Filtering them from the VM means their keys never get written → the meal can never reach `isPrepped` → Cook gate (`cookSession.ts:204-210`) nags forever.
@@ -392,7 +392,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 ### BUG-058 — "Swap for Similar" returns meals that are not similar, and returns the same meal multiple times
 - **Surface:** `SwapMealSheet` — the **Find Similar** mode (plan-context meal swap).
 - **⚠️ DEVICE REPRO (Hans, August 2, 2026):** swapping **Chicken Parmesan** on a live plan returned **BBQ chicken drumsticks**, **three separate instances of air-fryer chicken fingers**, and **a whole roast chicken with Italian seasoning.**
-- **Status:** 🔴 OPEN — reported from device, **root cause NOT diagnosed.**
+- **Status:** ✅ **FIXED on `next` (local, October 17; live with the next deploy + OTA) by FIX-2:** a server-built pool (catalog + the user's meals, copies folded, allergen- and — from SAFE-1 — diet-filtered, the source and every plan meal excluded by id, lineage and title), a dish-form pre-filter, and `find_similar` v2 ranked on preparation and eating experience. Measured on 6 sources: 0 in-plan results, 0 repeats, 5–10 s. Prompt bump rides the production reseed. · *Previously:* 🔵 **ASSIGNED → FIX-2 (running October 17). Root cause found by TRIAGE-0:** the pool is the first 60 rows of four shelves sorted A→Z, "Top Rated" ranks on counts nothing increments, the catalog is never searched, only the source meal is excluded (plan meals come back as "similar"), and `find_similar` v1 ranks cuisine first. Fix: a server-built pool (catalog + user meals, minus the plan), a form/technique pre-filter, and a v2 prompt on Hans's preparation-and-eating-experience axis. · *Previously:* 🔴 OPEN — reported from device, **root cause NOT diagnosed.**
 - **Priority:** **P2** (ship-soon). Does not block a commit and loses no data — but Swap for Similar is a primary plan-editing affordance and it is currently returning results a user would reject on sight.
 - **Target:** **WS9 Block 3f-4** (the swap-sheet / Ask-Kiwi sub-block) — pairs naturally with D-WS9-102, which rules what this surface *should* return.
 - **⚠️ THIS IS AT LEAST TWO INDEPENDENT DEFECTS. Fixing either alone leaves a visibly broken feature:**
@@ -669,7 +669,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - **Root cause, verified:** `breakfastDraft` / `lunchDraft` are `useState("")` at `:286` / `:288` and appear at **exactly two other places — the two `value=` bindings.** Never seeded from `reviewPlan.breakfastOverrides` (which the adapter *does* populate) and never written by any mutator. A second grep found all 10 `breakfastOverrides|lunchOverrides` hits are wire-schema, adapter and type declarations — **zero consumers in `app/` or `components/`.** Data flows server → adapter → `ReviewPlan` and **terminates there.**
 - ⚠️ **This is the same class as BUG-085** (profile phone field does not persist). **Two independent instances of "a field that does not persist is not a field that does nothing" — worth treating as a class, not two bugs.** If BUG-085 turns out to be the field-drop class it belongs with D-WS9-152, and this may too.
 - ⚠️ **Deliberately NOT fixed in 2e, and fenced in the prompt by name** — the sections sit directly below the panel being rebuilt, so "while we're in there" was a live risk. Block 2e Part 1 hid them on composted plans (a render condition only); **the persistence path is byte-untouched.**
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** correctness block / **3g** · **Cross-ref:** BUG-085 · D-WS9-152 · D-WS9-159.
+- **Status:** ✅ **HIDDEN on `next` (local, October 17; live with the next deploy + OTA) by FIX-3** (both sections off in every state; server fields kept). Wiring them up is later. · *Previously:* 🔵 **ASSIGNED → FIX-3: hide the two boxes** (TRIAGE-0: still real — never loaded, never saved; the server already accepts the fields). Wiring them up can come later. · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** correctness block / **3g** · **Cross-ref:** BUG-085 · D-WS9-152 · D-WS9-159.
 
 ---
 
@@ -822,7 +822,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - **Date:** August 18, 2026 · **Surface:** Home featured-plans rail → plan review route · **Found by:** Hans, on device.
 - **Symptom:** tapping a featured plan card opens *"a weird review screen"* rather than the Plan Review draft state. Hans: *"it should go to a screen like the plan review when you go to 'view and save' and it's not saved (still draft) and the user can save from there. I think this is an old screen we just never retired."*
 - ⚠️ **THE DIAGNOSIS IS HANS'S HYPOTHESIS AND IS UNVERIFIED.** A dead-screen-never-retired reading is plausible and matches this arc's pattern, but **nothing has traced the route.** Phase 0 must establish what the tap targets before anything is deleted — this project has already caught one name-matching deletion trap (`changeRecipeForPlanItem`).
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** correctness block.
+- **Status:** ✅ **FIXED as a presentation change** (verified by TRIAGE-0's read-only check against `next`, October 16: the featured preview opens in about 3 s and reads like Plan Review; it is still a sheet). Reopen if Hans wants the sheet gone. The preview's day mismatch is BUG-422. · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** correctness block.
 
 - ⚠️ **HANS'S DIAGNOSIS AND CHAT-CLAUDE'S BOTH REFUTED AT PHASE 0. THE FEATURED TAP DOES NOT NAVIGATE AT ALL.** `app/(tabs)/index.tsx:436-443` calls `preview.open(item.id)` — a `useState` holding a `templateId` — rendering **`components/PlanPreviewModal.tsx`**, a `<Modal>` bottom sheet. **That file is LIVE:** created `1b4bae8`, last touched `3737353` (WS9 3f-4d Part 1), **two current consumers.** Plan Review is reached **only after commit** — which is what reads as "weird."
 - ⚠️ **THE GENUINELY RETIRED SCREEN IS A DIFFERENT FILE AND IS NOT WHAT THE TAP HITS.** `app/wizard-plan-details.tsx` has **zero navigation call sites**; its default export is already a `<Redirect>`. **The single apparent nav hit is a COMMENT** — the comment-is-not-a-call-site trap, caught. **Nothing was deleted.**
@@ -998,7 +998,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - ⚠️ **THIS STATE JUST GOT MORE COMMON, AND OUR OWN FIX DID IT.** BUG-109's fix means a composted active plan **correctly stops** being the This-Week winner — so composting now drops the user straight into this empty hero (device items 21–22). **The fix created the traffic to the hole.**
 - **Hans's proposed direction (product, his call):** reuse the **new-user teaching-arc variant** and swap the copy for something like *"No plan chosen for this week. Create a new plan below, or use an existing plan."*, with **"use an existing plan" linking to the Plans tab filtered on My Plans.**
 - **Build note:** `heroState.ts` resolves the hero model — **establish its existing branches before adding a fourth.** This is a new branch in a union with a documented shape, not a new component.
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** next block · **Cross-ref:** BUG-109 · BUG-090.
+- **Status:** ✅ **FIXED on `next` (local, October 17; live with the next deploy + OTA) by FIX-3:** "No plan for this week yet" card with Go to Plans · See featured · Cook something up, shown when the user has a plan but none this week. · *Previously:* 🔵 **ASSIGNED → FIX-3 as Hans's card** (*"no plans marked for this week, go to Plans, check out featured, or have kiwi cook something up"*). TRIAGE-0: Home is not blank — it shows "plan something new" and the featured rail — but offers no path to an existing plan. · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** next block · **Cross-ref:** BUG-109 · BUG-090.
 
 ---
 
@@ -1283,7 +1283,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - ⚠️ **IT IS INCONSISTENT, WHICH IS THE STRONGEST CLUE.** Hans added a **custom `lime`** to recurring preferences and got the correct behaviour — **two separate rows, `2 limes` for the meal and `1 lime` recurring.** ⚠️ **Bananas collapse; limes do not. Find what differs — seeded-vs-custom recurring entry, or an ingredient-id match that succeeds for one and not the other.**
 - ⚠️ **PLAUSIBLY THE SAME MISSING INVARIANT AS BUG-142, IN THE OPPOSITE DIRECTION.** BUG-142 is a merge that **gains** quantity; this is a merge that **loses** it. **BUG-142 established there is NO conservation guard anywhere — the only no-add invariant guards `items.length`, a COUNT, and its own test title carves quantity out by name.** A merge with no quantity invariant can drift either way. **Probe them together.**
 - **Hans's own read:** *"I honestly think this is a really narrow almost invalid use case."* ⚠️ **Recorded, and respectfully weighted against the fact that it under-orders — the ruled-worst direction on this surface — and that it reproduced twice.**
-- **Status:** 🟡 **NOT REPRODUCED by the September 28 census (`f3f274a`, 20 fresh lists / 1,064 rows / 57 runs at HEAD `next`): 0 of 96 recurring rows carried a plan source, so the synthetic never merges and nothing can be absorbed — the collapse cannot happen until BUG-177's matching works, and then THIS becomes the risk (D-WS9-188 rules the annotated split).** · **Priority:** P2 when the match lands · **Cross-ref:** BUG-142 · BUG-148 · BUG-151 · BUG-177 · D-WS9-188.
+- **Status:** ✅ **FIXED in code** (verified by TRIAGE-0's read-only check against `next`, October 16; not exercised live — no recurring items). · *Previously:* 🟡 **NOT REPRODUCED by the September 28 census (`f3f274a`, 20 fresh lists / 1,064 rows / 57 runs at HEAD `next`): 0 of 96 recurring rows carried a plan source, so the synthetic never merges and nothing can be absorbed — the collapse cannot happen until BUG-177's matching works, and then THIS becomes the risk (D-WS9-188 rules the annotated split).** · **Priority:** P2 when the match lands · **Cross-ref:** BUG-142 · BUG-148 · BUG-151 · BUG-177 · D-WS9-188.
 
 ---
 
@@ -1302,7 +1302,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - **Symptom:** a need of **3 tbsp** of `fresh lime juice` renders as **`1 lime`**. Hans flagged it as *"small and low priority unless it's a symptom of something bigger."*
 - ⚠️ **IT IS A SYMPTOM OF SOMETHING BIGGER — IT IS BUG-133's DERIVATION MODEL, ALREADY RULED IN D-WS9-182.** Under that ruling's sourced table a lime yields **2 tbsp**, so 3 tbsp needs **1.5 limes → 2**. **`1 lime` UNDER-ORDERS**, the ruled-worst direction.
 - ✅ **NO NEW RULING NEEDED — D-WS9-182's fractional component-pool model already covers it exactly.** This is a live instance confirming the model is needed, not a new question. **Hans's "1 bottle fresh lime juice" alternative is a different product (bottled juice is its own catalog item) and should not be conflated with juicing a lime.**
-- **Status:** 🔴 **OPEN — no new ruling required** · **Priority:** **P2** · **Target:** BUG-133 · **Cross-ref:** BUG-133 · BUG-147 · D-WS9-182.
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16: no juice rows; citrus counts cover the need). · *Previously:* 🔴 **OPEN — no new ruling required** · **Priority:** **P2** · **Target:** BUG-133 · **Cross-ref:** BUG-133 · BUG-147 · D-WS9-182.
 
 ---
 ### BUG-157 — `neutral[600]` is used as body text in places where it fails AA contrast
@@ -1362,7 +1362,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
 - **Date:** August 26, 2026 · **Surface:** grocery list · **Found by:** Hans, Block D device pass item 10.
 - ⚠️ **HANS READ THIS AS A PLURALISATION EXCEPTION AND IT IS NOT — IT IS CATALOG SYNONYM FRAGMENTATION, THE BUG-137 CLASS.** His words: *"just another exception to map, right?"* **No: `lemon` and `fresh lemons` are two DIFFERENT catalog rows for one food**, exactly like `garlic` / `garlic cloves`. No pluralisation map can merge them, because the singulariser is not the thing keeping them apart — **their `ingredientId`s differ, so they bucket separately by construction.**
 - **The fix is a synonym fold**, and it inherits BUG-137's blocker: ⚠️ **the bucket key includes `unit`, so a fold alone can leave two rows on the same list unless unit-normalisation lands first.**
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** with BUG-137's fold · **Cross-ref:** BUG-133 · BUG-137 · D-WS9-182.
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16: one lemon row live). · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** with BUG-137's fold · **Cross-ref:** BUG-133 · BUG-137 · D-WS9-182.
 
 ---
 
@@ -1413,7 +1413,7 @@ Method: block-parse of every `StyleSheet` entry carrying a serif `fontFamily` (*
   1. ⚠️ **SAME ingredient, split by UNIT.** On list `6900ccc0`: `Whole milk` (0.5 **cup**) and `milk` (1 **each**, recurring) carry the **IDENTICAL `ingredientId` `d10747ca`.** **The name resolution WORKED — the ids match.** The rows never merge because the bucket key includes `unit`, and `each` cannot convert to `cup`. ⚠️ **This is the SAME shape as the `hot sauce` pair the conservation guard leaves standing — not a lookup failure at all.**
   2. **Genuinely different ids.** `eggs` (`ff985025`) vs `Large eggs` (`179e8716`); `bread` (`8e7dc0de`) vs `italian bread loaf` (`616b839f`). **These are the canonical-name mismatch CC diagnosed — and they are relationship 1 (synonym) or relationship 3 (distinct), which is D-WS9-189's job to tell apart.**
 - ⚠️ **CONSEQUENCE FOR THE FIX: a name-matching fix would not touch the milk case at all.** The synthetic recurring row is emitted at unit `each` under the preference's raw text, and buckets away from a resolved row of the same ingredient. **Any fix must reconcile the synthetic row's IDENTITY AND UNIT with the resolved ingredient, not just its name.**
-- **Status:** 🔴 **OPEN — TWO mechanisms separated (unit-split on a shared id; and true id mismatch). Still blocked on D-WS9-188 for the design half.** · **Priority:** **P2** · **Cross-ref:** BUG-142 · BUG-148 · BUG-150 · BUG-165 · **D-WS9-188** · **D-WS9-189**.
+- **Status:** ✅ **FIXED in code** (verified by TRIAGE-0's read-only check against `next`, October 16; not exercised live — the walk account had no recurring items). · *Previously:* 🔴 **OPEN — TWO mechanisms separated (unit-split on a shared id; and true id mismatch). Still blocked on D-WS9-188 for the design half.** · **Priority:** **P2** · **Cross-ref:** BUG-142 · BUG-148 · BUG-150 · BUG-165 · **D-WS9-188** · **D-WS9-189**.
 
 ---
 
@@ -1773,7 +1773,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - ✅ **GUARD SHIPPED by grocery B2 (`565d138` on `next`, DEV; ships with the post-approval deploy + the release runbook `scripts/grocery-release/README.md`) (R1):** rows sharing an `ingredientId` fold as one food. It moved 0 corpus rows — one `ingredientId` can only produce one `canonicalName`, so the name fold already covered it; the guard stays so a future rename cannot split a food.
 
 - **Date:** September 6, 2026 · **Surface:** `groupKey` / the recurring-items merge · **Found by:** CC, A2 regression probe §4c.
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** unassigned · **Cross-ref:** **BUG-209** · **D-WS9-219** · D-WS9-189 · BUG-150 · BUG-164 · BUG-177 · BUG-187.
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16: 0 duplicate ingredient ids across both spec runs). · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** unassigned · **Cross-ref:** **BUG-209** · **D-WS9-219** · D-WS9-189 · BUG-150 · BUG-164 · BUG-177 · BUG-187.
 - **Measured on list `bd29f91a`:** `2 limes Lime (5 each)` (plan-derived) and `1 lime limes (1 each)` (`isRecurringItem=true`, `wasAiInferred=true`) **carry the SAME `ingredientId` — `9741d311` — and do not merge**, because `groupKey("lime") = "lime"` ≠ `groupKey("limes") = "limes"`, at both the merge stage and the partition.
 - 🔴 **NEITHER A COMPONENT NOR A SYNONYM GAP, so neither D-WS9-189 reader touches it.** **A shared `ingredientId` is stronger evidence of identity than any name relation, and the merge never consults it.**
 - ⚠️ **DISTINCT FROM THE FOUR 🟠 ORPHAN RECURRING BUGS.** BUG-150 / 164 / 177 / 187 live in the `ingredientId = null` path (D-WS9-219). **Here the FK is populated on both rows** — different mechanism, and this one is not blocked by that structural boundary.
@@ -1947,7 +1947,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 ### BUG-225 — A recurring row does not say it is recurring, so it reads as a duplicate
 
 - **Date:** September 7, 2026 · **Surface:** the grocery list row provenance label · **Found by:** Hans, device pass on `a9fb3b9`.
-- **Status:** 🔴 **OPEN** · **Priority:** **P2** · **Target:** the grocery display block · **Cross-ref:** **BUG-210** (the fold that would remove the second row entirely) · D-WS9-189.
+- **Status:** ✅ **FIXED in code** (verified by TRIAGE-0's read-only check against `next`, October 16; not exercised live — no recurring items). · *Previously:* 🔴 **OPEN** · **Priority:** **P2** · **Target:** the grocery display block · **Cross-ref:** **BUG-210** (the fold that would remove the second row entirely) · D-WS9-189.
 - **Hans, verbatim:** *"1 dozen eggs is on the list twice. that's ok, but I thought it was supposed to say 1 dozen (recurring) (1 each)."*
 - ⚠️ **TWO SEPARATE THINGS AND THEY MUST NOT BE CONFLATED.** That there are two rows is **BUG-210** — a recurring row and its plan twin share an `ingredientId` and still do not fold. **That the surviving row does not announce itself as recurring is this bug**, and it is the cheaper half: with the label, two rows are legible; without it, they read as a defect even to the product owner. ⚠️ **§27's standing lesson applies — if Hans misreads it, a user will.**
 - 🔴 **PREMISE REFUTED September 7, 2026 (WS9A lane, code read only) — THE LABEL EXISTS AND IS ALREADY RENDERED.** Two search shapes, gitignore-blind, `dist/` excluded: `isRecurringItem` is a column with its own migration, is projected by the server, is in the wire schema, is mapped and typed on the client, and **the grocery screen draws `{item.isRecurringItem && <Tag label="Recurring" tone="sage" />}`** as a sibling to *"Pantry Staple"* and *"Optional"*. **So this is neither a schema gap nor a missing render, and it must not be commissioned as either.**
@@ -2120,7 +2120,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 ### BUG-241 — A bare count cannot say WHICH RUNG of the ladder it sits on, so a parent-named row is summed as one child
 
 - **Date:** September 9, 2026 · **Surface:** `conversionForGroup`'s sub-unit basis, and `groceryMerge.groupConversion` (:114-126) / `mergeGroup`'s subUnit branch · **Found by:** CC, while building — and then REFUSING — the BUG-217 basis follow-on. 🔴 **The block was reverted; nothing shipped.**
-- **Status:** 🔴 **OPEN — AND IT IS THE ROOT, NOT A LEAF** · **Priority:** **P2, but it GATES work already queued** · **Target:** the next server grocery block, BEFORE any key-lookup change · **Cross-ref:** 🔴 **BUG-217** · 🔴 **BUG-138** · **BUG-211** (the rule it breaks) · BUG-215 · BUG-214 · D-WS9-189.
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16: "2 heads garlic (20 cloves)" live). · *Previously:* 🔴 **OPEN — AND IT IS THE ROOT, NOT A LEAF** · **Priority:** **P2, but it GATES work already queued** · **Target:** the next server grocery block, BEFORE any key-lookup change · **Cross-ref:** 🔴 **BUG-217** · 🔴 **BUG-138** · **BUG-211** (the rule it breaks) · BUG-215 · BUG-214 · D-WS9-189.
 - 🔴 **THE MECHANISM, AND IT IS NOT THE LADDER — IT IS THE RUNG.** `garlic head`'s catalog row carries `defaultUnit: "each"`, so its consolidated unit is `each`. **BUG-211's rule reads a bare count as the CHILD — "each means a clove" — which is right for `garlic cloves` and WRONG for `garlic head`.**
 - **Measured deterministically, no AI and no DB:** `garlic cloves 6 each` → +6 · `garlic 9 clove` → +9 · **`garlic head 1 each` → +1, when one head IS TEN CLOVES.** **Basis says 16. Truth is 25. The merge buys 2 heads = 20 cloves against a 25-clove need.**
 - 🔴 **THE DISTINCTION IS IN THE NAME, NOT THE UNIT — which is BUG-138's own thesis, unapplied here.**
@@ -2153,7 +2153,8 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 ### BUG-242 — `fl oz` folds to `oz`, so a fluid-ounce pack is compared against a weight need as if the units were the same
 
 - **Date:** September 9, 2026 · **Surface:** the client unit alias table feeding `packsToCoverNeed` (`artifacts/kiwi/lib/format/grocery.ts`) · **Found by:** CC, self-reported in the BUG-147 fix that made it reachable.
-- **Status:** 🔴 **OPEN — NEWLY REACHABLE, WHICH IS THE REASON IT IS AN ENTRY** · **Priority:** **P2** · **Target:** the next mobile block, or the data-side unit canonicalisation work · **Cross-ref:** **BUG-147** (the fix that exposed it) · BUG-216 · D-WS9-222 · BUG-241.
+- ✅ **Hans's re-check PASSED on the Pixel, October 18 (Session 2 item 19)** — the regression below is fixed by `e69addd`.
+- **Status:** 🔵 **FIXED on `next`, device-confirmed October 18; live with the next deploy + OTA.** *Previously:* 🟡 **FIXED on `next` (local, October 17) by FIX-3, ONE REGRESSION OPEN:** fl oz is now volume ("2 cartons (8 fl oz) heavy cream (1½ cup)"). But a bare-"oz" need against a fl-oz pack became unrelatable and prints one stored pack (24 oz cream vs a 16 fl oz carton: 2 → 1, an under-buy) — follow-up commissioned to treat a bare oz as fl oz when the pack is fl oz. The server's own pack parser misreads "(8 fl oz)" (BUG-432). · *Previously:* 🔵 **ASSIGNED → FIX-3.** Still real (TRIAGE-0, seen live: "1 carton (8 fl oz) heavy cream (1½ cup)" — an under-buy); a test pins the wrong equivalence. · *Previously:* 🔴 **OPEN — NEWLY REACHABLE, WHICH IS THE REASON IT IS AN ENTRY** · **Priority:** **P2** · **Target:** the next mobile block, or the data-side unit canonicalisation work · **Cross-ref:** **BUG-147** (the fix that exposed it) · BUG-216 · D-WS9-222 · BUG-241.
 - **The conflation predates this block and was harmless while it was unreachable:** `(16 fl oz)` used to parse its unit as `fl`, so the row simply refused to scale. ✅ **BUG-147 taught the parser two-word units — correctly — and in doing so made the alias fold LIVE.**
 - 🔴 **SO A PACK STATED IN FLUID OUNCES IS NOW SCALED AGAINST A NEED IN WEIGHT OUNCES AS THOUGH THEY WERE THE SAME UNIT.** **For water they are close; for oil, honey, syrup or anything dense they are not, and the error runs in both directions.**
 - ✅ **THE SHAPE OF THE RIGHT FIX IS ALREADY IN THE SAME FILE: guard V6 refuses weight-vs-volume outright, because relating them needs a per-ingredient density the client is never sent.** **`fl oz` should be a VOLUME token that hits that same refusal — not an alias of a weight token.**
@@ -2198,7 +2199,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 ### BUG-245 — A TellKiwi-generated "30-minute" meal carries a 50–55-minute oven step: BUG-069's class recurring on a NEW meal, possibly constraint-driven
 
 - **Date:** September 9, 2026 · **Surface:** plan generation via TellKiwi — `Meal.estimatedTimeMinutes` versus the meal's own steps · **Found by:** Hans, cooking dinner.
-- **Status:** 🟡 **PHASE 1 LANDED September 10 (`09adb58` → `9c79e54`; suite 1960 = 1958 + 0 + 2) · MIGRATION APPLIED + v6 SEEDED (midday) · ✅ BACKFILL APPLIED TO MAIN AND VERIFIED (evening: 1,458 / 20 / 77; two back-to-back dry-runs read the apply's own after-hash `1db94feb…` with zero move). ✅ SHELF PREDICATE `76719f7` + CANONICAL DISH ORDER `bc05d40` (dry-run zero) LANDED, device-unproven. ✅ GAPS CLOSED `ebfec1c` (+ `ed25359`): wizard activation's live slots derive, a scalar time PATCH clears the marker, save-time order reads the stored `positionIndex`; dry-run still zero. ✅ DEVICE ACCEPTANCE PASSED September 11: saved meals measure (28 · 29 · 44 · 56 on a 30-minute plan; `DERIVABLE` 1571, zero move). ✅ CAP-HONESTY BLOCK LANDED September 11 (`3904710` · `9556180` · `ad38241` · `1f0f92b`; suite 2001 = 1999 + 0 + 2), DEVICE-UNPROVEN, reseed pending: the `'most'` ceiling, the Dish Builder re-stamp (the third gap, real), and a selection rule for fresh dinners under a cap. ✅ O1 LANDED September 11 (`f6e6571` · `6ed3b02`; suite 2016 = 2014 + 0 + 2), DEVICE-UNPROVEN, reseed pending (4 bumps with `ad38241`'s three): expand v7 writes a timed outline per dish and the draft's time is derived from it; the authored number is kept as telemetry. ✅ DEVICE-PROVEN September 11 (midday): the drafts read honest numbers (43 · 35 · 23 / 38 · 35 · 55 under a 30-minute cap), every fresh meal outlined, the AI's scalar still clamped while its outline did not. 🔴 STILL OPEN: the SAVED numbers run 11–22 minutes above the draft (38→49 · 35→57 · 55→76) — MEASURED September 11: the outline is the thin side. ✅ BUILT and DEVICE-TESTED September 11 (v8 `d5cd6b3` · `~`/hands-on `ddc1773` · wire `4222db4` · phases `6ad0554`; reseed 1 bump): **the DRAFT is right and Hans accepts it; the SAVE still inflates live meals (+4 to +31 against a ±9 acceptance), and the new suspect is finalize's ATTENDANCE marking.** 🔴 OPEN: that measurement, and the cap-as-ceiling prompt fix Hans ruled. Phase 1's device sequence is further down this entry** · **Priority:** **P1 for beta** · **Target:** its own server block, now in flight · **Cross-ref:** 🔴 **BUG-069** (the class) · 🔴 **D-WS9-122** (the definition that was supposed to stop recurrence) · D-WS9-128 · **D-WS9-230** (no backfills — so the fix is the prompt, forward-only).
+- **Status:** ✅ **FIXED (the symptom)** (verified by TRIAGE-0's read-only check against `next`, October 16: 0 of 2,050 dev meals have a total shorter than their longest step). Draft-vs-saved time drift stays BUG-256. · *Previously:* 🟡 **PHASE 1 LANDED September 10 (`09adb58` → `9c79e54`; suite 1960 = 1958 + 0 + 2) · MIGRATION APPLIED + v6 SEEDED (midday) · ✅ BACKFILL APPLIED TO MAIN AND VERIFIED (evening: 1,458 / 20 / 77; two back-to-back dry-runs read the apply's own after-hash `1db94feb…` with zero move). ✅ SHELF PREDICATE `76719f7` + CANONICAL DISH ORDER `bc05d40` (dry-run zero) LANDED, device-unproven. ✅ GAPS CLOSED `ebfec1c` (+ `ed25359`): wizard activation's live slots derive, a scalar time PATCH clears the marker, save-time order reads the stored `positionIndex`; dry-run still zero. ✅ DEVICE ACCEPTANCE PASSED September 11: saved meals measure (28 · 29 · 44 · 56 on a 30-minute plan; `DERIVABLE` 1571, zero move). ✅ CAP-HONESTY BLOCK LANDED September 11 (`3904710` · `9556180` · `ad38241` · `1f0f92b`; suite 2001 = 1999 + 0 + 2), DEVICE-UNPROVEN, reseed pending: the `'most'` ceiling, the Dish Builder re-stamp (the third gap, real), and a selection rule for fresh dinners under a cap. ✅ O1 LANDED September 11 (`f6e6571` · `6ed3b02`; suite 2016 = 2014 + 0 + 2), DEVICE-UNPROVEN, reseed pending (4 bumps with `ad38241`'s three): expand v7 writes a timed outline per dish and the draft's time is derived from it; the authored number is kept as telemetry. ✅ DEVICE-PROVEN September 11 (midday): the drafts read honest numbers (43 · 35 · 23 / 38 · 35 · 55 under a 30-minute cap), every fresh meal outlined, the AI's scalar still clamped while its outline did not. 🔴 STILL OPEN: the SAVED numbers run 11–22 minutes above the draft (38→49 · 35→57 · 55→76) — MEASURED September 11: the outline is the thin side. ✅ BUILT and DEVICE-TESTED September 11 (v8 `d5cd6b3` · `~`/hands-on `ddc1773` · wire `4222db4` · phases `6ad0554`; reseed 1 bump): **the DRAFT is right and Hans accepts it; the SAVE still inflates live meals (+4 to +31 against a ±9 acceptance), and the new suspect is finalize's ATTENDANCE marking.** 🔴 OPEN: that measurement, and the cap-as-ceiling prompt fix Hans ruled. Phase 1's device sequence is further down this entry** · **Priority:** **P1 for beta** · **Target:** its own server block, now in flight · **Cross-ref:** 🔴 **BUG-069** (the class) · 🔴 **D-WS9-122** (the definition that was supposed to stop recurrence) · D-WS9-128 · **D-WS9-230** (no backfills — so the fix is the prompt, forward-only).
 - **Hans, verbatim:** *"I generated this plan on Sunday when I was preparing for the week using TellKiwi, and the plan looked great. However, one of my preferences was 30 minute meals every day. And the meatloaf meal says medium difficulty and 30 minutes. The meatloaf is supposed to go into the oven for 50-55 minutes."* — *Classic Beef Meatloaf with Roasted Green Beans and Garlic Mashed Potatoes*, plan *Tacos, Meatloaf, and Two Veggie-Packed Weeknights*.
 - 🔴 **THIS SHOULD NOT BE POSSIBLE ON A MEAL GENERATED THIS WEEK.** BUG-069 was fixed August 8 with a provable detection rule — **a meal cannot take less wall-clock than one of its own steps** — and D-WS9-122 put the wall-clock definition into the generation prompts so new meals would not reintroduce it. ⚠️ **But D-WS9-122's entry names only the import-reformat and Mode-A parse prompts. It does not name the TellKiwi / plan-build path.** **Either the definition never reached that path, or it did and something else overrides it.**
 - 🔴 **THE VARIANT BUG-069 DID NOT HAVE: A CONSTRAINT. Hans asked for 30-minute meals.** 🔵 **Chat-Claude's hypothesis, flagged as mine and unverified: the generator wrote `30` to SATISFY the constraint while writing honest 55-minute steps.** **If so, this is not undercounting — it is the constraint driving a false claim, and every "30-minute" plan may contain meals that are nothing of the kind.** ⚠️ **The alternative is plain BUG-069 leakage on an unguarded path. Phase 0 distinguishes them: is the 30-minute preference a hard filter, a prompt target, a per-meal instruction, or unpassed?**
@@ -3164,7 +3165,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **Mechanism (from the code's own comments):** the sequenced path reads the scheduler's serve-anchored offsets (`remainingMinutesToServe`, BUG-337 / D-WS9-297 ruling 5). A single-dish meal is never sequenced, so it falls through to `remainingMinutes` — a serial sum the file itself says "IS NOT THE WALL CLOCK, AND IT MUST NOT BE SHOWN AS ONE". The card is right; the footer is wrong.
 - **Fix shape:** give the single-dish path serve-anchored offsets (run it through the scheduler like any meal) rather than reaching for the serial sum. Cook Mode's tests and the harness's footer read cover it.
 - October 3: the Part I census re-measured it — 9 of 19 single-dish meals disagree with their card.
-- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** Prep & Cook Part K (the Cook Mode block; it shares a surface with D-WS9-294) · **Cross-ref:** BUG-341 · BUG-337 · D-WS9-297 · D-WS9-301.
+- **Status:** ✅ **FIXED (hidden) on `next` (local, October 17; live with the next deploy + OTA) by FIX-3:** the footer time is hidden for meals with no scheduler offsets; sequenced meals keep it. The real fix stays with Prep & Cook Part K. · *Previously:* 🔵 **ASSIGNED → FIX-3: hide the footer for unsequenced (single-dish) meals until Part K** (Hans: *"cook mode footer overstating by a little is ok, by a lot maybe we hide it until its fixed"*). TRIAGE-0 measured all 242 single-dish catalog meals: 126 overstated, median +3, p90 +23, worst +46 min; 61 are ≥15 min over. Multi-dish (sequenced) meals are exact. · *Previously:* 🔴 OPEN · **Priority:** P2 · **Target:** Prep & Cook Part K (the Cook Mode block; it shares a surface with D-WS9-294) · **Cross-ref:** BUG-341 · BUG-337 · D-WS9-297 · D-WS9-301.
 
 ---
 
@@ -3188,7 +3189,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **(e)** "Strip 1 fresh thyme to get 1 tbsp fresh thyme leaves" — a herb counted without its unit (P-R5's natural-count class).
 - ✅ **Superseded in scope by D-WS9-301 (October 1):** (b), (c) and (d) are consequences of the grouping rule that ruling replaces; (a) and (e) remain as stated. All ride Part H.
 - October 3: (b), (c) and (d) are gone under H6–H7's class-and-form rules; **(a) and (e) ride Prep & Cook J.1** (D-WS9-301 as amended).
-- **Status:** 🔴 OPEN — (a) and (e) only · **Priority:** P2 · **Target:** Prep & Cook J.1 · **Cross-ref:** BUG-338 · BUG-340 · D-WS9-296 · D-WS9-298 · D-WS9-299 · D-WS9-300 · D-WS9-301 · D-WS9-304.
+- **Status:** ✅ **FIXED** (verified by TRIAGE-0's read-only check against `next`, October 16). The step-number gaps left by omitted steps are BUG-013's leftover, assigned to FIX-3. · *Previously:* 🔴 OPEN — (a) and (e) only · **Priority:** P2 · **Target:** Prep & Cook J.1 · **Cross-ref:** BUG-338 · BUG-340 · D-WS9-296 · D-WS9-298 · D-WS9-299 · D-WS9-300 · D-WS9-301 · D-WS9-304.
 
 ---
 
@@ -3197,7 +3198,10 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **Date:** October 1, 2026 · **Surface:** `(auth)/welcome.tsx` · **Found by:** Hans, device pass item 2 (Android, font size at maximum; screenshot seen by chat-Claude). Fine at "bigger than usual"; broken at max.
 - **Mechanism (from the screenshot):** every text container has a fixed height, so at the largest scale each block clips rather than grows — the design-fix block's ScrollView (D-WS9-291 item 1) fixed the page height but not the per-block heights. **Note: the phone's font-size setting also affects the sign-in and sign-up screens — check them in the same fix.**
 - **Fix shape:** remove fixed heights on text containers (let them size to content), `numberOfLines` only where a clip is deliberate, and a test or storyboard at `fontScale` 2.0.
-- **Status:** 🔴 OPEN · **Priority:** P2 (first screen a new user sees; accessibility) · **Target:** the next UI block (D-WS9-293 / 294 round) · **Cross-ref:** D-WS9-291.
+- 🔴 **RE-OBSERVED October 6, 2026 on the C1 build (Hans, phone test item 3; Android, Font size AND Display size both at the largest):** the wordmark still reads "Kiw", the tagline, card titles and descriptions clip mid-line, and the three buttons read "Start your", "Explore without", "I already have". **The screen does not scroll down, and at the largest Display size the content runs off the right edge without scrolling sideways.** ⚠️ **C1's report claimed "460 pt at the largest text size, buttons whole" — measured in a web render, not on a device; the device refutes it.** C1 fixed the 375 × 667 window (Guideline 4); it did not fix the per-block fixed heights this entry names.
+- ✅ **Hans, October 6: fix BEFORE the submission** (chat-Claude's recommendation: the same failure class as Apple's Guideline 4 rejection, on the first screen). Check the sign-in and sign-up screens at the same settings in the same fix.
+- ✅ **C3 (`50139ca`, merged to `next` `b2f89ae` October 7; device-confirmed by Hans the same evening, Font size AND Display size at maximum, opened fresh):** the welcome, sign-in and sign-up screens cannot clip — above fontScale 1.5 or below 360 dp the footer moves inside the one ScrollView (nothing pinned), the wordmark shrinks to fit, button labels wrap; C1's pinned footer is unchanged at normal size (`lib/welcomeLayout.ts`). ⚠️ **The ORIGINAL cause was never in Kiwi's code:** the Oct 1 / Oct 6 clipping reproduces only when the phone's text settings change WHILE Kiwi is running (Hans, item 3) — React Native 0.81 does not re-measure text on a live font-scale change (a feature flag, off by default). Opened fresh it is clean. **Split out as BUG-363.**
+- **Status:** ✅ FIXED (C3) — device-confirmed October 7 · **Priority:** P1 for the 1.1 submission (Hans, October 6) · **Target:** C3 · **Cross-ref:** D-WS9-291 · D-WS9-307 · BUG-363.
 
 ---
 
@@ -3251,7 +3255,8 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **Date:** October 4, 2026 · **Surface:** the streamed Kitchen Wizard generation, with `BILLING_ENFORCED` on · **Found by:** the resubmission Phase 0 inventory, reading the billing path (cited claim, not yet reproduced).
 - **Mechanism (as reported):** the stream handler throws `UpgradeRequiredError` without writing anything to the stream. The client's 402 interception never sees a 402, so a lapsed user's generation fails without the purchase sheet ever opening. Invisible today only because enforcement is off.
 - **Fix shape:** reproduce with a failing test first, then emit what the client's stream consumer already handles (or the same `subscription_required` body the 402 routes return, as a stream error event); the client lane wires the sheet to it.
-- **Status:** 🔴 OPEN · **Priority:** P2 (must land before `BILLING_ENFORCED` is flipped) · **Target:** resubmission B1 · **Cross-ref:** D-WS9-270 · D-WS9-271 · D-WS9-307.
+- ✅ **Confirmed by B1 (October 4), and the fix is CLIENT-side:** the server already answers a denied streamed generation with a plain `402` JSON (`code: subscription_required`) BEFORE the stream opens — now pinned by a test (`ca362e3`). The client's `lib/api/wizardStream.ts` throws without calling `emitUpgradeRequired`, so the sheet never opens; one line.
+- **Status:** ✅ BUILT both halves — the client fix on `ui/resub-c2-purchase` (`b00d4eb`, red test first; merged to `next` `4090a5e`, October 5) · **Priority:** P2 · **Cross-ref:** D-WS9-270 · D-WS9-271 · D-WS9-307.
 
 ---
 
@@ -3260,7 +3265,7 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **Date:** October 4, 2026 · **Surface:** `POST /plans/:id/prep-week` · **Found by:** Prep & Cook J.1b (a test fixture hit it).
 - **Mechanism:** nothing in the engine shortens container names. A dish name over about 105 characters makes `<dish> vegetables` (or similar) exceed the schema's 120-character cap, and the whole response fails — the BUG-350 failure class through a different field. No real catalog name has been seen to do it.
 - **Fix shape:** the engine shortens a container name to fit (the dish's short name, never a cut mid-word), with a test at the cap.
-- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** Prep & Cook J.1c · **Cross-ref:** BUG-350 · D-WS9-301.
+- **Status:** ✅ FIXED on dev — Prep & Cook J.1c (`f104458`): the dish part shortens by whole words to 104 characters (the narrator's "Measure the …" titles share the 120 cap), "toppings plate" is never cut; a 119-character dish name validates. The catalog's longest dish title today is 82 characters. · **Priority:** P3 · **Cross-ref:** BUG-350 · D-WS9-301.
 
 ---
 
@@ -3274,7 +3279,2007 @@ egg          category="Dairy"     store_section="dairy_eggs"     1 dozen,  pack 
 - **To check, not yet a defect:**
   - Hans read *"peel 2 carrots"* in an opening sentence against *"3 carrots"* on the portion line. If the narrator states a quantity that disagrees with the code's portion line, that breaks D-WS9-301's code-renders-quantities rule. Confirm from the payload.
   - His plan's "On cook day" list showed only the Lemon-Herb line (potatoes; the chicken into the marinade). Correct if no other meal held anything; print the derivation for his newest plan.
-- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** Prep & Cook J.1c (round 2 of the resubmission sequence; server-only, ships without review) · **Cross-ref:** BUG-350 · D-WS9-301 · D-WS9-307.
+- ✅ **J.1c outcome (`f104458` · `ab98f8e`, engine v6, census of 27 plans):** "same tub" 43 → 0 (a shared tub named once at the head of its line) · amounts printed twice 170 → 1 · single-dish contents-named lids 173 → 10 (8 of the 10 are the ruled "the lid says which" case) · a dish's several lone cuts share one **prep plate** as separate piles when the recipe never says when they go in (CC's call, accepted) · protein minutes 275 → 180 across the corpus, Hans's three tasks 22 → 13 min (rates per verb are CC's judgment set to the anchor, stated as such; steps are timed by the verb shown, and "3-pound" is no longer read as the verb *pound*) · **the carrots were NOT reproduced** (opening, code line and catalog all say 3) — a guard keeps the code's line whenever the opening's number disagrees · the cook-day list on his plan was correct. Hans's device lines came from `e55a9305`, not his newest plan.
+- **Status:** ✅ FIXED on dev (J.1c) · residue → BUG-359 · **Priority:** P2 · **Cross-ref:** BUG-350 · BUG-358 · BUG-359 · D-WS9-301 · D-WS9-307.
+
+---
+
+### BUG-356 — Deleting a Kiwi account does not stop an Apple or Google subscription, and nothing tells the user (P2, pre-submission)
+
+- **Date:** October 5, 2026 · **Surface:** Profile → delete account, for a store-sourced subscriber · **Found by:** resubmission B1 (reported, not minted).
+- **Mechanism:** `DELETE /me` cancels a Stripe subscription before deleting; an App Store or Google Play subscription can only be cancelled by the user in the store, so it keeps renewing after the account is gone. Apple expects an app with subscriptions to tell a deleting user that billing continues until they cancel, and how.
+- **Fix shape:** the delete confirmation names the store and says the subscription keeps renewing until cancelled there, with a Manage subscription button (`managementUrl`, else the store's subscriptions page); deletion is never blocked.
+- ✅ **Built as specified, with one correct refinement:** the notice does not appear when the store subscription is already set to end ("keeps renewing" would be false).
+- **Status:** ✅ BUILT (`6784e54`; merged to `next` `4090a5e`, October 5) — not yet device-tested (needs a store subscriber; round 3) · **Priority:** P2 · **Cross-ref:** D-WS9-268 (the Apple-revoke-before-delete pattern) · D-WS9-307.
+
+---
+
+### BUG-357 — An `EXPO_PUBLIC_*` value read through an alias of `process.env` never reaches a build: the Google sign-in button never renders anywhere, and Apple's never on the web (P2)
+
+- **Date:** October 5, 2026 · **Surface:** every Expo build (development, preview, production, web export) · **Found by:** resubmission C1, checking the compiled output.
+- **Mechanism:** Expo inlines public env values only where the source spells `process.env.EXPO_PUBLIC_NAME` literally. `lib/guest/turnstile.ts` read its site key through an alias, so the Turnstile widget never rendered on any build (C1 fixed that one, `2b65b52`; with the server secret set, every guest session would have been refused). `lib/oauth/providers.ts` has the same pattern, so the OAuth client ids are always empty: **the Google button never shows in any build and the Apple button never shows on web.**
+- ⚠️ **The 4.8 edge once fixed:** Google showing on iOS without Sign in with Apple is a Guideline 4.8 rejection — the fix carries a test that Apple renders wherever Google does on iOS.
+- **Fix shape:** the literal form everywhere, a two-shaped sweep of the app for the alias pattern, and the full list of public env names the app reads (they become EAS environment variables for the production builds).
+- ✅ **C2's sweep (`415b0ee`):** two differently shaped searches agreed (84 mentions in 20 files); the 9 non-literal reads were all in `providers.ts`, now literal; a test pins the literal form for bundled code and another pins Apple beside Google on iOS. The app reads nine public names (C2's list; the production builds need RevenueCat ×2, Google ×2 and Turnstile set as EAS environment variables).
+- **Status:** ✅ FIXED — Turnstile (C1) · OAuth (C2, merged to `next` `4090a5e`) — ✅ DEVICE-CONFIRMED October 6: the Google button renders on Android and Google sign-in completes (phone test item 10) · **Priority:** P2 · **Cross-ref:** D-WS9-268 · D-WS9-269 · D-WS9-307.
+
+---
+
+### BUG-358 — Prep the Week puts ingredients that enter the pan at different moments into one jar: a meatball binder with its glaze, a roux's flour with its finishing liquid (P2 — Prep & Cook sign-off)
+
+- **Date:** October 5, 2026 · **Surface:** Prep the Week, sauce jars · **Found by:** chat-Claude reading Hans's newest plan (`f49f5209`) in the J.1c report.
+- **What it reads as (⚠️ verify against each recipe before fixing — §27):** *"BBQ Glazed Beef Meatballs sauce jar"* takes smoked paprika, garlic powder, onion powder and **⅜ cup breadcrumbs**, then *"add 1 tbsp worcestershire, 1 cup bbq sauce — stir to combine"*: the meatball binder and the glaze in one jar. *"Velvety Nacho Cheese Sauce sauce jar"* takes **2 tbsp flour** with chili powder and cumin, then *"add ½ tsp hot sauce"*: a roux's flour pre-mixed with what goes in after the milk. Followed blind, both change the dish.
+- **Rule already ruled (D-WS9-301):** one class per container AND moment authority — things share a container only when they enter at the same moment; a component's own steps decide. The jar logic appears to group by dish and class (seasonings + liquids) without the component / moment check.
+- **Fix shape:** a jar holds one component's ingredients for one moment; a dish whose dry and wet parts enter at different moments gets two (or the dry part stays a dry mix). Census the corpus for every jar whose members span components or moments.
+- **Resolution (October 12, 2026 audit):** Three causes, not one: (1) a food's NAME was read as a mixture name — "Worcestershire sauce" in the binder step and "BBQ sauce" in the glaze step both read as "sauce" and merged (the orange chicken's breading was pulled into its sauce jar the same way); mixture names are now read from the step text with the dish's own ingredient names removed. (2) A tagged sub-recipe was treated as one moment (the nacho sauce's roux flour s1 / milk s2 / spices s3); each ingredient is now keyed by the step it enters at. (3) Back-to-back cook steps counted as one moment (biryani whole/ground spices and yogurt; a glaze riding in its rub). Census, 27 dev plans, no AI spend, one checker before and after: containers whose members enter at different moments **31 → 7** (the 7 explained: the ruled lemon-herb marinade, one-tray roasts ×4, a cold salsa, and BUG-391's case); jars 206 → 206. Both named cases pinned with the recipes' text. Prep engine v6 → v7, so cached prep pages rebuild. A first attempt that broke the ruled lemon-herb case was dropped by the lane.
+- **Status:** ✅ FIXED on `next` `ae6ad0b` (SRV-1 B, October 10–11; deploy owed October 12 (the server deploy that follows the push)) · **Priority:** P2 (blocks the Prep & Cook sign-off, not the store submission — server-only) · **Target:** the next prep part, during review · **Cross-ref:** D-WS9-301 · BUG-355 · BUG-359.
+
+---
+
+### BUG-359 — Prep the Week wording residue after J.1c (P3)
+
+- **Date:** October 5, 2026 · **Surface:** Prep the Week text · **Found by:** J.1c (four, reported unfixed) and chat-Claude's read of `f49f5209` (two).
+- **The six:**
+  - taco lettuce and tomatoes go into "<dish> vegetables" instead of the toppings plate (D-WS9-301 R2);
+  - "Taco Bell–Style Seasoned Ground spice blend" drops "Beef" from the dish name;
+  - "(Saturday, today)" printed for a day already past;
+  - tofu cubing charged as a 1-minute measure;
+  - "Measure the Velvety Nacho Cheese Sauce **sauce jar**" (a dish name ending in its container's word reads doubled);
+  - "Portion the pork chops — Set out 4 bone-in pork chops" shown as a prep step, though setting out a package is no work (D-WS9-299).
+- **Resolution (October 12, 2026 audit):** All six were in code, none in the prompt: toppings the dish's own serving step tops it with go to the toppings plate (oven-bound pizza toppings excluded); container names keep every word of the dish; a past cook day is named, never "today"; tofu, tempeh, seitan and paneer cubing timed by weight like meat; no doubled "…Sauce sauce jar"; setting out a package is not a step. ⚠️ **The lane broadened the last one, disclosed and accepted at audit:** a protein that is only patted dry (no knife work, no marinade to meet) is dropped from prep; trimming still counts (D-WS9-299).
+- **Status:** ✅ FIXED on `next` `5c2c3ac` (SRV-1 C; deploy owed October 12 (the server deploy that follows the push)) · **Priority:** P3 · **Target:** the next prep part, during review · **Cross-ref:** D-WS9-299 · D-WS9-301 · BUG-355 · BUG-358.
+
+---
+
+### BUG-360 — The native Test Kitchen runs only the three-plan path: no "choose meals or choose plans" step, a long wait for three 5-meal plans, and reopening the app lands on the welcome screen (P2)
+
+- **Date:** October 6, 2026 · **Surface:** the Test Kitchen on native (C1) · **Found by:** Hans, round 1–2 phone test items 6 and 7 (Android dev build).
+- **Seen:**
+  - After the preferences, the guest flow goes straight to generating **three plans of five meals each**. The member Kitchen Wizard first offers **choose meals or choose plans**; the guest flow does not. Hans: *"it would be good to have the standard 'choose meals or choose plans' option like in the wizard in the app and test kitchen"* · *"it should be the same as the in-app/with-account flow, but it's not working the same way."*
+  - The three-plan generation "loaded for a while".
+  - Swiping the app away and reopening it lands on the **welcome screen**, not back in the Test Kitchen with the plan. Hans: *"that's fine by me."* ⚠️ **C1's report said the guest token trio hydrates before the splash lifts, so the expected behaviour was a resume** — confirm whether tapping **Explore without an account** again restores the same plan before calling it fine.
+- **To establish first (chat-Claude, before commissioning):** what the web Test Kitchen and the member wizard each do at that step, from code, and whether a meal-selection path fits the guest ceiling (catalog-only generation, D-WS9-261) and the $0.05-per-run cap Hans set (D-WS9-307).
+- **Hans, October 6: the guest plan flow "needs work, but we can OTA that if needed"** — JS-only, so it can ship over the air during review.
+- ✅ **Established from code (October 7):** the guest form IS the member `WizardScreen` with a `guest` flag that hides sauces, the two dials and the **"Meals to choose from / Complete plans"** choice (the path is preset to plans) — hidden because no guest meals path existed on the server: `POST /wizard/shelf` and `POST /plans/from-meals` are members-only and from-meals creates plan rows a guest cannot own (D-WS9-259). The three post-generation screens (`test-kitchen/options · plan · recipe`) are separate read-only copies for the same reason. **Resume is a tap, not automatic:** a stored session shows "Pick up where you left off" on the Test Kitchen entry; cold start lands on welcome (Hans: fine).
+- 🔴 **HANS, October 7 — RE-TARGETED TO 1.1, BEFORE THE STORE BUILDS:** *"I'd rather ship the guest app session with the option to choose from meals or choose from plans. My big concern is if someone does the no-account tour, sees the results, isn't impressed, and never comes back… maybe a quick pass to get it closer… and then we come back at it later."* **The quick pass = the chooser + the pick path only:** G1 (server: the shelf for a guest; `POST /guest/plan-from-picks` composing the picks into the guest draft with zero AI) → C4 (client: the chooser visible for guests, `PickMealsScreen` in guest mode, the doors). **Out of the pass, post-launch on data:** progressive/streamed guest generation (the ~20 s buffered wait), everything else.
+- **Status:** ✅ FIXED — G1 (server, `6eb048d` · `c4c2cc4` · `d9a61a9` · `6e059c1` · `27e7eb5`) + C4 (client, `f78dad7` · `e01f829`) + C5 (`c26c153` · `d3bf59f`: the spent-session sheet; a meal preview before adding); device-confirmed October 7–8 (Android) and on the web October 9 (`app.kitchenwizard.ai`, Hans); the "reopening lands on welcome" half was C5's finding — a real 409 from a session the earlier sign-up never claimed · **Priority:** P2 — **shipped in 1.1** (Hans, October 7) · **Cross-ref:** D-WS9-259 · D-WS9-261 · D-WS9-263 · D-WS9-307 · BUG-366 · BUG-367.
+
+---
+
+### BUG-361 — Turnstile on native takes a few seconds and shows a checkbox before the Test Kitchen opens (P2)
+
+- **Date:** October 6, 2026 · **Surface:** the Turnstile WebView on native (C1) · **Found by:** Hans, phone test item 5. *"it took a few seconds to load, i checked the box and it went to the wizard prefs screen. it worked, but it was a little slow… if that's the timing every time it would be nice for it to be faster."*
+- **Mechanism (unverified):** the widget is in **Managed** mode (created October 5), which shows an interactive checkbox when Cloudflare is unsure — likely on a fresh dev build and a new device — and the check only starts when the user taps **Explore without an account**.
+- ✅ **Hans, October 6 (chat-Claude's recommendation): keep Managed, and start the check earlier** — the app runs it while the welcome screen is showing, so a token is usually ready before the tap; when Cloudflare asks for interaction, show it at the tap. **Rejected: Non-interactive mode** — faster feel, but when Cloudflare is unsure it fails instead of asking, which could strand a reviewer on "We couldn't check this device."
+- ⚠️ **A Turnstile token expires after about 300 seconds** — a pre-warmed token must be refreshed if the user lingers. The server rule on `POST /guest/session` is unchanged.
+- ✅ **C3 (`5f2c789`):** `TurnstilePrewarm` mounts on the welcome screen (native only) and runs the widget off-screen; the token lives in `GuestContext` (`lib/guest/turnstilePrewarm.ts`), fresh for 240 s, spent once; Cloudflare's `before-interactive-callback` (verified against its docs) marks "needs a checkbox" and the visible gate shows at the Explore tap; `decideTurnstileEntry` picks. The widget stays mounted only while warming. Web and the server rule unchanged. **Device-confirmed October 7 (item 5: no checkbox, no wait after ~5 s on welcome; item 6: an immediate tap resumed the stored session).**
+- **Status:** ✅ FIXED (C3) — device-confirmed October 7 · **Priority:** P2 · **Target:** C3 · **Cross-ref:** D-WS9-261 · D-WS9-307 · BUG-347 · BUG-368 · BUG-369.
+
+---
+
+### BUG-362 — Dev warning on launch: "Looks like you have configured linking in multiple places" (P3, unverified)
+
+- **Date:** October 6, 2026 · **Surface:** app start, dev build · **Found by:** chat-Claude, reading Hans's phone-test screenshots — a LogBox warning toast, **truncated in every screenshot** ("Looks like you have co…"). The full text is React Navigation's warning that deep linking is configured in more than one place.
+- **Why it matters if real:** two linking configurations can route one deep link twice or to the wrong screen — the OAuth return and the purchase return use deep links.
+- **To do:** read the full warning, find whether the app configures linking in two places, and fix or rule it harmless.
+- ✅ **C3's check (no commit):** the text is React Navigation's "Looks like you have configured linking in multiple places" (also forked into `expo-router/build/fork/useLinking.native.js`); it fires when a second link handler registers while one is live and **is skipped entirely under `NODE_ENV === 'production'`**, so it cannot appear in a store build. Two differently shaped searches found Kiwi configuring linking in exactly one place; native URL schemes (`kiwi`, Google's, the dev client's) are not link-handling config. Ruled a dev-client artefact. ⚠️ Still worth one look on the first preview build: the OAuth and purchase returns.
+- **Status:** ✅ RULED HARMLESS for store builds (C3, October 7) — preview-build check owed · **Priority:** P3 · **Cross-ref:** D-WS9-268.
+
+---
+
+### BUG-363 — Text is drawn into stale boxes after the phone's Font or Display size changes while Kiwi is running (P3, post-launch)
+
+- **Date:** October 7, 2026 · **Surface:** every screen, Android (iOS unverified) · **Found by:** C3's Phase 0 (the suspect) and Hans's phone pass item 3 (the confirmation).
+- **Mechanism (from React Native 0.81.5's Android source, device-confirmed):** `enableFontScaleChangesUpdatingLayout` is off by default (`ReactNativeFeatureFlagsDefaults.kt`), so the text-measurement cache never sees a font-scale change made while the app is in the background; the drawing side reads the live setting, so text is drawn at the new size into boxes measured at the old. This is what Hans saw on October 1 and 6 (BUG-347's "Kiw"). Opened fresh after the change, every screen is correct.
+- **Fix shape:** turn the flag on through a config plugin — a NATIVE change (new binary). **Hans, October 7: ship 1.1 without it; a reviewer opens the app fresh. Post-launch.**
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** post-launch, with a native build · **Cross-ref:** BUG-347 · D-WS9-307.
+
+---
+
+### BUG-364 — The native Google sign-in button is Google's own rendering: square, less styled than the rest of the auth screens (P3, post-launch)
+
+- **Date:** October 7, 2026 · **Surface:** sign-in / sign-up, Android · **Found by:** Hans, phone pass item 2: *"pretty square and looks less styled than I remember… if we can clean/pretty that up a bit it would be great."*
+- **Why it looks that way:** D-WS9-270 item 6 (September 27) chose Google's rendered button over a hand-rolled one. **Hans, October 7: *"I may have made a bad call… if we can submit as is and handroll after, I'm fine with that."*** Submit as is; hand-roll after launch (a hand-rolled button must still satisfy Google's branding rules and sit beside Apple's native CONTINUE button on iOS — BUG-357's 4.8 test stays).
+- **Resolution (October 12, 2026 audit):** Native: Kiwi's own button — Google's unmodified "G", "Continue with Google", Apple's height, width and radius, the same sign-in call. 🔴 **Web: the lane refused the hand-roll and the audit accepted it — do not re-propose it there:** the server accepts only a Google ID token, and in Google's web library only the rendered button or One Tap hands a page one; the token and code clients return an access token or an auth code (a server code-exchange would be needed), and One Tap goes quiet after a dismissal. Residual, cosmetic: the iOS label uses the system font where Google's spec names Roboto Medium.
+- **Status:** ✅ FIXED on native, `next` `07d409f` (WEB-2 E; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · web: Google's own button stays · **Priority:** P3 · **Target:** post-launch polish · **Cross-ref:** D-WS9-269 · D-WS9-270 · BUG-357.
+
+---
+
+### BUG-365 — Single-line field placeholders are cut off at the largest text size (P3)
+
+- **Date:** October 7, 2026 · **Surface:** sign-in / sign-up inputs ("Password (min 8 characters)", "Phone number (optional)") · **Found by:** C3's Phase 0.
+- They are `TextInput` placeholders, not `<Text>`, so C3's no-clip rules do not reach them. Fix shape: shorter placeholders with the detail as helper text under the field.
+- **Resolution (October 12, 2026 audit):** "Password" and "Phone (optional)" with "At least 8 characters" under the field; the old placeholders cut above 1.41× / 1.74× system text on a 360-wide phone, the new ones fit past Android's 2× maximum.
+- **Status:** ✅ FIXED on `next` `9a5b51b` (WEB-2 H; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** the next auth-screen touch · **Cross-ref:** BUG-347.
+
+---
+
+### BUG-366 — The guest plan screen shows no meal images (P3 → C4)
+
+- **Date:** October 7, 2026 · **Surface:** `app/test-kitchen/plan.tsx` · **Found by:** Hans, phone pass item 5: *"the meal cards on the plan review screen… there are no images for the meals. it would be nice to include those."*
+- A guest plan is composed from catalog meals that carry `imageUrl`; the guest rows do not render it. C4 renders the thumbnail where the member plan row does.
+- **Status:** ✅ FIXED (C4 `87cdd80`) — device-confirmed October 8 · **Priority:** P3 · **Target:** C4 · **Cross-ref:** BUG-360 · D-WS9-246.
+
+---
+
+### BUG-367 — The guest "You've built your Test Kitchen plan" notice has no sign-up action (P2 → C4)
+
+- **Date:** October 7, 2026 · **Surface:** the guest wizard's spent notice (`WizardScreen`, `GUEST_CTA_HINT` family) · **Found by:** Hans, phone pass item 6: *"in the terracotta warning, it should have a link or be clickable to sign up. I had to go to the prior plan I made and then sign up from there."*
+- The notice is the one place a returning guest meets the limit, and it is a dead end. C4: a sign-up door on the notice (the same door sheet), beside "see your plan".
+- **Status:** ✅ FIXED (C4 `b71dce6`) — device-confirmed October 8 · **Priority:** P2 · **Target:** C4 · **Cross-ref:** BUG-360 · D-WS9-263.
+
+---
+
+### BUG-368 — "Try again" in the Test Kitchen resends a Turnstile token the server may already have spent (P2 → C4)
+
+- **Date:** October 7, 2026 · **Surface:** `app/test-kitchen/index.tsx`, both retry paths · **Found by:** C3.
+- A Turnstile token validates once; a retry after the server checked it gets refused. C4: a retry re-runs the gate (or takes a fresh pre-warmed token) instead of reusing the one in hand.
+- **Status:** ✅ FIXED (C4 `5a6e2c1`) — device-confirmed October 8 (Hans: "both pass") · **Priority:** P2 · **Target:** C4 · **Cross-ref:** BUG-361.
+
+---
+
+### BUG-369 — The visible Turnstile checkbox's 20 s timeout runs while a person is looking at it (P2 → C4)
+
+- **Date:** October 7, 2026 · **Surface:** `TurnstileGate` native · **Found by:** C3.
+- `TURNSTILE_NATIVE_TIMEOUT_MS` (20 s) was sized for an invisible load; with the pre-warm, every "needs a checkbox" case now goes through the visible gate, and a slow person sees "We couldn't check this device." C4: stop the timer when the widget reports interactive; time out only the load.
+- **Status:** ✅ FIXED (C4 `5a6e2c1`) — device-confirmed October 8 (Hans: "both pass") · **Priority:** P2 · **Target:** C4 · **Cross-ref:** BUG-361.
+
+---
+
+### BUG-370 — The api-server suite's `unauthenticatedSurface` test reads the environment and goes red on a dev `.env` (P3)
+
+- **Date:** October 8, 2026 · **Surface:** `src/routes/__tests__/unauthenticatedSurface.test.ts` · **Found by:** R3-0's baseline (a known red carried since C-series lanes).
+- The test's expected public surface depends on which `*_OIDC_*` / sweep variables the loaded `.env` sets, so the same tree is green or red by machine. Fix shape: the test pins its own env (the deps seam the spend-guard tests use), never the file.
+- **Resolution (October 12, 2026 audit):** The cause was NOT the OIDC/sweep variables this entry guessed: on the dev `.env` the Turnstile key turned the tokenless `POST /guest/session` probe into a 403 and the RevenueCat webhook secret turned its probe into a 401. `routes/index.ts` now composes through `createRootRouter({ env })` (default export unchanged); the test pins an empty env, green with the dev `.env`, with none, and with both variables forced on.
+- **Status:** ✅ FIXED on `next` `4694fd9` (SRV-1 D; deploy owed October 12 (the server deploy that follows the push)) · **Priority:** P3 · **Target:** next server-suite touch · **Cross-ref:** BUG-279.
+
+---
+
+### BUG-371 — `scripts/grocery-f/bug334-repair.ts` fails typecheck on its filter; the F.2 fraction cleanup was skipped for 1.1 (P3)
+
+- **Date:** October 8, 2026 · **Surface:** the grocery-release runbook's F.2 step · **Found by:** R3-0 (chat-Claude's call: skip F.2 for the production run rather than widen the lane).
+- The script's row filter does not typecheck against the current Prisma types; it was never run on production. Production carries whatever doubled fractions BUG-334's repair would have fixed — cosmetic in steps, not in orders.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** post-launch, with the cookbook-style sweep · **Cross-ref:** BUG-334 · D-WS9-307.
+
+---
+
+### BUG-372 — `scripts/ws9-seed-ai-prompts-only.ts` has no database-host guard (P3)
+
+- **Date:** October 8, 2026 · **Surface:** api-server scripts · **Found by:** R3-0 (the file list it deliberately left).
+- Every runbook script now goes through `assertScriptDatabase` (R3-0); this older one still connects to whatever `DATABASE_URL` says. It is superseded by `prisma:seed:prompts`; delete it or guard it on next touch.
+- **Resolution (October 12, 2026 audit):** `prisma:seed:prompts` runs the same prompt seed behind `assertScriptDatabase` (plus a settings seed that only adds missing keys); nothing referenced the old script.
+- **Status:** ✅ FIXED on `next` `4694fd9` (SRV-1 D) — the script is deleted · **Priority:** P3 · **Target:** next scripts touch · **Cross-ref:** D-WS9-307 (R3-0).
+
+---
+
+### BUG-373 — Pick-screen thumbnails are lost on a reload (P3)
+
+- **Date:** October 8, 2026 · **Surface:** `PickMealsScreen` / `MealPickCard` · **Found by:** C5's report (a candidate, not device-confirmed).
+- After a Metro reload with picks in hand, the picked cards render without their images until the shelf refetches. Likely the picks store keeps ids, not the card payload.
+- **Resolution (October 12, 2026 audit):** The premise (the picks store keeps only ids) was wrong: each pick keeps the whole card, image included, in the screen's own state, so a cold mount starts with zero picks and no state shows a picked card without its image. The test pins a later "Get more options" round re-sending a picked meal without an image. ⚠️ The same fact means a web page reload drops all picks — accepted as is.
+- **Status:** ✅ CLOSED — not reproducible (WEB-2 A, `29e912a` pins the one real risk) · **Priority:** P3 · **Target:** the next Pick-screen touch (with BUG-380) · **Cross-ref:** BUG-360.
+
+---
+
+### BUG-374 — A member's picks are capped at 14 with no message (P3)
+
+- **Date:** October 8, 2026 · **Surface:** `PickMealsScreen`, member path · **Found by:** C5's report.
+- The 15th tap does nothing. The cap is reasonable; the silence is the defect — say it on the counter row ("14 picked · the most a plan takes").
+- **Resolution (October 12, 2026 audit):** The cap was MISSING, not silent: the 15th tap picked, and "Build my week" then failed on the server's 14-meal limit (400). Now the app caps a member at 14 ("14 picked · the most a plan takes"; an inline notice on a 15th tap; unpicking clears it). The guest's 7 unchanged.
+- **Status:** ✅ FIXED on `next` `e8e24b1` (WEB-2 B; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** the next Pick-screen touch · **Cross-ref:** BUG-380.
+
+---
+
+### BUG-375 — A guest's `POST /wizard/build-plans` 409 (`guest_generation_used`) shows no door (P3)
+
+- **Date:** October 8, 2026 · **Surface:** `WizardScreen` guest path, the "Complete plans" branch · **Found by:** C5's report.
+- The picks path got its door in C4/C5; the plans path answers the same 409 with the spent notice only. Same fix as BUG-367, other branch.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** post-launch guest polish · **Cross-ref:** BUG-367.
+
+---
+
+### BUG-376 — `scripts/grocery-f/catalog-fix.ts` prints "to DEV" on a production run (P3, cosmetic)
+
+- **Date:** October 8, 2026 · **Surface:** the F.1 apply's banner · **Found by:** Hans, round 3 Part 1 item 9 (the apply itself was correct: 65 field updates on production).
+- The banner string is hard-coded; `assertScriptDatabase` already returns the mode. One line.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** next scripts touch · **Cross-ref:** D-WS9-307.
+
+---
+
+### BUG-377 — A guest session whose sign-up started but never claimed resumes for 24 h as a spent session (P3)
+
+- **Date:** October 8, 2026 · **Surface:** guest session resume · **Found by:** C5's Phase 0 (the mechanism behind Hans's "sheet after Build my week").
+- A sign-up that starts from a door and is abandoned leaves the session unclaimed and spent; the next open resumes it and the first action meets the 409. C5 fixed the client race (the form no longer renders as fresh while the session read is in flight); the 24 h resume is by design (D-WS9-263) and is noted here so the next report of "it says I already built a plan" is not re-diagnosed.
+- **Status:** 🔴 OPEN (design note) · **Priority:** P3 · **Target:** none scheduled · **Cross-ref:** BUG-360 · D-WS9-263.
+
+---
+
+### BUG-378 — Netlify drops every path with a dot-prefixed folder, so the web export's fonts and icons never deployed (✅ FIXED, R3-2)
+
+- **Date:** October 9, 2026 · **Surface:** `app.kitchenwizard.ai` hosting · **Found by:** chat-Claude, the first live load (every `@expo-google-fonts` `.ttf` under `assets/__node_modules/.pnpm/…` answered `index.html`; `OTS parsing error: invalid sfntVersion: 1008813135` = `<!DO`).
+- **Measured:** the deploy held 11 of 84 files; a zip upload changed nothing (Netlify: "intended behaviour", answers.netlify.com 8997 / 112159). **Fix (R3-2, `8c60fae` · `d9ee3e2` · `f880ff4` · `216b2a0`):** `export-web.ps1` renames `.pnpm` → `pnpm` in `dist/`, fails on any other dot-segment, zips with forward-slash entry names (`CreateFromDirectory` on PS 5.1 writes backslashes — a flat deploy on Linux) and `\\?\` long paths; `public/_redirects` carries `/assets/__node_modules/.pnpm/* /assets/__node_modules/pnpm/:splat 200` before the `/*` fallback. Live October 9 10:27: 84 files, both URL forms answer `font/ttf`.
+- **Status:** ✅ FIXED (R3-2) — live-confirmed October 9 · **Priority:** P1 (the hosted Test Kitchen rendered in Times) · **Cross-ref:** D-WS9-262 · D-WS9-307.
+
+---
+
+### BUG-379 — The web Test Kitchen entry renders its title and subtitle twice (P3) ✅ FIXED on dev by WEB-1
+
+- **Date:** October 9, 2026 · **Surface:** `app/test-kitchen/index.tsx` on web · **Found by:** chat-Claude, the web pass.
+- The page header and the card both carry "Kiwi Test Kitchen — Build a week of dinners — no account needed". On native the header is the stack title; on web both render. Hide one on web.
+- **Status:** ✅ FIXED on dev — WEB-1 E `fa5b2fc`: on web the pre-session card no longer repeats the Header's title (there is no stack header; native left as ruled → BUG-388) · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** post-launch web polish · **Cross-ref:** BUG-360.
+
+---
+
+### BUG-380 — The Pick screen's select affordance is not legible enough (P3, Hans)
+
+- **Date:** October 9, 2026 · **Surface:** `MealPickCard` (C5's body-opens / circle-picks split) · **Found by:** Hans, the web pass: *"maybe a small adjustment to the styling on how to add the meal to the plan list (like make it more clear or add helper text/update the button), but it works fine for now."*
+- The circle reads as a status mark, not a control. Fix shape: a labelled pill ("Pick" / "Picked") or one line of helper text under the header ("tap a meal to look, tap the circle to pick").
+- **Resolution (October 12, 2026 audit):** A "Pick" / "Picked" pill in the circle's place, same handler and screen-reader behaviour, and a helper line under the header. Residual header copy → BUG-394.
+- **Status:** ✅ FIXED on `next` `08ee0de` (WEB-2 C; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** post-launch polish, with BUG-373 · 374 · **Cross-ref:** D-WS9-307 (C5).
+
+---
+
+### BUG-381 — The dev `.env` carries the PRODUCTION Instacart key against the dev host, so dev Instacart calls 401 (P3, dev only)
+
+- **Date:** October 9, 2026 · **Surface:** `artifacts/api-server/.env` (Hans's machine) · **Found by:** round 3 Part 2 item 3 (the hash comparison: the `.env` key differed from the September 21 Secret Manager key; Hans had pasted the production key into `.env` on October 7–8).
+- Production now holds the production key (Secret Manager version 2, pushed from `.env`); `.env` still points at `connect.dev.instacart.tools` with the production key. Swap the dev key back (or point dev at the production host) when dev Instacart testing is next needed. Not a product defect.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** Hans, next dev Instacart test · **Cross-ref:** D-WS9-307.
+
+---
+
+### BUG-382 — The in-app back button on the web sometimes no-ops when the browser arrived from the marketing site (P3, intermittent) ✅ FIXED on dev by WEB-1
+
+- **Date:** October 9, 2026 · **Surface:** the web app's header back button (`app.kitchenwizard.ai`, sign-in and other screens) · **Found by:** Hans, the first web early-access pass.
+- Site → Sign in → the UI back button does nothing while the browser's own back works; on a retest minutes later every back button worked. Likely `router.back()` against an empty router history on a cold entry (the first screen after a cross-origin arrival has no in-app history), racing hydration. Fix: when `router.canGoBack()` is false, route to `/` (or hide the control) rather than call `back()`.
+- **Status:** ✅ FIXED on dev — WEB-1 B `bd031ee`: `lib/navigation.ts` `goBack(router, fallback)` — `canGoBack()` false → `replace(fallback)` (`/test-kitchen` for the Test Kitchen screens, `/` elsewhere); Header + the cold-entry screens · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the web-polish lane after the 1.1 submission (JS-only; web redeploy any time, native over the air after approval) · **Cross-ref:** BUG-314 (the cold `/test-kitchen` entry), BUG-379.
+
+---
+
+### BUG-383 — The web plan-review screen has no "Order Online" (Instacart) action; the grocery list has it and it works (P3, web) ✅ FIXED on dev by WEB-1
+
+- **Date:** October 9, 2026 · **Surface:** plan review on web · **Found by:** Hans.
+- The grocery list's "Shop on Instacart" works on the web (production key live). Plan review shows no ordering action at all on web — whether it is a `Platform` gate, a width breakpoint, or never existed on that screen is unmeasured; the lane reads the screen before fixing (§27.6 item 10).
+- **Status:** ✅ FIXED on dev — WEB-1 F `2831c61`: no platform gate — Plan Review read the Order Online flag from Home's cache once, empty on a cold web entry or a refresh; it now subscribes to the Home data (fetched only when missing; native makes no new request) · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the web-polish lane · **Cross-ref:** D-WS9-099 (Order Online's removal and return), row 8.
+
+---
+
+### BUG-384 — "Remove from plan" does nothing ON THE WEB (its confirm is an `Alert.alert`, a no-op in react-native-web; native works — Hans, October 9); relabel it "Compost" (P2) ✅ FIXED on dev by WEB-1
+
+- **Date:** October 9, 2026 · **Surface:** plan review → a meal's actions, web · **Found by:** Hans. **Hans, verbatim:** *"remove from plan seems to be not working. it should say "compost" instead of "remove from plan" and I think that will be clear enough."*
+- Tapping the action leaves the meal in the plan. Unmeasured whether native does the same (same code — probable). ⚠️ **Tomorrow's device pass (`kiwi_submit_day.md`) gains a 30-second check: remove one meal from a plan on the Android build.** If native fails too it does NOT hold the submission (not one of Apple's three reasons; JS-only, over the air after approval) unless Hans rules otherwise. The relabel to "Compost" is ruled (the app already composts plans — D-WS9-293's "meal actions the same everywhere" carries).
+- **Status:** ✅ FIXED on dev — WEB-1 A + C `46d16eb` · `984b2c7`: the root cause was `react-native-web`'s `Alert` stub — 71 `Alert.alert` sites in 13 files were silent on the web; all now `dialog.alert` (`lib/dialog.ts` + `components/DialogHost.tsx`, native passes through; a guard test fails on any new `Alert.alert`); label → "Compost" · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** the web-polish lane (first item) · **Cross-ref:** BUG-008 (compost), D-WS9-293, BUG-385.
+
+---
+
+### BUG-385 — Ask Kiwi for a meal → Save lands on the meal's edit screen; a second Save + back leaves TWO copies of the meal in the plan (P2) ✅ FIXED on dev by WEB-1
+
+- **Date:** October 9, 2026 · **Surface:** plan review → Add Meal → "Ask Kiwi for a meal" → review → Save, web · **Found by:** Hans, on the App Review demo account (`reviewer@kitchenwizard.ai`, a plan set to the current week — the duplicate "Chicken Piccata over angel hair with arugula salad" is still in it; BUG-384 means it cannot be removed from the UI; chat-Claude removes the duplicate plan item by hand SQL before the submission if Hans wants).
+- Two defects in one path: (1) after Save the user is left on the edit screen with no signal that the save happened, so a second Save is the natural move; (2) the second Save adds the meal to the plan again instead of updating the first copy — the add-to-plan is not idempotent on the meal id (BUG-273/274 family: the Ask-Kiwi import path). The lane measures which call duplicates (two `POST /plans/:id/items`, or one item POST + one meal POST that re-adds).
+- **Status:** ✅ FIXED on dev (client half) — WEB-1 D `bb755be`: Save sent `POST /me/meals` then `POST /plans/:id/items`; the only way back was the confirm's OK, which the web never showed, so a second Save re-ran the whole create. Now one Save = one meal, the app lands on the plan before confirming, Save disabled after; server idempotency → BUG-386 · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** the web-polish lane · **Cross-ref:** BUG-273 · BUG-274 · BUG-288 · BUG-320 · BUG-384.
+
+---
+
+### BUG-386 — `POST /plans/:id/items` is not idempotent on `(planId, mealId)`: a timed-out add that actually succeeded duplicates on retry (P3, server)
+
+- **Date:** October 10, 2026 · **Surface:** `artifacts/api-server` plan items route · **Found by:** WEB-1's Part D measurement (CC), as the server half of BUG-385.
+- BUG-385's client fix (one Save = one create, land on the plan, Save disabled after) closes Hans's path; the server still accepts a second row for the same meal. A retry after a timeout — the only way the client now sends two — duplicates. Fix: treat `(planId, mealId)` as upsert, or return the existing item on a duplicate.
+- **Resolution (October 12, 2026 audit):** Measured: a meal may sit in a plan twice on purpose; the plan-item row has no timestamp; a catalog add binds a copy, so the row's meal id is not the id sent; the client never retries by itself — duplicates came from a re-tap after an add that failed AFTER committing. **Rule (the lane's, licensed deviation from the prompt): the add's own activity record (which stores the requested meal id) is the duplicate signal — an identical add (same plan, slot, day, servings) within 60 s returns the existing item, 200, no revision bump.** Residual, accepted: two identical adds at the same instant both write (the client never sends that); a deliberate second identical add inside 60 s returns the first.
+- **Status:** ✅ FIXED on `next` `3f73752` (SRV-1 A; deploy owed October 12 (the server deploy that follows the push)) · **Priority:** P3 · **Target:** the next server lane · **Cross-ref:** BUG-385 · BUG-320.
+
+---
+
+### BUG-387 — If the plan add fails after the meal saved, a retry reuses the saved meal and drops edits made in between (P3)
+
+- **Date:** October 10, 2026 · **Surface:** `app/meal-builder.tsx:921` · **Found by:** WEB-1 (CC).
+- The create latch keeps the first saved meal id; a retry adds THAT meal to the plan, so anything edited in the builder between the failure and the retry is lost silently. Fix: PATCH the saved meal with the current form before the retried add, or clear the latch when the form changes.
+- **Resolution (October 12, 2026 audit):** If the form changed since the save, the retry PATCHes the saved meal (servings included) before the add; an unchanged form sends nothing. Known cost: that PATCH drops step-to-ingredient links on this one path (BUG-287, invisible today).
+- **Status:** ✅ FIXED on `next` `bb3ce74` (WEB-2 D; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** WEB-2 · **Cross-ref:** BUG-385 · BUG-386.
+
+---
+
+### BUG-388 — Native still shows the Test Kitchen title twice, briefly, behind the loader (P3)
+
+- **Date:** October 10, 2026 · **Surface:** `app/test-kitchen/index.tsx` (native) · **Found by:** WEB-1 (CC) while fixing BUG-379 on web.
+- The in-page Header and the pre-session card both carry the title and subtitle; on web the card no longer repeats them (BUG-379 FIXED), native was left as ruled (native unchanged in WEB-1). Same one-line gate, over the air after approval.
+- **Resolution (October 12, 2026 audit):** The pre-session card no longer repeats the title on any platform.
+- **Status:** ✅ FIXED on `next` `00bf78f` (WEB-2 G; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** the first native OTA after approval · **Cross-ref:** BUG-379.
+
+---
+
+### BUG-389 — The Google web sign-in button keeps the width of its first render; after a window resize the Apple / Google pair can differ again, and below 200 px it overflows (P3, web)
+
+- **Date:** October 10, 2026 · **Surface:** `components/GoogleWebButton.tsx` · **Found by:** WEB-1 (CC), Part G.
+- Google's GSI button is rendered once at mount width. Fix: re-render on a width change (a `useWindowDimensions` key), or hand-roll the web button like the native one will be (BUG-364). ⚠️ WEB-1's Part G sized the two buttons by their boxes only — the live-site look is unverified until Hans's check.
+- **Resolution (October 12, 2026 audit):** Google's web button redraws when its box changes width. Residual, accepted: under 200 px the button still clips (no phone is that narrow); the personalised "Continue as <name>" variant is unverified.
+- **Status:** ✅ FIXED on `next` `07d409f` (WEB-2 E; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) — the resize half · **Priority:** P3 · **Target:** WEB-2 (or folded into BUG-364's hand-roll) · **Cross-ref:** BUG-364.
+
+---
+
+### BUG-390 — Home's teaching arc wraps "Groceries" mid-word ("Grocerie" / "s") on a fresh account (P3, Hans)
+
+- **Date:** October 10, 2026 · **Surface:** the Home teaching arc (D-WS9-160), the Groceries step label — seen on the web; measure native too · **Found by:** Hans.
+- A fixed-width step cell with no `numberOfLines`/`flexShrink` treatment lets the label break inside the word. Fix: let the cell grow or set `numberOfLines={1}` with a minimum width (measure which it is first). Small.
+- **Resolution (October 12, 2026 audit):** Measured from the font file: "groceries" is 62 px at the 14 px label size and a 360-wide Android column is 59 px, so it broke on any window under 375 px or any text scale above 1×. All five labels now share the largest size that fits the measured column, on one line; columns stay equal. Under ~290 px the 10 px floor shows "grocer…" — accepted. No auto-shrink: the web build has none.
+- **Status:** ✅ FIXED on `next` `c694a2c` (WEB-2 F; live on the web after Hans's October 12 export + Netlify drop; native rides the first OTA after the store release (D-WS9-279)) · **Priority:** P3 · **Target:** WEB-2 · **Cross-ref:** D-WS9-160.
+
+---
+
+### BUG-391 — Prep the Week gives an ingredient that appears in two rows at two different moments ONE container key (P3)
+
+- **Date:** October 12, 2026 · **Surface:** Prep the Week container keys (`prepCombineAdapter`) · **Found by:** SRV-1 (CC), the one BUG-358 survivor it could not explain away; pre-existing.
+- Wedding Soup's garlic, a tikka's spices, orange chicken's cornstarch: the same ingredient enters at two moments and both rows land in one container. Fix shape: key the container by (ingredient row, moment), not by ingredient.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next prep part · **Cross-ref:** BUG-358 · D-WS9-301.
+
+---
+
+### BUG-392 — A wet binder is still named a "sauce jar" (the BBQ meatball binder) (P3)
+
+- **Date:** October 12, 2026 · **Surface:** Prep the Week container naming (`prepWeekAssembly`) · **Found by:** SRV-1 (CC).
+- After BUG-358 the meatball binder (spices, breadcrumbs, Worcestershire) is correctly its own jar, but it is called a sauce jar. A follower would pour it on. Fix shape: name by role (binder / glaze / sauce) from the component's steps.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next prep part · **Cross-ref:** BUG-358 · D-WS9-296.
+
+---
+
+### BUG-393 — One step with two moments still shares a container ("sauté the shallots, then add the garlic") (P3)
+
+- **Date:** October 12, 2026 · **Surface:** Prep the Week moments · **Found by:** SRV-1 (CC) — the vodka sauce and Dirty Rice.
+- BUG-358 keys moments by step; a step that itself adds two things a minute apart ("…then add…") still yields one container. The ruled garlic case (D-WS9-301: garlic usually goes in a minute or two after the onion, so it is not the same moment) is exactly this. Fix shape: split a step's moments on "then add" / "after N minutes" wording, measured on the census first.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next prep part · **Cross-ref:** BUG-358 · D-WS9-301.
+
+---
+
+### BUG-394 — The Pick screen's header still says "tap to add", contradicting the new helper line (P3)
+
+- **Date:** October 12, 2026 · **Surface:** the Pick screen header (`lib/wizard/pickMeals.ts`, `components/PickMealsScreen.tsx`) · **Found by:** WEB-2 (CC), after BUG-380's helper line.
+- BUG-380 made the body open the meal and the pill pick it, with a helper line saying so; the header copy above still tells the user to tap to add. One copy fix.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** WEB-3 · **Cross-ref:** BUG-380.
+
+---
+
+### BUG-395 — After a featured plan was hidden, a member's tap and the next cold start showed "can't reach Kiwi" until several retries (P2, Hans — to MEASURE)
+
+- **Date:** October 12, 2026 (~20:45 ET) · **Surface:** Android 1.1.0 (5), Home, then a cold start · **Found by:** Hans, on a second Android after the production rail was emptied by hand and `kiwi-api-00022-xd5` deployed.
+- The user tapped a featured plan that did not load, and the app showed "can't reach Kiwi". After a swipe-away and reopen, it was slow and then showed "can't reach Kiwi" again. Three quick Retry taps loaded it, with the rail gone.
+- **Two candidate causes, neither measured:**
+  - A cold Cloud Run instance or Neon wake right after the deploy.
+  - The client treating a 404 on a now-hidden template as a reachability failure.
+- Hans: a thin edge case, *"noting it in case there are other scenarios where it could degrade ungracefully."*
+- **Next:** read the request logs for that window (status codes on `/plans/templates/:id` and `/home*`, and latency), and find which client path renders "can't reach Kiwi" on a non-network error. OBS-1's error reporting catches the next one.
+- **Status:** ✅ **FIXED (client side) on `next` (local, October 17; live with the next deploy + OTA) by FIX-3:** Home's error screen only when there is no data; `/home` and `/auth/me` retry twice honouring `Retry-After`; the auth middleware's 503 now carries `Retry-After` and `db_unavailable`. Background refetch over cached data is a Pixel check (the web harness could not trigger a refetch). · *Previously:* 🔵 **ASSIGNED → FIX-3 (client side).** TRIAGE-0's likely cause: Home goes full-screen error on any `isError`, including a failed background refresh over good cached data, and nothing retries. Fix: error only when there is no data, plus 1–2 retries honouring `Retry-After` on Home and `/auth/me`. · *Previously:* 🔵 TO MEASURE · **Priority:** P2 · **Target:** OBS-1 · **Cross-ref:** BUG-396 · D-WS9-311.
+
+---
+
+### BUG-396 — Plan preview: a failed "Use This Week" / "Save for Later" closes the sheet silently (P2)
+
+- **Date:** October 12, 2026 · **Surface:** `artifacts/kiwi/components/PlanPreviewModal.tsx:66-71` · **Found by:** FEAT-0 (CC).
+- `handleAction` has `try/finally` and no `catch`: a failed `POST /plans/use-template/:id` closes the modal with no message.
+- The sheet's meal thumbnails are also a hard-coded placeholder (`:157-158`, *"D-WS6-043: image rendering deferred"*), though the catalog now has images. That half is polish, not a defect.
+- ⚠️ The React Compiler skips components containing `try/finally` (carried note); the fix's shape should check that.
+- **Status:** ✅ FIXED — PREVIEW-1 `694bd10` + `1caa288` (October 13, audited PASS). The sheet now reads like Plan Review, with the cover and the meal photos; a failed use keeps the sheet open with an inline error; a retry cannot create a second plan (B). Live on the web October 13; reaches Android with OTA-1, and iOS after Apple releases 1.1 · **Priority:** P2 · **Cross-ref:** BUG-395 · D-WS9-311.
+
+---
+
+### BUG-397 — Cook scheduler, multi-dish meal: hot dishes finish ~30 min before serving, and cranberry sauce is scheduled as hot (P3)
+
+- **Date:** October 12, 2026 · **Surface:** `cookingScheduler.ts` · **Found by:** FEAT-0 (CC), a synthetic 7-dish Thanksgiving run (pure function, no database).
+- The idle cap applies only within a dish (`:886-916`). Across dishes, turkey, stuffing and mash finished at 225 min against serving at 255, which breaks the file's own *"nothing hot finishes early"* invariant (`:12-14`).
+- "cranberry" and "sauce" are missing from the cold-title list (`:433-434`).
+- The run reported 255 min total and 85 min active.
+- **Not this bug (scope, recorded on D-WS9-311):** no oven or burner model, and no dependency between dishes.
+- **Status:** 🔴 OPEN · **Priority:** P3 (P2 if a Thanksgiving feast ships with Cook Mode) · **Target:** THX scoping · **Cross-ref:** D-WS9-239 · D-WS9-311.
+
+---
+
+### BUG-398 — Name-derived allergen stamps miss the allergens inside store-bought compound ingredients (P2, catalog-wide class)
+
+- **Date:** October 12, 2026 · **Surface:** allergen stamping (D-WS9-211), the public catalog · **Found by:** FEAT-0 (CC), checking each featured candidate's `allergenSources` against its ingredient names.
+- **Measured:**
+  - `6263e796` Crispy Chicken Tenders: stamped egg only, but "frozen chicken tenders" are breaded, so wheat is missing.
+  - `f60d0e4e` Sloppy Joes: "ranch dressing" contributes no dairy or egg.
+- **Plausible, unmeasured** (commercial products vary):
+  - curry paste → shellfish (`f821f47e`);
+  - store toum → egg (`ed1363eb`);
+  - taco seasoning → wheat (`c742b615`);
+  - naan → egg (`3203f02d`).
+- The stamp reads ingredient NAMES, so a compound product's own ingredients are invisible. This is the false-NEGATIVE twin of the false-positive class the position block's hazard line names.
+- ✅ **MEASURED WIDER, THX-1 (October 12):** bought-path products live in `Dish.substitutions` JSON, and `deriveAllergensForMeal` reads only `DishIngredient` names (`allergens.ts:497-524`). Taco-seasoning packets, bottled dressings, marinades, rotisserie chicken, sausages, chipotle in adobo, seasoned panko and buns never reach the stamp, and **1,084 of the 1,325 public meals carry such products.**
+- **Interim rule (D-WS9-311):** featured plans exclude such meals.
+- ⚠️ **Hans, October 13, on the rule's reach:** *"I said a while back I was ok if a user was gluten free, but accidentally bought sausage with gluten in the filler. it was ultimately up to them to make the right purchase … I want to be sure we don't necessarily only suggest from-scratch on the featured stuff because it could make it look like a lot of effort. it's fine for now, but I probably want to think through that more before I start telling people."* The interim exclusion stands for now. The rule for featured plans, and this bug's priority, are to be revisited before featured plans are promoted.
+- **Fix shape, unscoped:** a compound-ingredient allergen map (curry paste, seasoning blends, dressings, breads, breaded proteins), measured on the catalog first.
+- ✅ **Hans RULED October 14 (D-WS9-311): purchased ingredients are the user's responsibility, so the interim featured-plan exclusion is RETIRED.** *"on THX-2G, 3: no store-bought swaps. that's not a rule we need to abide by. it fits the same celiac user who accidentally buys sausage with wheat in the filler. purchased ingredients are the responsibility of the user. BUT, this raises a good point about the "short cut toggle" functionality that was on the list to deliver on/around go-live. that's the piece where a user can choose to buy the taco seasoning instead of mixing spices. or salad dressing instead of mixing oil and vinegar."* This bug stays as a stamp-quality gap, no longer a gate.
+- **Status:** 🔴 OPEN · **Priority:** P3 (was P2 while it gated featuring) · **Target:** with the shortcut toggle (row 3c, December) · **Cross-ref:** D-WS9-211 · D-WS9-305 · D-WS9-311.
+
+---
+
+### BUG-399 — Stripe Checkout fails for every web subscriber: automatic tax needs an address the session never collects (P1)
+
+- **Date:** October 13, 2026 (02:00:54–02:01:12Z, production, Stripe test mode) · **Surface:** `POST /billing/checkout-session` (`src/routes/billing.ts:197-245`) · **Found by:** Hans's first web test checkout, after BILL-2; cause read by chat-Claude, then confirmed by the log.
+- The route creates the Stripe customer with `email` + `metadata` only, then creates the session with `customer` + `automatic_tax: { enabled: true }` and no `customer_update`. Stripe refuses: *"Automatic tax calculation in Checkout requires a valid address on the Customer. Add a valid address to the Customer or set `customer_update[address]` to 'auto' to save the billing address entered in Checkout to the Customer."* (3× `billing_checkout_failed`). The client shows *"Something went wrong starting checkout."*
+- Stripe Tax was activated in the sandbox the same evening (head office address, SaaS personal-use code, tax-exclusive), so this is the next wall after it.
+- **Fix shape:** `customer_update: { address: "auto", name: "auto" }`; `automatic_tax` stays on (D-WS9-270 item 5).
+- **Resolution:** SRV-2 Part B `f36d19f` — `customer_update: { address: "auto", name: "auto" }` (cited from `stripe@22.6.2` `Sessions.d.ts:2211` / `:3114`); three session tests assert it; break proof red, restored by hash (`billing.ts` 19923a25…). Audited PASS October 13. ⚠️ `billing.ts` passes the params untyped, so tsc does not check the field.
+- **Status:** ✅ FIXED on `next` `f36d19f` (deploy owed; the test checkout re-runs after it) · **Priority:** P1 · **Cross-ref:** BUG-400 · BUG-401 · D-WS9-310.
+
+---
+
+### BUG-400 — The web Profile's Subscribe button does nothing while enforcement is off (P1)
+
+- **Date:** October 12, 2026 · **Surface:** `app/(tabs)/profile.tsx:563` → `BillingContext.openSheet()` → `sheetStateFor` (`subscriptionView.ts:261`) · **Found by:** Hans (*"responding to a click but nothing after that"*); Cloud Run logged no `/billing/*` request; chain read by chat-Claude.
+- Profile called `openSheet()` with no state; the state resolver returns `null` while `!enforced`, so no sheet opened. Meanwhile `settingsRowFor` showed Subscribe whenever `billingAvailable && isUnsubscribed`. Native was unaffected: its Premium row passes the state.
+- **Resolution:** BILL-2 `1eb4e92` adds `subscribeSheetFor(sub)` and `openSubscribeSheet()` for an explicit tap (trialing → "trialing"; none / canceled → "lapsed"; active / past_due / null → nothing). Status-driven opens keep the blackout; a 402 still opens the sheet by design (§2.7). kiwi 2,516 → 2,520 pass; break proof red, restored by hash. Audited PASS October 12; on the web after the Netlify drop.
+- Noted, not fixed: `BillingNotice.tsx:47`'s CTA would do nothing in a stale unenforced case (outside the fence).
+- **Status:** ✅ FIXED on `next` `1eb4e92`, live on the web October 12 · **Priority:** P1 · **Cross-ref:** BUG-399 · D-WS9-310.
+
+---
+
+### BUG-401 — "Manage" appears on the web Profile after a FAILED checkout (P2)
+
+- **Date:** October 13, 2026 · **Surface:** `subscriptionPayload.ts:64` (`hasBillingAccount: stripeCustomerId != null`) → the client's `canManageBilling` · **Found by:** Hans, after the BUG-399 failures.
+- The route persists the Stripe customer before creating the session (deliberately, so a retry reuses it). A trialing user who never paid then sees Manage and a Portal with nothing in it.
+- **Fix shape:** `hasBillingAccount` true only once a Stripe subscription has existed for the row; customer reuse unchanged.
+- **Resolution:** SRV-2 Part C `08dc9b8`. `hasStripeBillingAccount` needs both `stripeCustomerId` and `stripeSubscriptionId` (written by `checkout.session.completed` and every mirrored event; never cleared, so a cancelled subscriber keeps Manage). The Portal route now answers 409 `no_billing_account` by the same rule; before, it returned 200 with an empty Portal. Break proof: 2 red, restored by hash. Seconds-long gap: Manage stays hidden between payment and the webhook. Stale comment `me.ts:1151` left (outside the fence).
+- **Status:** ✅ FIXED on `next` `08dc9b8` (deploy owed) · **Priority:** P2 · **Cross-ref:** BUG-399.
+
+---
+
+### BUG-402 — "Mahi-mahi" is not in the fish vocabulary, so a fish taco is stamped dairy only (P2)
+
+- **Date:** October 12, 2026 · **Surface:** allergen stamping (D-WS9-211) · **Found by:** THX-1 (CC), checking stamps for the rail.
+- `b15ee785` Grilled Fish Tacos: the stamp misses fish entirely. A name-vocabulary false negative, the twin of the false-positive class.
+- **Fix shape:** add the fish names the catalog uses (mahi-mahi first), then a census of every fish/shellfish species in public dish ingredients against the vocabulary.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** with BUG-398 · **Cross-ref:** BUG-398 · D-WS9-211.
+
+---
+
+### BUG-403 — Archived templates can still be previewed and adopted by id (P3)
+
+- **Date:** October 12, 2026 · **Surface:** `GET /plans/templates/:id` (`plans.ts:705`) and use-template (`planFromTemplate.ts:50-53`) · **Found by:** THX-1 (CC), proving the seed archive safe.
+- Neither checks `isArchived`. Nothing in the app lists an archived template, so only someone holding an old id reaches one. Also: `prisma:seed:dev` un-archives the seeds on dev (`devData.ts:1089-1104`), and the Plans tab's Featured chip orders by `createdAt desc`, so the five featured plans list in reverse rail order.
+- ✅ **FIXED on `next` — `cfe824f` (THX-2S E, audited October 14):** an archived template returns 404 on preview and adopt (the owner included); the Featured chip orders by `railPosition`. The Plans tab's client-side A–Z sort still hides that order (BOOK-1C2).
+- **Status:** ✅ FIXED (`next`, deploy pending) · **Priority:** P3 · **Cross-ref:** D-WS9-311.
+
+---
+
+### BUG-404 — The cutover SQL does not do what D-WS9-310 ruled: accounts created after about October 5 would NOT be free through November 2 (P1 for October 19)
+
+- **Date:** October 13, 2026 · **Surface:** `artifacts/api-server/scripts/billing/cutover.sql` (statement 1) · **Found by:** chat-Claude, reading the file before writing the October 19 runbook.
+- Statement 1 extends only `trialing` rows whose `trialEndsAt` is **before** the cutover, to cutover + 14 days. It was written for "every lapsed trial gets a fresh 14 days" (D-WS9-270), before Hans ruled "every account that exists that day is free through November 2" (D-WS9-310).
+- **So an account created between about October 5 and October 19 keeps its own 14 days**, ending between October 20 and November 1. Those people would be the first paywalled, days ahead of the date the members' email (if sent) promises. And a cutover at 00:00 ends trials at 00:00 on November 2, so "through November 2" would be a day short.
+- **The fix, for the October 19 runbook:** one statement on the ruled date instead of the file's statement 1. Set every `trialing` row with no paid `source` and `trialEndsAt` before `2026-11-02 23:59:59 America/New_York` to exactly that value. Rows already later stay as they are (the first signup's January 1 comp, the staff and reviewer exemptions). Then statement 2 (staff and reviewer), then the verify.
+- ✅ **FILE CORRECTED by FIX-6 `4993e93` (October 18, audited PASS):** statement 1 sets every `trialing` row with no `source` and an earlier trial end to `2026-11-02 23:59:59 America/New_York`. ⚠️ **The column is `timestamp(3)` WITHOUT time zone holding UTC, so the value is written `(TIMESTAMP '2026-11-02 23:59:59' AT TIME ZONE 'America/New_York') AT TIME ZONE 'UTC'` = `2026-11-03 04:59:59` (EST; DST ends November 1).** The one-step form chat-Claude's prompt proposed is right only while the session zone is UTC. Rolled back on dev: 67 of 67 set; staged later-ending and paid rows untouched. Statement 2 (staff, reviewer) stays commented out with an empty list, and uses the one-step form — right on Neon today only.
+- **Status:** 🔵 BUILT — Hans runs it on production October 19 · **Priority:** P1 for October 19 · **Cross-ref:** D-WS9-310 · D-WS9-270.
+
+---
+
+### BUG-405 — The Terms say "Kiwi is currently free to use", and neither the Terms nor the Privacy Policy describe web billing, while live Stripe Checkout links to both (P1 before October 19)
+
+- **Date:** October 13, 2026 · **Surface:** `kiwi-site` `terms.html` §4 (last updated September 23) and `privacy.html` (October 11) · **Found by:** chat-Claude, checking the site before the cutover.
+- **Terms §4** reads *"Kiwi is currently free to use. We expect to introduce a paid subscription with a free trial; if we do, we will tell you in the app before anything is charged."* It covers store purchases only (cancel through the store; no refunds for store purchases). It does not cover a web subscription: Stripe as the processor, cancelling with Manage in Profile, refunds on the web, or what happens when the trial ends without a purchase (D-WS9-270: read-only, no AI).
+- **Privacy** lists Apple/Google and RevenueCat but **not Stripe**, which receives the email, billing name and address and card at checkout. Its "if we introduce paid plans" wording is out of date.
+- Live Stripe Checkout (October 13) shows both pages as its Terms and Privacy links.
+- Nobody can be charged without choosing a plan, because the trial carries no card. So *"we will tell you in the app before anything is charged"* holds in substance, but the text must match what is live.
+- **The fix:** chat-Claude drafts §4 and the Stripe row; Kate (counsel, Hans's escalation path) reviews; a `kiwi-site` lane applies them with new dates. **Live before October 19.**
+- ✅ **COUNSEL CLEARED THE DRAFT, October 18 (Kate, via Hans):** *"These new terms all look good and I don't have any legal concerns."* The refund language is fine. Her other points (a notice to existing users; California's separate auto-renewal consent with 3 years of proof; an annual reminder for annual plans; online cancel as easy as sign-up) are recorded on D-WS9-317.
+- **Status:** 🔵 ASSIGNED — SITE-3 publishes it · **Priority:** P1 before October 19 · **Cross-ref:** D-WS9-310 · D-WS9-270 · D-WS9-317 · BUG-406.
+
+---
+
+### BUG-406 — The site still says "early access" and "iPhone and Android apps coming soon", though Android is live on Google Play; the login page offers a "free month" (P2)
+
+- **Date:** October 13, 2026 · **Surface:** `kiwi-site` `index.html` (banner, hero note, the "be first" section and its "tell me when the apps are out" form, the FAQ and its JSON-LD), `about.html` and `mealime/index.html` (banner, body, FAQ), `login.html` (*"Start your free month"*; the trial is 14 days) · **Found by:** chat-Claude.
+- Android 1.1.0 is released (October 12; `https://play.google.com/store/apps/details?id=com.kitchenwizard.kiwi`). The site has no Play link, so every Android visitor is told to wait.
+- The waitlist form promised *"one email when the iPhone and Android apps are in the stores"*. Chat-Claude's call: that one email goes when iPhone is out too, as written.
+- **The fix:** lane SITE-2, issued October 13.
+- **SITE-2 `e7be757`** (local; audited PASS October 14):
+  - Banners, hero, "be first" section, FAQs (visible and JSON-LD), Mealime page and login fixed. The form name `early-access` is kept.
+  - A Play click sends `store_click {store: google_play}` from a page-local second listener, because `render.test.mjs` pins the shared listener byte for byte.
+  - Suite 255 / 0 / 2 skipped, unchanged.
+  - **Left:** `login.html`'s hidden *"The Kiwi web app opens soon."* note, and the Cookbook's empty `COOKBOOK_PLAY_STORE_URL` (its `CTA_MODE` is still named `early_access`). Both ride SITE-3 with BUG-405.
+- **Status:** ✅ FIXED — SITE-2 `e7be757`, pushed October 13 (21:00 ET) and checked live: the banner, hero and FAQ, and four Google Play links · **Priority:** P2 · **Cross-ref:** D-WS9-308 (the app-click events) · BUG-405.
+
+
+---
+
+### BUG-407 — A user's copy of a catalog meal carries no allergen stamp, so an allergic user's saved and planned copies drop out (P2)
+
+- **Date:** October 13, 2026 · **Surface:** `lib/mealFork.ts` `cloneMealInto` · **Found by:** BOOK-0 (CC, read-only).
+- `cloneMealInto` copies neither `allergens` nor `allergensStampedAt`. The file's only `stampAllergens` call is on the publish-to-store branch.
+- **On dev, 304 of 448 user copies are unstamped.** The shelf's conservative rule excludes unstamped meals for an allergic user, so their copied Playlist meals silently stop appearing. The failure is in the safe direction, but it is still wrong.
+- Every add-to-plan, swap and save of a catalog meal makes such a copy, and the in-app Cookbook (D-WS9-312) will make more.
+- The comment at `wizardActivation.ts:453-456` claiming nothing allergen-filtered reads a user-owned meal is stale.
+- **The fix:** BOOK-1S Part B (the copy carries the stamp) plus a guarded script that stamps existing copies (Hans runs it on production after the audit).
+- ✅ **FIXED on `next` — `1d40cae` (BOOK-1S, audited PASS October 14):** copies carry `allergens`, `allergenSources` and `allergensStampedAt`; an unstamped source's copy is stamped from its own graph. `stampUserCopies.ts` took dev from 304 to 0. 🔵 **Live only after the next server deploy, and the production stamp run (dry run, apply, dry run) is Hans's, after that deploy.**
+- **October 21 (Hans):** the production stamp run is done. The dry run found 216 unstamped copies, all with a complete graph and 0 refused; `--apply`, then a dry run showing 0.
+- **Status:** ✅ FIXED and LIVE (server deployed Oct 20; production stamped Oct 21) · **Priority:** P2 · **Cross-ref:** D-WS9-211 · D-WS9-312 · BUG-398.
+
+---
+
+### BUG-408 — Importing a recipe with 6–8 dishes parses, then fails at save with a 400 (P2)
+
+- **Date:** October 13, 2026 · **Surface:** recipe import (`reformat.ts` allows 8 dishes) → `POST /me/meals` (`me.ts` caps at 5); the meal-builder parse also caps at 5 · **Found by:** THX-2-0 (CC, read-only).
+- A user importing a big recipe sees it parse, then gets a 400 on save. The client has no dish-count guard, so the server's 400 is the first they hear of it.
+- **The fix:** THX-2S raises the caps to 8 (create, patch, meal-builder parse), the same number the import already allows, which the Thanksgiving feasts need anyway.
+- ✅ **FIXED on `next` — `c7baa3d` (THX-2S D):** `MAX_DISHES_PER_MEAL` = 8 on create, patch and the builder parse; the client has no cap. ⚠️ The builder PROMPT body still says "1 to 5 entries" (needs a version and a seed; not done).
+- **Status:** ✅ FIXED (`next`, deploy pending; the prompt text is owed) · **Priority:** P2 · **Cross-ref:** D-WS9-311.
+
+---
+
+### BUG-409 — The grocery list ignores `DishIngredient.isOptional`: optional ingredients are always bought (P3)
+
+- **Date:** October 13, 2026 · **Surface:** grocery generation (`consolidatePlanIngredients`) · **Found by:** THX-2-0 (CC, read-only), checking whether anything could keep Friday's leftovers off the list.
+- `isOptional` exists on the schema, and no grocery path reads it (two searches; comment hits only).
+- **Whether optional items should be bought, listed as optional, or left off is a product question.** Not decided; not commissioned. The leftovers case gets its own flag (`fromLeftovers`, D-WS9-311).
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Cross-ref:** D-WS9-311.
+---
+
+### BUG-410 — `/plans/from-meals` and the template paths accept any day string (P3)
+
+- **Date:** October 14, 2026 · **Surface:** `POST /plans/from-meals`, the template adopt paths · **Found by:** BOOK-1S (CC), which validated the day on `POST` and `PATCH /plans/:id/items` and named these as unchecked.
+- The client sends Sunday–Saturday or nothing; these routes store whatever string arrives.
+- ⚠️ **The Cookbook's "pick several, build my week" goes through `/plans/from-meals`,** so the same enum lands in BOOK-1C's server part.
+- ⛔ **NOT REPRODUCIBLE (THX-2S H, October 14):** `/plans/from-meals` takes no day input (days come from `assignPlanDays`; unknown keys are stripped), use-template takes none, and template items are written only by scripts whose spec enforces Monday–Friday. Chat-Claude accepted the refusal.
+- **Status:** ⛔ VOID — not reproducible · **Priority:** — · **Cross-ref:** D-WS9-312.
+
+---
+
+### BUG-411 — A meal can be added to an archived, composted, draft or past plan (P3)
+
+- **Date:** October 14, 2026 · **Surface:** `POST` and `PATCH /plans/:id/items` · **Found by:** BOOK-1S (CC, report-only, as asked).
+- Both check only that the user owns the plan; the add succeeds (201, revision bumped, activity emitted).
+- **The Cookbook's "Add to a plan" picker must list only live and upcoming plans; the server should refuse the rest.** Which states count as "live" is the open part (a past plan someone is still cooking from?).
+- ✅ **FIXED on `next` — `7a60eb8` (THX-2S H):** adding or swapping an item on an archived or composted plan returns `409 plan_closed`. Draft, upcoming and past plans are unchanged; other edits on a composted plan still work. The Cookbook picker lists only live and upcoming plans (BOOK-1C1).
+- **Status:** ✅ FIXED (`next`, deploy pending) · **Priority:** P3 · **Cross-ref:** D-WS9-312.
+
+---
+
+### BUG-412 — Catalog recipes can carry self-swaps, broth-for-stock swaps, "each garlic" and decimal teaspoons (P3, to measure)
+
+- **Date:** October 14, 2026 · **Surface:** the meal catalog (`Dish.substitutions`, ingredient units) · **Found by:** the Thanksgiving production review (D-WS9-311). The generator is shared with the everyday catalog, so the same output patterns likely exist across its 1,325 meals.
+- **Patterns:**
+  - a swap whose product is the ingredient it replaces ("store-bought refrigerated pie crust replaces store-bought refrigerated pie crust");
+  - a store-bought-for-store-bought swap (a broth carton for stock);
+  - invented products;
+  - garlic with the unit "each";
+  - teaspoon amounts below ⅛ printed as decimals.
+- THX-2G follow-up C adds deterministic checks for these on the thx2 path only. **Measure the catalog with the same checks (read-only) before deciding on a sweep.**
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** after Thanksgiving, with the shortcut toggle (row 3c) · **Cross-ref:** D-WS9-311 · D-WS9-305 · BUG-398.
+
+---
+
+### BUG-413 — Prep the Week returns 502 for the whole week when any phase exceeds 30 steps (P1 for the Thanksgiving plans)
+
+- **Date:** October 14, 2026 · **Surface:** Prep the Week (the route's `PrepWeekResultSchema` caps each phase at 30 steps) · **Found by:** THX-2G follow-up C, running the route's own code read-only on the generated feasts. **Root-caused by:** PREP-0, October 15.
+- **Nothing is truncated:** one phase over 30 fails the schema, and the whole Prep tab answers 502 (`assembly_invalid`).
+- **It is not only a Thanksgiving bug (PREP-0, dev):**
+  - It needs produce-heavy meals. Random weeknight pairs didn't reproduce it.
+  - The worst 30-minute pair pushed Produce to 31 (Classic week) and 32 (Vegetarian week).
+  - An everyday week of fajita-style dinners reached 31.
+- **Root cause:** steps the engine mutes (`skipSuggested`) are never shown by the client, but they count toward the cap and get narrated. Counting visible steps only, the same weeks are 21, 22 and 27. ⚠️ **And narration runs before the schema check, so every 502 pays for an uncached AI call, on every open.**
+- Hans, October 14: *"I also want to make sure the Prep is really solid."*
+- **The fix (D-WS9-314):** drop muted steps before narration and the check, plus a backstop that carries any remaining overflow to cook day. Raising the cap and splitting a phase are declined there.
+- **Status:** 🔵 ASSIGNED → PREP-1 Part A · **Priority:** P1 (blocks the Thanksgiving plans going live with Prep) · **Cross-ref:** D-WS9-314 · D-WS9-311 · D-WS9-301 · BUG-397.
+
+---
+
+### BUG-414 — Editing the Friday leftovers meal drops its `fromLeftovers` flags, so the list buys turkey again (P2)
+
+- **Date:** October 14, 2026 · **Surface:** meal edit (`PATCH /me/meals/:id` rewrites dish ingredients from what the client sends) · **Found by:** THX-2S (candidate (a), not minted by it).
+- The client doesn't send `fromLeftovers` back, so any edit to a Friday leftovers meal silently clears the flags, and the next grocery list buys cooked turkey, cranberry sauce and stuffing.
+- **The fix:** the client round-trips the flag, or the server preserves it for an unchanged ingredient line. Say which in BOOK-1C2.
+- **Status:** 🔵 ASSIGNED → BOOK-1C2 · **Priority:** P2 · **Cross-ref:** D-WS9-311.
+
+---
+
+### BUG-415 — Swapping the Thanksgiving feast item resets its servings to the household size (P3)
+
+- **Date:** October 14, 2026 · **Surface:** plan item swap (`servingsOverride` is not carried) · **Found by:** THX-2S (candidate (c); existing behaviour, Q-P1-4).
+- A user who swaps Thursday's feast for another feast loses the ×10.
+- Arguably right for an everyday swap, wrong for a feast-for-feast swap. **To decide with BOOK-1C2:** keep the override when both meals are tagged `thanksgiving`.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Cross-ref:** D-WS9-311.
+
+---
+
+### BUG-416 — System meal tags show to users as chips: the Thanksgiving meals would show "thanksgiving", "course-stuffing" and the like (P2, must ship before November 2)
+
+- **Date:** October 15, 2026 · **Surface:** meal detail's display-only tag chips (WS9 3f-1) and the card pills, both of which render `Meal.tags` raw · **Found by:** chat-Claude, checking a BOOK-1C1 claim against the code at `978e6dd`.
+- The Thanksgiving meals carry `thanksgiving`, `thanksgiving-alternate` and `course-*`, and THX-2G-E adds `thanksgiving-feast` and `thanksgiving-leftovers`. All of them reach the screen once the meals are public on November 2.
+- **The fix:** one shared display filter that hides system tags, used by every surface that renders `Meal.tags`. `Dish.tags` are not rendered anywhere, so the make-ahead dish tags are unaffected.
+- **Status:** ✅ **FIXED on `next` by BOOK-1C2** (October 16; one helper hides `thanksgiving`, `thanksgiving-*`, `course-*` and `dev` on cards and meal detail). Live with the next OTA. · *Previously:* 🔵 ASSIGNED → BOOK-1C2 · **Priority:** P2 (ship before November 2) · **Cross-ref:** D-WS9-313 · D-WS9-314.
+
+---
+
+### BUG-417 — A meal saved only through the user's own copy shows filled on its Cookbook card and empty on its detail screen (P3)
+
+- **Date:** October 15, 2026 · **Surface:** the Save heart · **Found by:** BOOK-1C1 (disclosed as a known edge).
+- The Cookbook's `isSaved` counts a heart on the meal or on the user's live copy of it; the detail screen reads only its own row.
+- **The fix:** the detail heart reads the same lineage rule as the card.
+- **Status:** ✅ **FIXED on `next` by BOOK-1C2** (October 16; the favorites read returns saves made through the user's own copy, and the detail merges it). Needs the server deploy. · *Previously:* 🔵 ASSIGNED → BOOK-1C2 · **Priority:** P3 · **Cross-ref:** D-WS9-312.
+
+---
+
+### BUG-418 — A feast's derived total and hands-on times count its make-ahead work (Monday–Wednesday) on Thursday's clock (P2, before November 2)
+
+- **Date:** October 15, 2026 · **Surface:** the derived meal times (`mealTiming` / the cooking scheduler), shown on cards and meal detail · **Found by:** THX-2G follow-up F.
+- The scheduler has no notion of days. A feast's steps that open `Make ahead (<Day>):`, up to the `On Thursday:` part, are scheduled into Thursday.
+- **Measured on dev:** about 101 of the Vegetarian feast's 216 hands-on minutes were make-ahead work, and the feast reads 238 total / 218 hands-on.
+- F's code cap (make-ahead steps keep at most 15 minutes unless prep or assemble) trims passive time, but not real hands-on work done on another day.
+- **The fix:** leave `Make ahead (` runs out of Thursday's derivation, then re-stamp the stored times of the Thanksgiving meals on dev and production. The times are stored at write: CAT-Q0 found stored and derived totals equal on every meal.
+- **Status:** ✅ **FIXED on `next` by PREP-1 G** (`Make ahead (` runs leave Thursday's derivation; PREP-2 extended it to `Thaw (`). Dev re-stamped. **Owed: the production re-stamp after the deploy.** · *Previously:* 🔴 OPEN · **Priority:** P2 (the feast cards go public November 2) · **Target:** a server follow-up after QA-1 · **Cross-ref:** D-WS9-314 · D-WS9-311.
+
+---
+
+### BUG-419 — Adding a meal to a dated plan leaves the item's `assignedDate` null (P3)
+
+- **Date:** October 16, 2026 · **Surface:** `POST /plans/:id/items` · **Found by:** QA-1; confirmed pre-existing by PREP-1-c.
+- The create sets no `assignedDate`, even when the plan has dates. Nothing user-visible reads it: no screen, not the grocery list, not prep (which uses the weekday by design, BUG-114), and the date editor re-assigns every item. The AI planning context falls back to the plan's dates.
+- **The fix:** set it from the plan's dates and the item's weekday at create.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned · **Cross-ref:** BUG-114.
+
+---
+
+### BUG-420 — An occasional 500 on adding a meal to a plan, seen twice and never reproduced (P2)
+
+- **Date:** October 16, 2026 · **Surface:** `POST /plans/:id/items` · **Found by:** QA-1 and BOOK-1C2's QA run.
+- Both times during a browser QA run; neither reproduced. In BOOK-1C2's run the failed create left an empty plan behind.
+- **Next step:** catch it in the logs (OBS-1) rather than chase it blind; note whether it coincides with a dev-server restart.
+- **Status:** 🔵 TO MEASURE · **Priority:** P2 (it is the core add gesture) · **Target:** OBS-1 · **Cross-ref:** BUG-386.
+
+---
+
+### BUG-421 — The add-to-plan sheet offers only the user's 20 most recent plans (P3)
+
+- **Date:** October 16, 2026 · **Surface:** the Cookbook / meal detail add-to-plan sheet · **Found by:** BOOK-1C2 (disclosed, not acted on).
+- The sheet reads only the first page of plans, so an older upcoming or undated plan beyond it is never offered.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next Cookbook lane · **Cross-ref:** BUG-411.
+
+---
+
+### BUG-422 — A featured plan's preview promises Monday–Friday, but the saved plan puts the meals on other days; Plan Review also lists Sunday→Saturday, so tomorrow's dinner can sit last (P3)
+
+- **Date:** October 16, 2026 · **Surface:** featured preview → Plan Review · **Found by:** TRIAGE-0's first-week walk.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned · **Cross-ref:** BUG-102.
+
+---
+
+### BUG-423 — Ask Kiwi's draft review says "Review imported recipe" though nothing was imported, shows raw decimals ("0.125 tsp", "1.5 lb"), and clips its "min" label (P3)
+
+- **Date:** October 16, 2026 · **Surface:** Ask Kiwi → draft review · **Found by:** TRIAGE-0's first-week walk.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned · **Cross-ref:** BUG-301.
+
+---
+
+### BUG-424 — Prep status: a day with nothing to prep reads "Prepped ✓", and every unprepped row reads "Mostly prepped" whenever the plan is partly prepped (P3)
+
+- **Date:** October 16, 2026 · **Surface:** the Hub and plan prep pills · **Found by:** PREP-2 (CANDIDATE-1; older than that lane).
+- PREP-2 fixed the case where nothing was ticked (meals without prep steps no longer count as prepped); these two wordings remain.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — server `00ab176` sends `prepState`; client `d231df2` reads it, keeping the old labels when it is absent) · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the next prep lane.
+
+---
+
+### BUG-425 — Thanksgiving tagging gaps: Make-Ahead's stuffing has a Tuesday bread step but only a Wednesday tag, and three dishes have no Thursday step, so they are missing from that day's Cook Mode (P2, before November 2)
+
+- **Date:** October 16, 2026 · **Surface:** the feast meals' dish tags and step text (D-WS9-314) · **Found by:** PREP-2 (CANDIDATE-3).
+- Make-Ahead's Overnight Sage Stuffing: the Wednesday row's Cook Mode omits the Tuesday bread step. Classic and Vegetarian cranberry sauce and the Vegetarian apple pie have no `On Thursday:` step, so they never appear in Thursday's Cook Mode.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `420196e`: every ahead day tagged, a plain `assemble` tag, a code-written `On Thursday:` step; production via `scripts/thx2/patch.ts`) · *was:* 🔵 ASSIGNED → THX-2G-G (with the `assemble` tag and USDA keep-days) · **Priority:** P2 · **Cross-ref:** D-WS9-314 · BUG-418.
+
+---
+
+### BUG-426 — Prep containers: rows with no pack are read as "dry", so purée, extract, water, a brining bag and fresh cranberries land in "dry mix" / "spice blend" containers, and no container step says what joins it later (P2, before November 2)
+
+- **Date:** October 16, 2026 · **Surface:** Prep the Week / Prep the feast container steps · **Found by:** Hans's phone pass (the pumpkin pie "dry mix"), measured by PREP-2.
+- Make-Ahead's pie "dry mix" holds the pumpkin purée and vanilla and silently leaves out the eggs and cream; Classic's purée (category Canned) isn't in its mix at all. The same rule puts a gallon of water and the brining bag in the turkey "dry mix" and water in the gravy "spice blend".
+- **The fix (PREP-2's proposal, both parts):** (a) a name rule — water is never a prep measure, and purée, extract and paste are not dry (changes containers, so an engine bump); (b) a closing line on the container's last step, built from the cook step its members enter at, as the marinade line is: *"That's the pie filling base. On Tuesday, whisk in the 4 eggs and 1½ cups cream."* Neither needs a prompt version bump.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `d0f3e6e` · `cd18ac7`: water and equipment never measured, extract and purée wet, closing lines on feast containers; engine 9 → 10) · *was:* 🔵 ASSIGNED → the next prep lane · **Priority:** P2 · **Cross-ref:** BUG-358 · BUG-391.
+
+---
+
+### BUG-427 — The pantry list sorts case-sensitively ("Mayonnaise" before "brown sugar") (P3)
+
+- **Date:** October 16, 2026 · **Surface:** the pantry list · **Found by:** TRIAGE-0's first-week walk.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned.
+
+---
+
+### BUG-428 — On the web, reloading during the compost undo window silently cancels the compost (P3)
+
+- **Date:** October 16, 2026 · **Surface:** compost undo toast (web) · **Found by:** TRIAGE-0's first-week walk.
+- The compost commits when the undo toast times out, so a reload inside those seconds drops it without a word.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned.
+
+---
+
+### BUG-429 — Long grocery item names are cut off under the ✕ at 375 px, two or three rows on every list (P2)
+
+- **Date:** October 16, 2026 · **Surface:** the grocery list rows · **Found by:** TRIAGE-0 ("…Japanese short-grain white ric", "…store-bought pizza doug").
+- **The fix:** wrap the name.
+- **Status:** ✅ **FIXED on `next` (local, October 17; live with the next deploy + OTA) by FIX-3:** the name wraps (no line cap) and never sits under the ✕. · *Previously:* 🔵 ASSIGNED → FIX-3 · **Priority:** P2 (seen on every list a friend will open) · **Cross-ref:** BUG-345.
+
+---
+
+### BUG-430 — Builder assist ("Help with steps" / "Help with ingredients") fails about 1 call in 3 on Haiku's 80-character caveat limit (P2)
+
+- **Date:** October 17, 2026 · **Surface:** `meal_builder.assist_steps` / `assist_ingredients` · **Found by:** SAFE-1 (an A/B on 12 calls each, before and after its change).
+- At HEAD before SAFE-1: steps failed 4/12, ingredients 3/12; after: 3/12 and 1/12. The output schema caps a caveat at 80 characters and Haiku overruns it; the call fails rather than truncating.
+- **Status:** 🔴 OPEN · **Priority:** P2 (a friend's "Help with steps" fails visibly) · **Target:** unassigned · **Cross-ref:** BUG-301.
+
+---
+
+### BUG-431 — Catalog meals that read as vegetarian contain chicken broth, oyster sauce or dashi (P3, data)
+
+- **Date:** October 17, 2026 · **Surface:** the meal catalog · **Found by:** SAFE-1's diet classifier, checked against a Haiku judge over all 1,325 dinners.
+- Examples: two grilled-cheese-and-tomato-soup meals, black bean enchiladas, two lo meins, vegetable fried rice. The swap pool's diet filter now classifies them correctly (as not vegetarian); a vegetarian user browsing or using a featured plan is not protected.
+- **The fix:** a catalog pass — swap in vegetable broth / vegetarian oyster sauce where the dish is meant to be meatless — through the guarded CAT-Q1 path.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next catalog pass · **Cross-ref:** D-WS9-315.
+
+---
+
+### BUG-432 — The server's pack parser reads "(8 fl oz)" as the unit "fl" and skips the size, storing packCount 1 (P3)
+
+- **Date:** October 17, 2026 · **Surface:** server grocery pack math (`packMagnitude`) · **Found by:** FIX-3.
+- The screen and the Instacart order use the client's own count, so users see the right number today; any server consumer of the stored count does not.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** unassigned · **Cross-ref:** BUG-242.
+
+---
+
+### BUG-433 — The guest auth middleware answers a database outage with a bare 503 (no `Retry-After`, no code) (P3)
+
+- **Date:** October 17, 2026 · **Surface:** `guestAuth.ts` · **Found by:** FIX-3 (fixed the member path only, as scoped).
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next server touch · **Cross-ref:** BUG-395 · BUG-103.
+
+---
+
+### BUG-434 — On the web, Home may never refetch its data when the user comes back to it (P3, unverified)
+
+- **Date:** October 17, 2026 · **Surface:** Home on web · **Found by:** FIX-3's QA — tab switches, back navigation and an offline/online toggle never triggered a `/home` refetch in the harness.
+- **UNVERIFIED** — it may be the harness. Measure on the live web app before fixing.
+- **Status:** 🔵 TO MEASURE · **Priority:** P3 · **Target:** unassigned · **Cross-ref:** BUG-395.
+
+---
+
+### BUG-435 — "Use this plan" on a featured plan can fail with a 500: copying the template's meals overruns Prisma's 5-second transaction limit (P1 if production shows it)
+
+- **Date:** October 18, 2026 · **Surface:** `mealFork.ts` (the template copy on use-template) · **Found by:** FIX-4 (4 of 8 tries on dev, mostly `featured-sheet-pan-easy`, Prisma P2028) and FIX-5 independently (`featured-family-favorites`). THX-2G hit the same limit.
+- 🔴 **The Featured rail is the main path for a new user, and the Thanksgiving plans go public on it November 2.** Dev only so far: production is checked by a Play-app tap on a featured plan and a `gcloud logging read "P2028"` (Session 2 script, items 22–23).
+- **The fix** belongs to the next server lane: batch the writes or raise the transaction timeout for this path, with a test that a full 7-day template copies inside the limit.
+- ✅ **MEASURED ON PRODUCTION, October 18 (Hans):** `gcloud logging read "P2028" --freshness=7d` returned nothing, and "use this plan" on Family Favorites in the Play app saved with its meals and images. **Dev-only so far** — but a Thanksgiving feast template is larger than an everyday one, so it is fixed before November 2 anyway.
+- ✅ **BUILT by FIX-6 `f5ea430` (October 18, audited PASS):** every read runs before the transaction, and inside it one `createMany` per table, however big the template; the timeout is not raised. On dev, 8 runs each, transaction median before → after: Sheet Pan Easy 4,310 → 489 ms (2/8 → 0/8 failed) · Family Favorites 3,637 → 512 ms · a 17-dish Thanksgiving-week template 4,520 → 503 ms (3/8 → 0/8). A 15-meal copy compared both ways: 749 rows, no differences. Sign-up with a template rides the same code. THX-2G's `runStoreFill` is separate code with its own 60 s budget.
+- **Status:** 🔵 BUILT on `next` — live with the next deploy · **Priority:** P2 · **Cross-ref:** THX-2G · BOOK-1S · BUG-442.
+
+---
+
+### BUG-436 — Top Rated suggestions (swap suggestions and Add Meals) have no allergen filter and no diet filter (P2, safety)
+
+- **Date:** October 18, 2026 · **Surface:** `/me/meals` `top_rated` · **Found by:** FIX-4, which filtered every plan shelf, the swap pool and find-similar, and left this one (and the Featured rail) unfiltered.
+- A suggestion that ignores a stored allergy is the safety gap; the diet gap is the convenience one.
+- ✅ **SCOPE, Hans, October 18, verbatim:** *"The rail doesn't need conditional displays. it's good to have filters on find similar because it will help the restricted-diet user get what they want, but it's not dangerous or critical if a vegetarian sees meals with meat on the rail."* **So the Featured rail and templates stay unfiltered by diet — do not re-propose filtering or labelling the rail.** Suggestion surfaces (find-similar, swap, Top Rated) are filtered.
+- ✅ **BUILT by FIX-6 `59d9935` (October 18, audited PASS):** the existing allergen filter and FIX-4's diet helpers, nothing new; the diet check runs in rank order a chunk at a time, so the list still fills. On dev, a Vegetarian + Peanut-free user: 19 of 20 Top Rated meals broke a restriction before, 0 of 20 after. The rail and templates are untouched.
+- **Status:** 🔵 BUILT on `next` — live with the next deploy · **Priority:** P2 · **Cross-ref:** SAFE-1 · FIX-4.
+
+---
+
+### BUG-437 — Amounts scaled from 4 servings to 2 print unmeasurable values: ½ egg, ⅜ tsp, ⅝ lb (P2, before friends and family)
+
+- **Date:** October 18, 2026 · **Surface:** the display of scaled amounts (`displayedQuantity`, `formatIngredientLine`) · **Found by:** FIX-4's bulk portion check (22 plans, 110 meals) and Hans's "⅞ lb" from the October 17 pass.
+- At household 2: 27 unmeasurable spoon or cup amounts, 7 eighth-pound weights and 5 fractional eggs in the saved plans; **none at household 4**, because recipes are written for 4. Worst: "½ Large eggs" in four meals (two featured), "½ egg yolks", "1½ Large eggs", "⅜ teaspoon" salt and pepper.
+- ✅ **The rule (chat-Claude's call, display only — the catalog is not changed):** eggs and other whole items round UP to a whole number; spoon and cup amounts snap to ¼ ⅓ ½ ⅔ ¾; meat shows in ¼ lb steps.
+- **Separate, not a rounding fix:** a whole bird is not halved by weight, and an AI-written Tell Kiwi meal asked for "3½ pounds whole chicken" for 2 (28 oz a serving bone-in).
+- ✅ **BUILT by FIX-7 `c666a7b` (October 18, audited PASS).** The lane tested chat-Claude's rule against all 31,283 public dev-catalog lines and changed it, correctly: **⅛ stays** (authored 268 times; ¼ cup halves to ⅛ cup on 1,157 lines) · **spoons get no thirds** (snap ⅛ ¼ ½ ¾; cups ⅛ ¼ ⅓ ½ ⅔ ¾; ties up; never 0) · **¼ lb steps on every pound amount**, not only meat · whole counted items (eggs, yolks, tortillas, cloves, bay leaves; units clove, slice, sprig, leaf, strip) round up, while ½ onion still halves · a whole bird never scales down. At household 4, 1 of 30,460 lines changes (an authored ⅜ tsp → ½); at household 2, 1,797. Step amounts match their ingredient lines (165 of 165 egg amounts).
+- **Status:** 🔵 BUILT on `next` — reaches phones by OTA · **Priority:** P2 · **Cross-ref:** BUG-319 · BUG-443 · BUG-444.
+
+---
+
+### BUG-438 — One plan card with six tags (the limit is five) fails the whole generation stream (P3)
+
+- **Date:** October 18, 2026 · **Surface:** plan generation validation · **Found by:** FIX-4. FIX-2's short-set top-up rescued the run it saw, so the user got plans; without the top-up the stream fails.
+- **The fix:** trim tags to five before validation rather than reject the card.
+- ✅ **BUILT by FIX-6 `b3bae35`:** the candidate schema keeps the first five tags before the check; the tool schemas sent to the model are byte-identical (42 compared).
+- **Status:** 🔵 BUILT on `next` — live with the next deploy · **Priority:** P3 · **Cross-ref:** FIX-2.
+
+---
+
+### BUG-439 — At the largest text size, footer buttons are clipped and the Featured chip on rail cards reads "feat" (P2/P3)
+
+- **Date:** October 18, 2026 · **Surface:** the app's footer action buttons; the rail card's Featured chip · **Found by:** Hans, Session 2 item 14 (Android font size AND display size at maximum, app force-stopped first — BUG-363's rule).
+- Hans, verbatim: *"big text isn't perfect, but it's a P2/P3 unless the stores care."*
+- ✅ **BUILT by FIX-7 `45a9576`:** tab labels sit on one line and shrink to fit (growth capped at 1.5×), the bar grows by the label's extra height only; the Featured chip takes the welcome wordmark's treatment plus a width limit. ⚠️ **The lane read "footer buttons" as the bottom tab bar — Hans confirms on device.**
+- ✅ **Device-confirmed by Hans, October 19:** the tab labels and the chip pass at max sizes. His "footer" was **Prep the Week's footer**, and he reports it fixed too.
+- **Status:** 🔵 BUILT on `next`, device-confirmed — reaches phones by OTA · **Priority:** P2/P3 · **Cross-ref:** BUG-347 · BUG-363 · BUG-451.
+
+---
+
+### BUG-440 — Adding a meal from the Cookbook while inside a plan shows nothing of that plan: not its name, nor which days already have a meal (P2 enhancement, post-launch)
+
+- **Date:** October 18, 2026 · **Surface:** plan → Add a meal → Create manually → Browse the Kiwi Cookbook → + · **Found by:** Hans, Session 2 item 18 (FIX-5 did not build plan-targeting).
+- Hans, verbatim: *"acceptable for now. in the future P2 enhancement, it would be good to see more of the plan they're adding the meal to or at least which days have a meal assigned. just a UX enhancement in the flow, but the functionality is there"*
+- **Status:** 🔵 DEFERRED — post-launch · **Priority:** P2 enhancement · **Target:** unassigned · **Cross-ref:** FIX-5 · BUG-410 · BUG-411.
+
+---
+
+### BUG-441 — On the Play app (production), a featured plan's preview sheet shows no photos; the saved plan does (P2)
+
+- **Date:** October 18, 2026 · **Surface:** the Featured rail's preview sheet, Android store build + OTA-1 · **Found by:** Hans, Session 2 item 22. The plan saved without error and its meals showed images, so the photos exist; only the sheet lacks them.
+- PREVIEW-1 (BUG-396) put the cover and meal photos into this sheet, live on the web October 13 and on Android through OTA-1 — **so this is OTA-1's owed device check, and it failed.**
+- **UNVERIFIED cause.** Either the sheet's image field comes from a server change that is not on revision 26, or the Android update did not carry the change. FIX-7 traces it in code before fixing anything.
+- 🔵 **FIX-7's trace (October 18): no code defect found.** The sheet reads `template.image` and each `meal.image` from `GET /plans/templates/:id`; the server has sent both since May; THX-1's script refuses to feature a meal without an image; OTA-1's bundle contained PREVIEW-1 (high confidence). **Most likely the phone ran the store build's ORIGINAL bundle** — that sheet has no cover and grey blocks. UNVERIFIED: the device check decides (old sheet → force-stop and relaunch twice on wifi, re-check; new sheet without photos → reopen this).
+- ✅ **Hans, October 19, the Play app after two relaunches:** *"the featured meals look good in production"* — FIX-7's verdict held: the phone had been running the store build's original bundle.
+- 🔵 **Second sighting, October 25 — Hans's neighbour's iPhone (App Store install): the same sheet, no photos, meals not tappable; fine after saving the plan.** Same mechanism: a fresh install's first launch runs the binary's embedded October 10 bundle. The product gap behind both sightings is now **BUG-525** (no `fallbackToCacheTimeout`, no in-app update reload). This entry stays closed.
+- **Status:** ⛔ CLOSED — not a code defect · **Priority:** P2 · **Cross-ref:** BUG-396 · OTA-1 · BUG-445 · BUG-525.
+
+---
+
+### BUG-442 — Other meal-copy paths still copy one meal at a time inside a 5-second transaction: from-meals, add-to-plan, swap, playlist (P2)
+
+- **Date:** October 18, 2026 · **Surface:** `POST /plans/from-meals` (`plans.ts:1683`), add-to-plan, swap, playlist; wizard activation has a 60 s budget · **Found by:** FIX-6, which batched only the template copy (BUG-435).
+- 🔴 **From-meals is the one that matters: BOOK-1C3's pick-to-build-a-week sends several meals through it, the same shape that timed out.** The fix is FIX-6's shared `prepareMealForks` / `writeMealForks`.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** before or with BOOK-1C3 · **Cross-ref:** BUG-435.
+
+---
+
+### BUG-443 — Step amounts that are not ingredient quantities scale with servings: package sizes ("the 14-oz can"), cook times ("¾ minute"); and "2 large egg" (P3)
+
+- **Date:** October 18, 2026 · **Surface:** the app's step-amount spans · **Found by:** FIX-7, measuring the catalog at household 2. All three predate FIX-7.
+- 374 step amounts are package sizes written with a hyphen ("28-oz can", "6-oz salmon fillets") and scale ("the 14-oz can"). 11 are cook times ("1½ minutes" → "¾ minute"). With unit "large" and a count above 1, the line reads "2 large egg".
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — WEB-4 `b1f404b`: package sizes and durations hold, "2 large eggs") · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the next client touch of step amounts · **Cross-ref:** BUG-437 · BUG-326.
+
+---
+
+### BUG-444 — Prep the Week's text is written by the server, so it skips the app's new display rounding (P3)
+
+- **Date:** October 18, 2026 · **Surface:** prep-week text (server) · **Found by:** FIX-7. At household 2, prep steps can still read ½ egg or ⅜ tsp while the recipe says 1 egg and ½ tsp.
+- **The fix:** apply BUG-437's rule server-side where prep text prints amounts.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `4724738`: FIX-7's table and the egg rule in prep text. ⚠️ Its whole-bird rule differs from the client's → BUG-454) · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the next prep lane · **Cross-ref:** BUG-437.
+
+---
+
+### BUG-445 — The app cannot show which update bundle it is running, so an OTA check on a device cannot be decided (P3)
+
+- **Date:** October 18, 2026 · **Surface:** the app (Profile) · **Found by:** FIX-7, tracing BUG-441: the most likely cause was the original bundle, and nothing on the device could confirm it.
+- **The fix:** one line in Profile's footer: version, runtime and the update id (or "built-in").
+- **October 20, Hans:** keep the footer as shipped (`Version 1.1.0 · runtime 1.1.0 · update 01a15c21`, seen on the Play app). **P3 future enhancement:** a friendly release name instead of the hash.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — WEB-4 `4ac0770`: "Version 1.1.0 · runtime 1.1.0 · update <id>", "built-in", or "· web") · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the next client lane · **Cross-ref:** BUG-441 · OTA-1.
+
+---
+
+### BUG-446 — A `checkout.session.completed` for a user whose subscription row is gone throws P2025 and 500-loops on Stripe's retries (P3)
+
+- **Date:** October 19, 2026 · **Surface:** the Stripe webhook mirror (`webhookMirror.ts`, the session-completed path) · **Found by:** FIX-8 (pre-existing; FIX-8 did not change it).
+- The mirror's `subscription.update` assumes the row exists. If the account was deleted between checkout and completion, the update throws, the webhook answers 500, and Stripe retries for days. FIX-8's consent row is still written once (its unique session id).
+- **The fix:** treat a missing row as attributed-nothing (log + 200), like an unattributable event.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next server touch of billing · **Cross-ref:** FIX-8 · D-WS9-317.
+
+---
+
+### BUG-447 — Prep the Week puts liquids in the dry-mix step: vanilla extract with the pie's dry mix and the casserole's flour and pecans; the brine's gallon of water with its dry measures (P2, Thanksgiving)
+
+- **Date:** October 19, 2026 · **Surface:** the prep engine's dry/wet classification (THX Classic, Prep the feast) · **Found by:** Hans, Session 1 item 32.
+- Hans, verbatim: *"THX classic has no 'marinades and sauces' steps (step3), but it tells the user to put brown sugar and a gallon of cold water into a brining bag in the dry steps (step1). it should be salt and brown sugar, and step 1 is measuring out the salt and brown sugar, step 3 (when we add wet ingredients) should say to add the gallon of water"* · *"step 5 of dry ingredients asks the user to put vanilla extract with the dry stuff for the pumpkin pie mix … that vanilla should go in with the wet stuff and pumpkin puree"* · *"step 6 of sweet potato casserole also asks for 1 tsp vanilla extract to go with flour and pecan halves"*
+- **Two defects:** liquids (extracts, water) are classed as dry; and the brine's dry step lacks its salt — so either the salt is classed elsewhere or the recipe lacks it. The lane measures which.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `d0f3e6e`: the brine's dry mix is salt + sugar; the water joins on Wednesday night) · *was:* 🔴 OPEN · **Priority:** P2 (before the November 2 rail) · **Target:** the THX-2G-G + prep lane · **Cross-ref:** D-WS9-316 · BUG-424 · BUG-426 · BUG-358.
+
+---
+
+### BUG-448 — THX Classic's pan gravy prep lists only water, peppercorns and a bay leaf; Hans expects salt (P3, recipe content)
+
+- **Date:** October 19, 2026 · **Surface:** the Thanksgiving recipe set (the gravy's stock component) · **Found by:** Hans, Session 1 item 32.
+- **Status:** ✅ **CLOSED — by design** (chat-Claude, October 20): THX-3 confirmed the recipe seasons at the end ("Season with ¾ teaspoon kosher salt…"), which is the right technique for a reduced pan gravy; prep correctly leaves stove-side seasoning out. Hans may reopen · *was:* 🔴 OPEN · **Priority:** P3 · **Target:** the Thanksgiving regenerate + review · **Cross-ref:** BUG-447.
+
+---
+
+### BUG-449 — Thursday's feast cook session puts the stuffing in the oven only after the turkey is rested, carved, plated and the pan sauce made (P2, Thanksgiving)
+
+- **Date:** October 19, 2026 · **Surface:** the cook scheduler for the feast (Prep the Week → Thanksgiving) · **Found by:** Hans.
+- Hans, verbatim: *"the step to put it in the oven comes after the turkey has rested and is on the table. the pan sauce has to happen after the turkey because it gets the drippings, but the high level order I've seen so far is: make the turkey, rest it and reserve drippings, carve it, put it on a platter, then pour the drippings and make the pan sauce, then preheat the oven and put the stuffing in."*
+- **The rule the fix needs:** the oven frees when the turkey comes out, so the stuffing (20–25 min) goes in during the rest, and everything lands at serving time. UNVERIFIED: whether the scheduler treats the whole turkey chain (rest, carve, sauce) as holding the oven.
+- **October 20 (THX-3):** the order Hans saw was the client fallback (`flattenMealSteps`) after `POST /cooking-sequence` answered 404 for a plan holding a catalog meal directly. **No real user can reach that state** through the product (every add path needs ownership or a public meal; templates copy on use); only the seeded "THX test" plans hold it. Open on the oven model: sides at different temperatures share the oven → BUG-457.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `72a0ce3` · `36dc239`: a feast's oven frees when the bird comes out; Classic 300 → 307 min, Make-Ahead 324 → 351 min) · *was:* 🔴 OPEN · **Priority:** P2 (before the November 2 rail) · **Target:** the THX-2G-G + prep lane · **Cross-ref:** BUG-418 · D-WS9-314.
+
+---
+
+### BUG-450 — A make-ahead pie says it "keeps up to 1⅝ days"; the pie filling's spices are mixed at cook time rather than in that day's prep (P1 for the Thanksgiving rail)
+
+- **Date:** October 19, 2026 · **Surface:** the Thanksgiving make-ahead steps (pumpkin pie) · **Found by:** Hans.
+- **"1⅝ days" is a scaled duration** — BUG-443's class (step amounts that are not quantities scale with servings) — and it is visibly wrong food-keeping advice on the plan being marketed. Keep-days must never scale; THX-2G-G's USDA keep-days are the source.
+- **The filling:** the first make-ahead step combines about ten ingredients, the spices, salt and brown sugar among them. Hans: they *"should have happened in prep the week when combining dry ingredients into a container for the pie they're making ahead."* This is D-WS9-316's per-day prep, still unbuilt.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — THX-3 `371d4c9` (a count of days, weeks or nights is never an amount) · `420196e` (keep-days from a code table: cooked 4, gravy and broth 2, assembled-ahead 1) · `6008c16` (shelf-stable mixes in Prep the feast; `sessionBefore`). D-WS9-316's per-day preps and the container-first make-ahead step wait for a client lane) · *was:* 🔴 OPEN · **Priority:** P1 for the Thanksgiving rail · **Target:** the THX-2G-G + prep lane · **Cross-ref:** BUG-443 · D-WS9-316.
+
+---
+
+### BUG-451 — At larger text sizes, Prep the Week's cards squeeze the meal name into a thin wrapped strip, or hide it, between the checkbox and thumbnail and the prepped tag (P2)
+
+- **Date:** October 19, 2026 · **Surface:** Prep & Cook → Prep the Week, meal cards · **Found by:** Hans, Session 1 items 34–35. At max font and display size the names vanish; at the size just below max they wrap to a thin strip. The checkbox, thumbnail and tag do not shrink.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — WEB-4 `f5fe502`: below 4 ems the name takes its own line; the thumbnail drops at the extreme. ⚠️ A 360 dp phone at DEFAULT text now stacks too — the follow-up lane re-tunes) · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** the next client lane · **Cross-ref:** BUG-439 · BUG-363.
+
+---
+
+### BUG-452 — The Ingredients toggle doesn't look tappable: slightly larger italic text with an orphan caret at the far right (P2, UX)
+
+- **Date:** October 19, 2026 · **Surface:** every meal and recipe page that collapses its ingredients, plus the Cookbook and the meal and plan reviews · **Found by:** Hans (he tapped it by accident).
+- Hans: it needs more visibility, probably sage, and something that reads as tappable, applied to every page with that toggle, so a user can *"quickly think 'oh yeah, I have that stuff, I can make this' before they dig in and wait on saves."*
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — WEB-4 `9eb841e`: a sage pill (icon, word, chevron) on meal detail, Plan Review and the Recipes list) · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** the next client lane · **Cross-ref:** BUG-331.
+
+---
+
+### BUG-453 — A meal's servings stepper stops at 12 while household size allows 30; a whole turkey never scales below its recipe weight (14 lb) (P2)
+
+- **Date:** October 19, 2026 · **Surface:** the meal servings stepper; FIX-7's rule 4 (a whole bird never scales down) · **Found by:** Hans, Session 1 item 29.
+- Hans: *"it only goes up to 12 people and won't scale above that … the turkey doesn't go under 14 lbs. If that can scale better it would be great."* Household size has been 1–30 since WS7-2 (*"supports legitimate one-off uses like Thanksgiving for 30"*); the 12 is a client constant.
+- **chat-Claude's proposal:** the stepper matches household (1–30); a whole bird scales down to a floor near the smallest commonly sold size rather than not at all — the lane measures what the catalog's bird recipes allow.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20; local, Hans pushes; reaches users in deploy #2 — WEB-4 `02784f3` (stepper 1–30) · `b1f404b` (bird floors: turkey 10 lb, chicken 3, rotisserie 2, duck 4, goose 8, Cornish hen 1). ⚠️ The server still never scales a bird down, and nothing else in a bird dish follows the bird → BUG-454) · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** the next client lane · **Cross-ref:** BUG-437 · D-WS9-318.
+
+---
+
+### BUG-454 — A whole bird scales one way in the app and another in Prep the Week, and the rest of a bird dish (the brine, the neck, the giblets) scales with servings instead of with the bird (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** amount scaling, client (`quantity.ts`, WEB-4 `b1f404b`) and server (`prepQuantity.ts`, THX-3 `4724738`) · **Found by:** the WEB-4 and THX-3 reports, cross-read by chat-Claude.
+- The client floors a whole bird (the 14-lb turkey at 4 people reads 10 lb); the server never scales one down, so **Prep the Week says 14 lb while meal detail says 10 lb**.
+- Within the dish, the brine's salt, sugar and water scale by servings while the bird does not (or scales to its floor). At 8 servings the closing lines read **"¾ turkey neck", "¾ set turkey giblets"**.
+- **The rule (chat-Claude):** one rule on both sides. The bird's shown weight comes from the floors table. **Every other ingredient of a whole-bird dish scales by the bird's factor** (shown weight ÷ recipe weight), not by servings. The bird's own parts (neck, giblets) are always 1. Both sides pin the same input table.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20 evening; local until Hans pushes; reaches users with the next server deploy + Android OTA + web release — THX-3b `9b85255` (server, incl. the grocery list) · WEB-4b `a30d40e` (client); the pinned 1–30 servings table matches on both sides. Left: the factor's definition differs (server: rounded weight ÷ recipe; client: unrounded) — same outputs on all pinned data; the server takes the client's in THX-3c. A bird bought by COUNT → BUG-462) · *was:* 🔵 ASSIGNED → THX-3b ∥ WEB-4b (October 20) · **Priority:** P1 (before deploy #2) · **Cross-ref:** BUG-453 · BUG-444 · BUG-437.
+
+---
+
+### BUG-455 — "Prep the feast" still says "For Wednesday, the day before the feast" when its mixes are needed by Monday; the make-ahead card's row keys collide on a dish with two make-ahead days (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** the Thanksgiving make-ahead card and the Prep the feast notice (client) · **Found by:** THX-3's report.
+- THX-3 (`6008c16`) adds `sessionBefore`: Monday for all three dev feasts, because of the cranberry mix. The client notice still prints the old Wednesday sentence (`sessionDay` is still sent, for shipped clients).
+- Make-ahead rows are keyed `${kind}-${dishId}`, which collides on the stuffing's two rows (Tuesday's bread, Wednesday's assembly) once the patch reaches production.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20 evening; local until Hans pushes; reaches users with the next server deploy + Android OTA + web release — WEB-4b `da5e843`: "Do this before Monday." when `sessionBefore` is sent, the old sentence otherwise; keys carry the day) · *was:* 🔵 ASSIGNED → WEB-4b (October 20) · **Priority:** P1 (before deploy #2) · **Cross-ref:** D-WS9-316 · BUG-425.
+
+---
+
+### BUG-456 — A dish that lists one ingredient twice puts both portions in one prep container (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** the prep engine's container grouping (server) · **Found by:** THX-3's report.
+- The sweet potato casserole lists brown sugar for the filling and again for the topping. Both portions land in one container, so a cook following the container uses all the sugar in one place.
+- **The rule:** each portion goes with the step that uses it.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20 evening; local until Hans pushes; reaches users with the next server deploy + Android OTA + web release — THX-3b `d58d6b2`, engine 10 → 11: 158 catalog dishes list an ingredient twice; 124 split; 55 meals' prep changes. The casserole's topping sugar now goes with the pecans) · *was:* 🔵 ASSIGNED → THX-3b (October 20) · **Priority:** P1 (before deploy #2) · **Cross-ref:** BUG-426 · BUG-391.
+
+---
+
+### BUG-457 — Thursday's feast puts sides at different temperatures in the one oven (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** the feast recipes plus the cook scheduler's oven model · **Found by:** THX-3's report.
+- After THX-3 the oven frees when the bird comes out. But the model ignores temperature: Make-Ahead preheats for the potato casserole (350°F) at T−92 and for the stuffing (375°F) at T−86, with both baking together.
+- Make-Ahead's turkey also sits about 40 minutes after its 40-minute rest before carving.
+- **The fix (chat-Claude):** content, not a scheduler rewrite. Each feast's sides that share the oven after the bird bake at one temperature, with times adjusted. This is carried by the code-only patch, and the patch's dry run prints every post-bird oven step per feast.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20 evening; local until Hans pushes; reaches users with the next server deploy + Android OTA + web release — THX-3b `eb1201b`: post-bird sides move to the temperature holding the most oven minutes (+~10% time per 25°F; a move over 25°F is refused and printed). Make-Ahead's stuffing 375 → 350°F, covered bake 30 → 35 min; Make-Ahead's turkey hold 40 min, Classic's 21. NOT covered: Vegetarian (no bird) → BUG-463) · *was:* 🔵 ASSIGNED → THX-3b (October 20) · **Priority:** P1 (before deploy #2) · **Cross-ref:** BUG-449.
+
+---
+
+### BUG-458 — Counted amounts still print as fractions in two places: Prep the feast's closing lines ("1⅝ stalks celery") and the app ("¾ pinch", "¾ cinnamon stick") (P2)
+
+- **Date:** October 20, 2026 · **Surface:** server closing lines (`prepFeastClose.ts`); client count rounding · **Found by:** THX-3's report.
+- The server's prep text already prints pinch, dash and stick as whole numbers.
+- **The rule:** closing lines use the same count rounding as prep text, and the client prints pinch, dash and stick as whole numbers (round up, minimum 1).
+- **Status:** 🟡 **PARTLY BUILT** — WEB-4b `fe9db5c` (client: pinch, dash, stick, star anise and vanilla bean print whole, nearest-whole min 1, matching the server token for token). Server: no change, THX-3b showed the premise was wrong (closing lines already use the prep-text rounding; stalks print fractional on BOTH sides) → stalks join BUG-464 · *was:* 🔵 ASSIGNED → THX-3b ∥ WEB-4b (October 20) · **Priority:** P2 · **Cross-ref:** BUG-437 · BUG-444.
+
+---
+
+### BUG-459 — A container holding only shelf-stable dry items (whole peppercorns and bay leaves) gets a "fridge, up to 3 days" storage line (P3)
+
+- **Date:** October 20, 2026 · **Surface:** prep storage lines (server) · **Found by:** THX-3's report.
+- **Status:** 🔵 **BUILT on `next`** (audited PASS October 20 evening; local until Hans pushes; reaches users with the next server deploy + Android OTA + web release — THX-3b `e13c8eb`: bay leaves, whole spices, seeds, pods and pepper flakes are dry pantry items; 8 of 445 storage lines move to the pantry) · *was:* 🔵 ASSIGNED → THX-3b (October 20) · **Priority:** P3 · **Cross-ref:** BUG-426.
+
+---
+
+### BUG-460 — Amount references bind to the wrong ingredient: "leaves from 3 thyme sprigs" → bay leaves, "black peppercorns" → black pepper; "unsalted" is read as salt; crushed red pepper flakes and red pepper flakes don't share a blend key (P2, post-launch)
+
+- **Date:** October 20, 2026 · **Surface:** `stepAmountRefs.ts`, the moment resolver and the blend keys (server, catalog-wide) · **Found by:** THX-3's report.
+- About 3 non-Thanksgiving duration references also stay in the catalog until those meals are re-materialized.
+- **October 20 (DIAG-2):** the smash-burger step binds "80/20" to the ground beef and "batches of 2–4" to the mayonnaise, so both scale at non-default servings (predates THX-3).
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** after launch (a catalog pass) · **Cross-ref:** BUG-326 · BUG-450.
+
+---
+
+### BUG-461 — A feast's stamped total time runs about 7 minutes over Cook Mode's, because the stamp never reads dish titles and so the served-cold rule doesn't fire; `PrepWeekInputSchema` caps servings at 20 while the stepper allows 30, though nothing parses it (P3)
+
+- **Date:** October 20, 2026 · **Surface:** `mealTiming.ts`'s stamp; the prep-week input schema · **Found by:** THX-3 and WEB-4's reports. Both predate this window.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next touch of meal timing · **Cross-ref:** BUG-418 · BUG-453.
+
+---
+
+### BUG-462 — A whole bird written by COUNT ("1 whole turkey", the Buttermilk-Brined turkey) still scales its brine by servings while the bird stays 1 (P1 for the Thanksgiving rail if a feast uses it)
+
+- **Date:** October 20, 2026 · **Surface:** BUG-454's bird rule, on both sides · **Found by:** WEB-4b's report.
+- **The rule (chat-Claude):** a bird written by count shows `max(1, nearest whole)` birds. Its dish's other ingredients scale by shown count ÷ recipe count, and its parts are 1 per bird.
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — THX-3c `0a89dda` ∥ WEB-4c `aa4b148`, both sides pinned alike; rotisserie excluded, equipment one per bird. ⚠️ Follow-up owed on both sides: the count rule doubled Chicken Pho at household 2, so "the dish follows a count-written bird" becomes feast-only) · *was:* 🔵 ASSIGNED → THX-3c ∥ WEB-4c · **Priority:** P1 (before November 2) · **Cross-ref:** BUG-454.
+
+---
+
+### BUG-463 — The Vegetarian feast's Thursday runs the oven at 425°F and 375°F at once; Make-Ahead preheats the one oven twice (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** the cook scheduler's oven model (feasts) · **Found by:** THX-3b's report.
+- Vegetarian has no dish long enough to "hold" the oven, so BUG-457's rule doesn't apply. Its eight oven steps overlap: the Wellington and sprouts at 425°F, the stuffing and mac and cheese at 375°F.
+- Make-Ahead lists two preheats (T−92 and T−91) for one oven.
+- **The rule (chat-Claude):** a feast's oven runs one temperature at a time. Dishes that hold well covered bake first. Dishes best straight from the oven (pastry, roasted vegetables) bake last at their own temperature. One preheat per temperature change.
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21) — THX-3c `056e8a0` · `a9f6b62`: Vegetarian runs 375°F (stuffing, mac) → covered → 425°F (Wellington, sprouts) → stuffing and mac back uncovered T−10→0; held about 50–58 min (was 76–100); total 164 → 168; one preheat per temperature (Make-Ahead's two merged); the Wellington's cap seasoning split from its preheat · `3fe2fbe` Classic's "raise the oven to 350°F" step (314 → 319) · *was:* 🟡 **PARTLY BUILT** — THX-3c STOPPED at B: one preheat per temperature and one temperature at a time are built but held, because the casseroles waited 76–100 min. Chat-Claude ruled Oct 21: held dishes finish right before the temperature change, are covered, and get a 10-minute uncovered return while the last dish rests · *was:* 🔵 ASSIGNED → THX-3c · **Priority:** P1 (before November 2) · **Cross-ref:** BUG-457 · BUG-449.
+
+---
+
+### BUG-464 — Odd scaled lines in the bird dishes: "¾ large brining bag", "1⅜ stalks celery", "3 star anises" (P2)
+
+- **Date:** October 20, 2026 · **Surface:** amount display, both sides · **Found by:** WEB-4b and THX-3b's reports.
+- **The rule (chat-Claude):**
+  - equipment (bags, twine, foil, skewers) never scales and prints as written;
+  - stalks and ribs join FIX-7's whole-unit list on both sides (nearest whole, minimum 1, the token rule BUG-458 used);
+  - "star anise" is its own plural.
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — THX-3c `df82b57` ∥ WEB-4c `aa4b148`: equipment as written, never below 1; stalks and ribs to the nearest whole; "star anise", "twine", "foil" and "cheesecloth" are their own plurals. Skewers and toothpicks scale with their food (WEB-4c's refusal, accepted)) · *was:* 🔵 ASSIGNED → THX-3c ∥ WEB-4c · **Priority:** P2 · **Cross-ref:** BUG-437 · BUG-458.
+
+---
+
+### BUG-465 — Containers of dry spices are still named "marinade bowl" (P2)
+
+- **Date:** October 20, 2026 · **Surface:** prep container names (server) · **Found by:** THX-3b's report.
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — THX-3c `df82b57`: "Skirt Steak Tacos marinade bowl" → "spice blend") · *was:* 🔵 ASSIGNED → THX-3c · **Priority:** P2 · **Cross-ref:** BUG-426 · BUG-459.
+
+---
+
+### BUG-466 — Tell Kiwi's placeholder is cut mid-line at 375 px on the web (P3)
+
+- **Date:** October 20, 2026 · **Surface:** Tell Kiwi (web, phone width) · **Found by:** WEB-4b's screenshots.
+- Also noted, not a bug: plan options' thumbnails stay 60 px at 1280 while Plan Review's grow to 112. That's a call for the design session.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-3 `66da190`: the rotating phrase wraps; at large text the pill moves under the label. Hans's device check owed) · *was:* ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — WEB-4c `fddc113`: an invisible copy of the placeholder sizes the box; all 7 lines show at 375) · *was:* 🔵 ASSIGNED → WEB-4c · **Priority:** P3 · **Cross-ref:** BUG-365.
+
+---
+
+### BUG-467 — The Plans tab and its search show only the 20 newest plans; the server can never reach a user's plan past row 100 (P1 — Hans's ruling: a plan stays in a user's plans after its dates)
+
+- **Date:** October 20, 2026 · **Surface:** `GET /plans` (`listQuery.ts:34` `clampLimit` default 20; `planQueries.ts:342-347`; `PLAN_FETCH_CAP = 100`, `plans.ts:131`), client `usePlans.ts:17-22` (no cursor, no page loop), search filters the client's first page (`plans.tsx:173-182`) · **Found by:** Hans (his "THX test · Classic" plan "vanished"), diagnosed by DIAG-1 (read-only).
+- Nothing was deleted. Classic was #21 of 157 qualifying plans after three new plans pushed it down. A committed plan only goes away by compost or account delete, and `patch.ts` writes no plan rows (DIAG-1).
+- The bug dates from WS7-3 C1 (`b0cc2a92`, May 22) and is live in production.
+- **Hans, October 20:** *"the plan should be saved in a user's plans even after thanksgiving (if someone likes a recipe and wants to use or share it, for example)."*
+- **The fix (DIAG-1):**
+  - keyset paging in the database (no 100 cap);
+  - server-side `?q=` search over title and template title (D-WS7-048);
+  - the this-week plan always included;
+  - the client on `useInfiniteQuery` with load-on-scroll;
+  - the count-based default filter (`plans.tsx:127`) counts all plans.
+- **Status:** 🔴 OPEN · **Priority:** P1 · **Target:** PLANS-1, after THX-3c ∥ WEB-4c · **Cross-ref:** D-WS7-048.
+
+---
+
+### BUG-468 — The feast's knife work is nowhere: THX-3's C2 split moved make-ahead dishes' cuts out of Prep the feast, while their steps assume cut food ("add the diced onions and celery") (P1 for the Thanksgiving rail)
+
+- **Date:** October 20, 2026 · **Surface:** `prepCombineAdapter.ts:414` (THX-3 `6008c16`), live on production in `eb1201b` · **Found by:** Hans's Pixel pass; diagnosed by DIAG-2 (read-only).
+- Prep the feast's produce steps went: Make-Ahead 11 → 5, Classic 12 → 0, Vegetarian 14 → 7. The turkey lost its Thursday cuts because it carries a Tuesday brine tag.
+- The steps also name no amounts ("add the diced onions"). That's stored generator text, older than THX-3, and it reads wrong now that nothing measures the food.
+- Weeknight plans are not reached (the filter needs a feast dish with `makeAheadDays`). Feast meals aren't public until November 2.
+- Chat-Claude's go-ahead approved C2's server half without its client half; this gap is the result.
+- **Hans's ruling (Oct 20):** the knife work goes back into Prep the feast. This supersedes D-WS9-316's per-day perishable prep for cuts.
+- **The fix:**
+  - THX-3c E: cuts back, holds measured to the dish's own day, engine 12;
+  - F: amounts written into the steps via `patch.ts`, plus a FINALIZE rule;
+  - G: no all-whole-spice containers (the gravy's bay leaves and peppercorns).
+- **Oct 21 follow-ups BUILT:** `b370ffb` (count-bird rule feast-only; Chicken Pho at household 2 is half a pot with 1 chicken) · `009c099` + `30cdac1` (a count of 1 reads without its number; lists named only after an adding word and when every food has a cut; "Zest and juice") · `1793c4c` (Vegetarian's chives get a that-morning line; engine 13) · `f8da2b3` (`devTestPlans.ts`: "THX device · Classic / Make-Ahead / Vegetarian" from copies). The dev patch applied 36 changes; the next dry run showed 0. The production patch needs ONE `--apply`, after the server deploy.
+- **October 22 (THX-3d Phase 0, chat-Claude's read of all five dumps):** R1 (the 2-item feast floor) and R2 (prep feeds cook) are still open and ruled: the floor is 3 for dry mixes everywhere, a same-moment seasoning joins the mix by the step's words, consecutive same-vessel moments are one mix; Cook Mode wording is produced at read time ("Skip if you prepped. Otherwise, …", the mix named instead of its members, prepped produce named by its container), mixed steps split by the patch. Go-ahead delivered (chat-only).
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — THX-3c `019ec90` (E: cuts back in Prep the feast, holds measured to each dish's day, engine 12; produce steps Classic 0 → 14, Make-Ahead 5 → 14, Vegetarian 7 → 16) · `ddbb14f` (G: 15 → 12 feast dry containers) · `40c7b4d` (F: amounts in 8 steps via `patch.ts`, plus FINALIZE rule (h)). Follow-ups ruled Oct 21: "the chopped onion" for a count of 1; lists without "the"; zest AND juice the orange; Classic needs a "raise the oven to 350°F" step) · *was:* 🔵 ASSIGNED → THX-3c · **Priority:** P1 (before November 2) · **Cross-ref:** D-WS9-316 · BUG-450 · BUG-459.
+
+---
+
+### BUG-469 — THX-3's name rules (`d0f3e6e`) removed the Quick Slaw dressing container (sugar, mayo, vinegar) from ordinary weeknight Prep the Week; live on production (P2, verdict owed)
+
+- **Date:** October 20, 2026 · **Found by:** DIAG-2 (side finding).
+- It may be intended (a rule change), or it may be a regression.
+- **Status:** ✅ **CLOSED — not a regression** (THX-3c H, Oct 21): the Quick Slaw jar only existed because a feast's cranberry sauce counted water as dry; without the feast in the plan, the slaw never had a jar. All of `d0f3e6e`'s weeknight removals are kept; a restore moved 19 of 80 plans the wrong way. The plan-wide lone-spice coupling is noted for a later look · *was:* 🔵 ASSIGNED → THX-3c H (keep or restore, with a list of every weeknight container `d0f3e6e` removed) · **Priority:** P2 · **Cross-ref:** BUG-426.
+
+---
+
+### BUG-470 — On the web, only the 720 px column scrolls: a mouse wheel or trackpad over the margins does nothing (P1 for the web)
+
+- **Date:** October 20, 2026 · **Surface:** WEB-4's centred column (`lib/webLayout.ts`), live on app.kitchenwizard.ai since the October 20 release · **Found by:** Hans.
+- Hans: *"web app works and it looks better, but it's still not web optimized. that's ok. the big issue I have is the scroll only works in the frame of the app."*
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — WEB-4c `65d55e8`: a web-only wheel forwarder; a wheel over the margins moves all 13 screens. The scrollbar stays at the column edge) · *was:* 🔵 ASSIGNED → WEB-4c D · **Priority:** P1 · **Cross-ref:** BUG-471.
+
+---
+
+### BUG-471 — On the web, Home's sticky header is a column-wide cream box; the content slides visibly under its bottom edge (P2)
+
+- **Date:** October 20, 2026 · **Surface:** the Home header at desktop width · **Found by:** Hans (screenshot: "Good evening, Hans" over the Order Online and View plan buttons).
+- Hans: *"the header on home is anchored at the top and with the footer it just kinda behaves weird."*
+- **Status:** ✅ **SHIPPED Oct 21, release #2** (audited Oct 21 — WEB-4c `65d55e8`: `webFullBleed` on Home's header, the shared Header, the wizard bar, CookFooter, the Pick and Playlist footers, the season bar and the welcome footer) · *was:* 🔵 ASSIGNED → WEB-4c E · **Priority:** P2 · **Cross-ref:** BUG-470.
+
+---
+
+### BUG-472 — ENHANCEMENT: "Mark as staple" on a grocery-list row, so items the user always has (garlic powder, onion powder) stay off future lists and out of the Instacart cart (P1 enhancement, by the start of marketing)
+
+- **Date:** October 20, 2026 · **Surface:** the grocery list (row actions), the user's staples, list generation and the Instacart handoff · **Found by:** Hans, testing end to end on production.
+- Hans, verbatim: *"an action on grocery list rows to "mark as staple" would be awesome. I noticed on instacart I had a lot of stuff I already have like garlic powder and onion powder. if a user sees the grocery list and can mark something as a staple instead of crossing it off so it's marked as a staple when they shop again that would be slick. it's probably a bit of database work and not easy, but like a P1 enhancement once we start getting users in there (aka near or around the start of marketing)."*
+- **Shape (chat-Claude, for the lane's Phase 0):**
+  - a per-user staples set (ingredient-keyed);
+  - a row action "Mark as staple" (and an undo);
+  - future lists show staples in a collapsed "You have these" group, unchecked from the Instacart handoff by default;
+  - a Profile screen to review and remove staples.
+- Phase 0 first measures what the grocery code's existing staples handling (`groceryStaples.ts`) and the prototype's Pantry Staples design can reuse.
+- **Status:** 🔴 OPEN · **Priority:** P1 (enhancement) · **Target:** STAPLE-1, before Nov 16 · **Cross-ref:** D-WS4-003 (the PantryStaple model) · BUG-409 (optional ingredients always bought).
+
+---
+
+### BUG-473 — Every rate limiter can be bypassed by changing the URL's case or adding a trailing slash; there are no per-email limits on login or reset (SECURITY · High)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- SEC-1 probed it: after a 429 on `/auth/login`, `/auth/LOGIN`, `/auth/login/` and `/AUTH/login` got fresh buckets (`rateLimit.ts:57-58` keys on `req.path`). That allows login brute force and reset-email floods, and multiplies every AI and guest limiter.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — SEC-2 `7685994` + SEC-2b `da3565c` (10 failures per 15 minutes per email, cleared by a reset; reset requests keep 10/min and 30/day)) · *was:* ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `7685994`: keys on the matched route; per-email limits (a SEC-2b follow-up shortens the lockout window)) · *was:* 🔵 ASSIGNED → SEC-2 #1 · **Priority:** P1 (before friends and family, Oct 26) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-474 — The recipe-import fetch filter is bypassable (IPv6 loopback, IPv4-mapped forms, `localhost.`, `metadata.google.internal`) and the body read has no streaming cap or overall deadline (SECURITY · High)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- SEC-1 probed it: internal port scanning through error text; a 12 KB gzip inflating to 12 MB is fully buffered; a slow-drip response stays open past 30 s. No GCP token theft (no `Metadata-Flavor`), but the memory and connection DoS is real (`recipeImport.ts:118-216`).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `f1ee161`: DNS-resolved checks against private, loopback, link-local, ULA and CGNAT addresses, plus IPv4-mapped; ports 80/443; a streamed 5 MB decoded cap and an overall deadline; one generic error. All 26 SEC-1 targets refused) · *was:* 🔵 ASSIGNED → SEC-2 #2 · **Priority:** P1 (before friends and family, Oct 26) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-475 — `POST /wizard/expand` returns any meal by id, private ones included (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- `storeMealDetails.ts:51-56` has no owner, public or archived filter. It gets around the BUG-312 fix; it needs a leaked UUID.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `ddb78b7`) · *was:* 🔵 ASSIGNED → SEC-2 #3 · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-476 — Client-echoed meal descriptions (no length cap) can be published into the public meal pool (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- `wizard.ts:356` → `wizardExpansion.ts:537-542` → `publishMealToStore` (`mealFork.ts:198-207`): spam, URLs or false safety lines on other users' shelves.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `37ee3ad`: only the server's own batch text publishes) · *was:* 🔵 ASSIGNED → SEC-2 #4 · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-477 — A pre-registered password account captures a victim's later OAuth sign-in, and the squatter keeps the password and sessions (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- Signup never verifies email (`auth.ts:369-408`); OAuth links to a same-email account and keeps the old password (`resolve.ts:171-203`).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `a795d0f`) · *was:* 🔵 ASSIGNED → SEC-2 #5 · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-478 — A stolen session token becomes a permanent takeover: email change and delete need no re-auth, the old address isn't told, and logout revokes nothing (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- `me.ts:980-1043`, `me.ts:235`, `auth.ts:938`; 30-day tokens in web `sessionStorage` with no CSP.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `e8c1029` (password or recent sign-in for email change and delete; the old address notified; logout revokes every session) ∥ SEC-3 `e3c484e` (the confirm-it's-you screens)) · *was:* 🔵 ASSIGNED → SEC-2 #6 ∥ SEC-3 B · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-479 — Spend guard: the per-user cap may be unset in production (`set-cloud-run-env.ps1` never sets `AI_USER_DAILY_CALLS`); concurrent calls can overshoot (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- It was set by hand on Sept 13 (boot line "per-user cap 500"); Hans confirms with a read-only describe. Fail-open on a DB error stays ruled (BUG-234).
+- **October 21 (Hans, read-only describe):** `AI_USER_DAILY_CALLS`, `TRUST_PROXY_HOPS` and `TURNSTILE_SECRET_KEY` (a secret ref) are all present on the live service. The per-user cap IS set (500 since Sept 13). What remains is only the optional reservation against concurrent overshoot (SEC-2 #7), plus making `set-cloud-run-env.ps1` set the cap so a future rebuild can't drop it.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — SEC-2b `ba3d06e`: `set-cloud-run-env.ps1` now sets `AI_USER_DAILY_CALLS=500`) · *was:* 🔵 ASSIGNED → Hans (env check) + SEC-2 #7 · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-480 — The Cookbook Action's `cookbook_ro` role can SELECT 40 of 42 tables, including users' emails and password hashes; the workflow pins an action by tag, interpolates an input into `run:` and disables TLS verification (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- Dev branch today. The job runs `pnpm install`, so a compromised dependency could read user PII (`cookbook-publish.yml:101`, `sql.mjs:307`).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 wrote the `cookbook_ro` SQL (six catalog tables); ✅ Hans ran it on Neon dev Oct 23. `kiwi-site` pins and TLS are chat-Claude's) · *was:* 🔵 ASSIGNED → SEC-2 writes the SQL (Hans runs it); chat-Claude edits `kiwi-site` · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-481 — No security headers on the web app or the site; the API sends `X-Powered-By` with no helmet (SECURITY · Medium)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- There's no `_headers` in the Expo export, and `kiwi-site` `netlify.toml` has `[build]` only. With no CSP to fall back on, an XSS would mean token theft (none found today).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `8269fe5` (helmet, CSP, HSTS, no X-Powered-By) ∥ SEC-3 `195eb00` (`_headers` with CSP; 0 violations across 20 screens). `kiwi-site` headers are chat-Claude's) · *was:* 🔵 ASSIGNED → SEC-2 #9 ∥ SEC-3 A; chat-Claude for `kiwi-site` · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-482 — Guest one-generation limit can be raced; Turnstile doesn't check the hostname (SECURITY · Low-Med)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- `wizard.ts:1549` checks, `:638` increments after; bounded by the $25 guest ceiling, but reaching it closes the Test Kitchen for the day.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `94522e1`: atomic claim; Turnstile hostname checked) · *was:* 🔵 ASSIGNED → SEC-2 #10 · **Priority:** P2 (before marketing, Nov 16) · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-483 — Smaller authorization and enumeration gaps: `GET /dishes/:id` returns private dishes and the owner's userId; a guest session can be claimed with its id alone; login and reset timing and messages enumerate accounts (SECURITY · Low)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- `dishes.ts:40-61`, `guestClaim.ts:216-240`, `auth.ts:500-510`.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — SEC-2 + SEC-2b `2e39e65` (old clients without guestToken sign up without a claim) ∥ SEC-3b `588344b` (the client sends guestToken)) · *was:* ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `960e7d1` · `37574d3` · `d6cb9e3`. Follow-up SEC-2b: old clients without `guestToken` sign up without claiming (no 409); SEC-3b sends `guestToken`) · *was:* 🔵 ASSIGNED → SEC-2 #11–13 · **Priority:** P3 · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-484 — Hardening and hygiene: JWT verify without `algorithms` and unthrottled JWKS refetch; `/healthz` logs client IPs; import URLs and grocery queries logged; bcrypt still 10 (WS2 lock: 12 before public launch); express, cheerio and orval behind (SECURITY · Low)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- None exploitable today (SEC-1 checked reachability; no reachable high or critical dependency).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-2 `9279eca` · `2ef92be` · `6676f8f` (bcrypt 12, with rehash on login) · `534ad0f` (express 5.3, helmet 8.3, orval 8.43; path-to-regexp and undici pinned)) · *was:* 🔵 ASSIGNED → SEC-2 #14, #15, bcrypt, deps · **Priority:** P3 · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-485 — Laptop hygiene: plaintext key files in `C:\Cooking App\` (`instacart prod api key.txt`, `local secrets.txt`) and a stale `EXPO_PUBLIC_TURNSTILE_SECRET_KEY` line in the api-server `.env` (SECURITY · Low)
+
+- **Date:** October 21, 2026 · **Found by:** SEC-1 (read-only security review, `a9f6b62`).
+- Local only; if that line were copied into the app's `.env`, Expo would bundle it.
+- **Status:** 🔵 ASSIGNED → Hans · **Priority:** P3 · **Cross-ref:** SEC-1.
+
+---
+
+### BUG-486 — ENHANCEMENT: feedback emails should carry the app version and update id automatically (P2)
+
+- **Date:** October 21, 2026 · **Found by:** Hans, after seeing `update 01a1612e` in Profile's footer.
+- Hans: *"we should include that in the feedback emails automatically for the user if possible."*
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (server `kiwi-api-00032-qfd`, Android OTA `01a16b83`, iOS OTA `01a16b92`, web with `_headers`; SEC-2/SEC-3 audited PASS Oct 22 — SEC-3 `e3c484e`: the version and OS lines are appended to the message (the server's route is `.strict()`)) · *was:* 🔵 ASSIGNED → SEC-3 E (client); the server half, if the route drops the field, goes to the next server lane · **Priority:** P2 · **Cross-ref:** BUG-445.
+
+---
+
+### BUG-487 — Web: the Cookbook's cards and images are too big at desktop width; it should be a grid that shows several meals at once (P2, web design pass)
+
+- **Date:** October 21, 2026 · **Found by:** Hans, on production after the Oct 21 web release.
+- Hans: *"the cookbook is really big cards and images. like the pictures are too big or close up haha. it should be more of a grid or easier to view multiple at once when we come back to it."*
+- **Status:** 🔵 ASSIGNED → the web design session (with the Featured rail grid) · **Priority:** P2 · **Cross-ref:** BUG-470 · BUG-471.
+
+---
+
+### BUG-488 — Make-ahead rows come from tags only, so steps prefixed "Make ahead (Day)" without a tag appear nowhere; an "Apply always" edit of a feast drops every dish tag (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Surface:** `makeAheadSchedule.ts:157-177`; `mealMaterialize.ts:1444` (`rematerializeMeal`) · **Found by:** THX-3d Phase 0.
+- Small's breast herb butter and overnight rest, its gravy stock, the stuffing's Tuesday step and the whole Apple Crisp assembly are on no Hub row and not on Thursday. The breast's "thaw" row opens the whole dish because there is no thaw step. An "Apply always" edit recreates the dishes without their tags, so the make-ahead card empties.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — THX-3d `5a14942` (F): rows from "Make ahead (Day)" prefixes as well as tags; tags survive rematerialize; the from-catalog probe gave the Buttermilk turkey its thaw and brine rows and a Sweet Potato Pie its Wednesday row) · *was:* 🔵 ASSIGNED → THX-3d F · **Priority:** P1 · **Cross-ref:** BUG-425 · D-WS9-314.
+
+---
+
+### BUG-489 — A dish added to a feast plan (URL import, Cookbook add, the Thanksgiving dishes band) becomes a separate meal; it never joins Prep the feast or Thursday's sequence, and `POST /me/meals/:id/dishes/from-catalog` has no client (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Found by:** THX-3d Phase 0 (R6: none of the three paths works).
+- Swapping an imported meal onto the feast row replaces the whole feast. Alternates carry no `ahead-*` tags, so a brine or a pie lands on Thursday.
+- **Status:** 🔵 ASSIGNED → THX-3d F (server: derived rows, tags kept, from-catalog alternates) + BOOK-1C3 (the client "add to this feast" path through from-catalog) · **Priority:** P1 · **Cross-ref:** BUG-488 · D-WS9-312.
+
+---
+
+### BUG-490 — Feast steps carry unscaled amounts: corrupt amount-ref units ("½ cups") and missing refs leave "1½ cups sugar" beside a ⅔-cup mix, "5 lb potatoes" at 4 servings, "8 cups water", "2½ lb green beans" against 1 lb prepped (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Surface:** `stepAmountRefs.ts`; the client's `unitIsCorrupt` fallback prints the authored amount · **Found by:** Hans (the cranberry sugar), diagnosed by THX-3d Phase 0; chat-Claude found a dozen more in the five dumps.
+- Seen at 4 servings: Classic sugar and pie cream; Make-Ahead gravy water, green beans, pie cream, "both oranges"; Vegetarian cremini, Honeycrisp, apple-pie cinnamon, Brussels sprouts, the Brussels dressing oil, "between the 2 sheets"; New Twist cheesecake cinnamon, stuffing stock, green beans, "2 boxes (3⅜ oz each)" (the box size scaled, the count didn't).
+- **The fix:** fix the ref matcher, re-derive through the patch, and a test that walks all five feasts and fails on any step amount that differs from the scaled ingredient line.
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — THX-3d `bca88b3` (B): the five-feast walk went 70 findings → 0; the test is in the suite) · *was:* 🔵 ASSIGNED → THX-3d B · **Priority:** P1 · **Cross-ref:** BUG-326 · BUG-450 · BUG-443.
+
+---
+
+### BUG-491 — Thursday's feast serves cold dishes and dessert first, starts the gravy before the bird is out, finishes the sides after the rest ends, and picks the oven's "holder" by minutes so a breast or a spatchcock never holds it (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Surface:** `cookingScheduler.ts` (`coldDishesForward` :714; the 90-minute holder rule :824) · **Found by:** Hans's Pixel pass (Oct 21) and THX-3d Phase 0.
+- Hans's rules (Oct 21): one raise step naming the sides while the bird roasts; the bird finishes at the higher temperature; rest 20–30; sides finish 5–10 min before the rest ends; no per-dish preheats; one serve step after the carve with the cold cranberry sauce; dessert cut last; no "serve from the dish" steps.
+- Also: the room-temperature sit before roasting is modelled as a 5-minute prep (Classic sits 24 minutes, not an hour).
+- **Status:** ✅ **SHIPPED Oct 23, release #3** (audited Oct 22 — THX-3d `b81e308` · `7fe24fb` (D): holder by dish kind; the raise step names the sides; rest 20–30; sides finish 5–9 min before the rest ends; one serve step; dessert at T+0. Round 2 adds the keep-warm and two-phase splits (BUG-492)) · *was:* 🔵 ASSIGNED → THX-3d D (+ WEB-4d for the step after T0 and the merged preheats) · **Priority:** P1 · **Cross-ref:** BUG-449 · BUG-457 · BUG-463.
+
+---
+
+### BUG-492 — Feast Cook Mode isn't yet a list a novice can follow blind: two-phase bake steps carry one timer, toppings come after the put-in step, pronouns point across interleaved dishes, finished sides and stovetop dishes sit with no keep-warm line, "cut that morning" is only a note, containers have unlabelable names, and four dishes double-count an ingredient between a mix and a step (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Found by:** chat-Claude's read of THX-3d's second dumps (all five feasts), against Hans's lens: *"if a user forgets everything in the past and only sees the step in front of them — will they know what to do and not mess it up?"*
+- The specifics are THX-3d round 2's items H–Q (chat-only). The worst: New Twist's cheesecake adds ⅓ cup sugar loose and then whisks in the dry mix that holds that sugar.
+- **Status:** 🔵 **BUILT on `next`** (THX-3d round 2 `954e709`…`e7ab4c2`, engine 15; the mix-or-step and loose-ingredient walks pass on all five feasts; the morning cut with Hans's potato hold; short container labels; one-pass patch 397 changes). Chat-Claude read Classic's Thursday: it reads as a list now. Left: the long holds → BUG-495 (round 3); small wording in round 3 U · *was:* 🔵 ASSIGNED → THX-3d round 2 (server, patch) + WEB-4d (the display re-pin) · **Priority:** P1 · **Cross-ref:** BUG-468 · BUG-490 · BUG-491 · BUG-456.
+
+---
+
+### BUG-493 — Weeknight prepped Cook Mode lists a mix's members loose, never says "Skip if you prepped", never splits a mixed step or names a container; Prep the Week makes 20 containers for 5 dinners, several holding one item or under a tablespoon (P1 before marketing)
+
+- **Date:** October 22, 2026 · **Found by:** chat-Claude's read of THX-3d's two weeknight dumps (household 2 and 4), with Hans's novice-cook lens.
+- Monday whisks the three spice-blend items loose beside the made blend; Tuesday re-measures the taco blend; Thursday the dal blend. Wednesday's egg-and-scallion step and snap-pea-and-garlic step mix prepped and unprepped work. A "Red Lentil Dal citrus jar" holds ½ tbsp lemon juice; a "Stir-Fried Snap Peas aromatics container" holds one sliced garlic clove.
+- **The fix shape:** THX-3d's read-time wording (rules 1–4) for every prepped plan; partial-overlap naming; one prep plate per dish plus shared tubs by cut, with short labels and a "Label N containers" step; a marinade jar when its shelf-stable parts exist.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; PREP-3 R1–R4 + 3b + 3c: ticks and the gate drive the wording, dish-named containers, 16 → 13 per week, the marinade jar) · **Priority:** P1 · **Cross-ref:** BUG-468 · BUG-492 · BUG-349 · BUG-509.
+
+---
+
+### BUG-494 — Weeknight steps carry unscaled amounts: "the 1½ pounds ground beef" at household 2, "Cut the 2 limes", and "four 3 oz salmon fillets" where the count should scale and the size hold (P1 before marketing)
+
+- **Date:** October 22, 2026 · **Found by:** chat-Claude in the hh2 weeknight dump. BUG-490's class, outside the feasts; THX-3d's walk test covers only the five feasts.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; PREP-3 R5; the re-derive ran on production Oct 24: 30,893 steps read, 4,065 changed, corrupt 3,129 → 0, unbound 1,449 → 508, then dry 0) · **Priority:** P1 · **Cross-ref:** BUG-490 · BUG-443 · BUG-326.
+
+---
+
+### BUG-495 — Feasts without a whole bird (Vegetarian) or with a hotter bird (New Twist) bake their hold-well sides 75–115 minutes early, then reheat; the oven blocks are placed forward instead of as late as they can be (P1 for the Thanksgiving rail)
+
+- **Date:** October 22, 2026 · **Found by:** THX-3d round 2 (its top finding), confirmed by chat-Claude.
+- **The fix:** oven blocks scheduled backward from serve; a hold over 90 minutes goes in the fridge with a longer reheat; New Twist's stuffing and smashed potatoes get a 425°F timing written in so they bake alongside the bird (Hans's default: yes).
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; THX-3d round 3 code + round 3b content: `patch.ts` on production's own recipes, 387 changes matching the lane's reference line for line, then dry 0; production's feasts are a different AI generation from dev's, so the Oct 23 dry run could never have matched) · **Priority:** P1 · **Cross-ref:** BUG-463 · BUG-491 · BUG-492 · BUG-496.
+
+---
+
+### BUG-496 — Oven capacity isn't modelled: Classic and Small put 4 dishes in at once (bird plus three casseroles), New Twist 4 pans for 3 dishes, and pan counts don't scale ("Line two rimmed sheet pans" for 1¼ lb of potatoes) (P1 before Nov 16)
+
+- **Date:** October 22, 2026 · **Found by:** THX-3d rounds 2–3 (reported each round as unmodelled); chat-Claude's read of `thursday.dump4.txt`.
+- **What a cook sees:** Classic T−76: the roasting pan plus the stuffing, green bean casserole and sweet potato casserole — three 9×13s on one rack don't fit a home oven. New Twist T−54→−37: a stuffing dish and three sheet pans. The list is followable but the oven isn't.
+- **The fix shape:** model two racks (each: one sheet pan, or two 9×13 dishes; the bird's pan takes a rack); scale pan counts with the quantity (one sheet pan for 1¼ lb; O's "a count that becomes 1" rule); when a block doesn't fit, stagger it into the bird's rest (a side finishing between the rest end and serve is fine: hotter at the table) and say so in the put-in step.
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 4, `8d4f3cd3` 4A, not pushed): `src/lib/ovenRacks.ts` — the vessel read from the dish's own text up to its first oven step; sheet pans = ⌈lb/2⌉ at the copy's servings, a 9×13 = ½ rack, the bird = 1; the scheduler checks racks in its own pass and places the sides the raise doesn't name (fits-the-rest first, then a sheet pan before a 9×13, then the shorter run); the raise names only what fits ("…the Maple-Roasted Sweet Potatoes go in when the turkey breast comes out"), and that clause is a scheduler floor so the text stays true at smaller households. After: every feast ≤ 2 racks at every minute, at its own servings and at 4 (before: Classic 2.5, New Twist 5.5, Small 3, Vegetarian 4). **Refuted:** "two pans for 1¼ lb" — the stored text is right at the feast's own 10 servings; the household view is BUG-520. What serialisation costs at 10 servings is D-WS9-322 → round 5 · **Priority:** P1 · **Cross-ref:** BUG-495 · BUG-463 · BUG-520 · BUG-521 · D-WS9-322.
+
+---
+
+### BUG-497 — Round 3 leftovers for round 4: stale "reserve the pan drippings" on New Twist's carve; "Let the stuffing rest 5 minutes" after 25 minutes in a turned-off oven; green beans' keep-warm 18 minutes after their last hot step; Vegetarian's gravy made 90 minutes early though its recipe says "while it bakes, make the gravy"; the preheat rides the start of the sit, not its end (oven empty 45–60 min); New Twist's smashed potatoes smashed 45 minutes before they go in; a carved bird waiting 16–18 minutes isn't tented; stamped meal times differ from Cook Mode's day (Classic 329 vs 312) (P2)
+
+- **Date:** October 22, 2026 · **Found by:** THX-3d round 3's "findings left behind" plus chat-Claude's read of `thursday.dump4.txt` (all five feasts).
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 4, `714bc474` 4C + 4A, not pushed) — 7 of 8: the drippings clause drops when stale at the feast's own servings or at the fewest pans (New Twist's carve); a side left in the turned-off oven drops its own rest; 1-minute warm steps no longer queue for the cook's hands (that was the 18-minute gap); the preheat ends as the sit ends; a side waiting for room does its last work right before going in; `carveLate` brings the carve wait within 10 or adds " Tent loosely with foil."; the stamp passes real titles for feasts (`mealTimingBug418.test.ts` had ids literally "turkey"). **Refused, with the dump:** Vegetarian's "gravy 90 minutes early" is dev-only — production has no "while it bakes" step. P0-2 proved the stamp cause: Classic 282 → 278 = Cook Mode; Small 205 → 171 · **Priority:** P2 · **Cross-ref:** BUG-495 · BUG-496 · BUG-492 · D-WS9-322.
+
+---
+
+### BUG-498 — Password reset from mobile, then web sign-in with the new password failed a few times; a second reset from the web reset page worked (P2, needs one repro)
+
+- **Date:** October 22, 2026 · **Found by:** Hans, on `hans+live1@kitchenwizard.ai` while cancelling it. He isn't sure it wasn't a mistyped pre-filled email on the prior page.
+- **Repro to run once, after release #3:** reset on mobile → sign in on the web with the new password; if it fails, check the api-server log for the reset's `tokensValidFrom` bump and the web sign-in's 401 reason.
+- **Status:** 🔴 OPEN (unconfirmed) · **Priority:** P2 · **Cross-ref:** SEC-2 (logout bumps `tokensValidFrom`).
+
+---
+
+### BUG-499 — A Stripe (web) subscriber can't cancel from the mobile app; it says to go to kitchenwizard.ai with no link (P1, small, before marketing)
+
+- **Date:** October 22, 2026 · **Found by:** Hans. Cancelling must be as easy as signing up (California ARL and other state auto-renewal laws; the FTC click-to-cancel rule was vacated in 2025 but the state rules stand).
+- **The fix:** for a `stripe` subscription, Profile's "Manage subscription" opens the Stripe customer portal in the browser (the server already has a portal endpoint from the Stripe scope; the client opens the URL). No price or sign-up on that screen (Apple 3.1.3 / Google payments policy: managing an existing external subscription via a link is the Netflix pattern; selling isn't). Store subscribers keep the store's manage-subscriptions deep link.
+- **Status:** ✅ DONE AS RULED, shipped Oct 24 (release #4; D-WS9-319): the phone's sentence reads "You subscribed on the web. Manage or cancel at app.kitchenwizard.ai → Profile → Manage subscription." — text, no link; the Portal link-out waits for Hans's store-policy call after Thanksgiving (server path: a manage-only Portal configuration) · **Priority:** P2 · **Cross-ref:** D-WS9-319 · D-WS9-307 · D-WS9-317.
+
+---
+
+### BUG-500 — The reset-password email links to the Cloud Run URL (`…us-east4.run.app…`) and lands on an unstyled api-server page (black screen, green boxes) (P1 before marketing)
+
+- **Date:** October 22, 2026 · **Found by:** Hans.
+- **The fix:** the email links to `https://app.kitchenwizard.ai/reset?token=…` (the web app's reset screen, on the design tokens, cream background, Kiwi mark), with the api-server page kept as a fallback; the base is an env (`PUBLIC_WEB_URL`), not hard-coded. Check the invite, verify and magic-link emails for the same host.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; CLIENT-1 item 6: the styled reset-password and verify-email screens existed; a signed-out mail-link visitor was bounced to sign-in — fixed; `PUBLIC_APP_URL=https://app.kitchenwizard.ai` and `PUBLIC_API_URL=<Cloud Run URL>` set on revision 00034; THX-3d 3b A1 keeps the unsubscribe links on the API host) · 🔵 Hans's live reset check owed Sunday morning · **Priority:** P1 · **Cross-ref:** BUG-498 · BUG-506.
+
+---
+
+### BUG-501 — A dish never waits for a dish it uses: the meatball sub broils the meatballs into the rolls at T−7 while they're still simmering "until cooked through" to T+0 (undercooked meat) (P1)
+
+- **Date:** October 22, 2026 · **Found by:** PREP-3 Phase 0, `WEEK device · hh4-mixed` Friday. Cause: the scheduler anchors each dish to serve on its own (`cookingScheduler.ts:1754`). Catalog reach at most 101 of 984 multi-dish meals; about a third real (birria tacos, chili-loaded potato, chicken and waffles, burrito bowls).
+- **The fix:** PREP-3 R7 — a step that uses another dish's food starts after that dish's last cooking step.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; PREP-3 R7: 131 of 1,219 catalog meals had a dish using another dish's food) · **Priority:** P1 · **Cross-ref:** BUG-493.
+
+---
+
+### BUG-502 — Prep the Week puts the wrong things in jars: 8 skewers "measured" into the marinade; the Caesar's crouton oil in the dressing jar (no oil for the croutons, a dressing that can't emulsify); the pork chops' Dijon in the crumb jar; avocados scooped into cold water 44 minutes before the guacamole; storage lines that name dishes as food ("Stir in the Tzatziki, Garlic Butter Grilled Salmon… now") (P1 before marketing)
+
+- **Date:** October 22, 2026 · **Found by:** PREP-3 Phase 0 (hh4-mixed). Causes: no equipment words in `EQUIPMENT` (`prepCombineEngine.ts:383`); "a component is one moment" (`prepWeekAssembly.ts:859`); `BROWNS` includes avocado (`heldMorning.ts:37`); `foodOf` takes the dish list after " — " on a shared tub (`prepStorage.ts:560`).
+- **The fix:** PREP-3 R8 and R9.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; PREP-3 R8 + R9) · **Priority:** P1 · **Cross-ref:** BUG-493.
+
+---
+
+### BUG-503 — Weeknight plating lands early (Caesar plated T−14, arugula tossed T−10 against "serve immediately", steak served over rice at T−15), "the parsley you chopped this morning" two minutes after the session opened, and keep-days assume prep on the start day (a Sunday prep for a Monday start is a day off) (P2)
+
+- **Date:** October 22, 2026 · **Found by:** PREP-3 Phase 0.
+- **The fix:** PREP-3 R6 extended (every last assemble step within 3 minutes of serve; prep day from the earliest tick) and R8's "a cut used in the first 10 minutes isn't a morning step".
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; PREP-3 R6 + 3b B; left: the Tuesday peppers at T−8 — the "cook undisturbed" hands flag is catalog data, a catalog pass later) · **Priority:** P2 · **Cross-ref:** BUG-497.
+
+---
+
+### BUG-504 — Home's Tell Kiwi card grows and shrinks as the rotating placeholder wraps from one line to two (P2)
+
+- **Date:** October 23, 2026 · **Found by:** Hans, release #3 Pixel check (line 1 passed otherwise).
+- **The fix:** pin the input at a two-line minimum height so the card doesn't move between placeholders.
+- **Status:** ✅ **SHIPPED Oct 24, release #4** (server `kiwi-api-00033-g74`/`00034`, Android OTA `01a170e8`, iOS OTA `01a170eb`, web; CLIENT-1 item 4: the floor is the tallest of the five phrases, measured; Pixel pass) · **Priority:** P2 · **Cross-ref:** BUG-454.
+
+---
+
+### BUG-505 — Verify: on the web, changing the email back from Profile appeared to go through with no password prompt, right after confirming an email change from the link (P1, verify first)
+
+- **Date:** October 23, 2026 · **Found by:** Hans, Pixel check line 4. The web bundle was still the pre-SEC-3b one at the time, so the client didn't ask; the question is whether the server accepted `POST /api/me/email/request-change` without `currentPassword` — a fresh-session grace, the confirm link counting as re-auth, or a gap.
+- **Status:** ✅ FIXED and shipped Oct 24 (release #4; THX-3d 3b A2): `request-change` already refused a password account without the password (403 `reauth_required`, no grace); the gap was `verify-change` honouring an older confirmation link after a later change — each link now records the address it moves from and is refused once the account's email differs. Hans's Oct 23 change-back was an older link or an OAuth-only account within 10 minutes of sign-in · **Priority:** P1 · **Cross-ref:** SEC-2 #6.
+
+---
+
+### BUG-506 — After an email-change confirmation the link lands on the web app in the mail client's browser; wanted: a "Thank you, your email is updated" page, and app links that open the app (P2, post-launch)
+
+- **Date:** October 23, 2026 · **Found by:** Hans (his idea for the simple version).
+- **Status:** 🟡 PARTLY, shipped Oct 24 (release #4; CLIENT-1 item 6): the "Your email is updated" landing with "Open Kiwi" exists; app links (universal links) wait for App 1.2 · **Priority:** P2 · **Cross-ref:** BUG-500.
+
+---
+
+### BUG-507 — Cook Mode after a long step ("roast 3 hours") doesn't say when the next step starts; consecutive oven put-ins don't say what follows ("add the X now; the Y goes in in 10 minutes") (P1 before Thanksgiving)
+
+- **Date:** October 23, 2026 · **Found by:** Hans, reading Classic's Thursday on the Pixel ("otherwise we're just about there").
+- **The fix shape:** under any step whose duration is over ~20 minutes, a line "Next step at 2:45 PM (in 1 h 40 min)" from the sequence's T-times and the serve time; a put-in step that is followed by another put-in for the same oven names it ("…the sweet potato casserole goes in 10 minutes from now"). Client renders; server supplies the next-start offset (already in the sequence) and the forward reference text.
+- **Status:** 🟡 CLIENT HALF SHIPPED Oct 24 (release #4; CLIENT-1 item 7: "Next step in N minutes" under any step of 20+ minutes, relative only — Hans, D-WS9-320); the put-in forward reference is ✅ BUILT on `next` Oct 25 (THX-3d round 4, `9c946acb` 4B, `scripts/thx2/thx2Next.ts`: a put-in followed by another for the same oven within 30 minutes gains "…; the green beans go in 15 minutes from now" — only Small qualifies on the five; the raise's own clause covers New Twist); the bold dark-sage line is ✅ BUILT (CLIENT-2 B3, `67a41099`) · **Priority:** P1 · **Cross-ref:** BUG-496 · BUG-509.
+
+---
+
+### BUG-508 — Cookbook filters over-filter: "Comfort Food" returns 1 meal with a tan banner "🔒 Your allergies: none set. Add them in Profile"; a filter must only act on what the user has set (P1 before Nov 16)
+
+- **Date:** October 24, 2026 · **Found by:** Hans, release #4 Pixel pass. Hans: *"the filters should only filter on what a user can change… we shouldn't filter stuff to the point someone can't find things and can't see meals because they don't have an allergy set."* Collapsed eating-style and preference filters defaulted to the user's settings are fine.
+- **Resolution (CLIENT-2, Oct 25):** 🔴 **the allergy hypothesis is REFUTED by the code and the data.** The client sends no allergies; a no-allergy user has NO allergen constraint (`allergenWhereConditions` returns `[]`; tested). "Comfort food" is a cuisine chip matched by substring on the free-form `cuisineType`; on dev (1,337 public dinners) it matches **1** meal, and a `comfort` tag matches only **4** more — three of them not comfort food (a chickpea curry, street tacos, mushroom pasta). The lane REFUSED the tag-match fix with that table: the real cause is a chip with almost nothing behind it. What shipped: the sheet's allergy line no longer reads as a lock when nothing is set ("Allergies: none set, so nothing is hidden. Add them in Profile.", plain text; `3de67037`).
+- **Status:** ✅ BUILT on `next` Oct 25 (CLIENT-2 `3de67037` the banner; CLIENT-2b `02e15376` the chip rule — pushed in `cd69d5d0..781a8c43`): a cuisine chip (quick row and the sheet) shows only with ≥ 5 meals behind it under the current filters, a selected chip stays; `comfort-food` left `CUISINE_TOKENS`, the normaliser's comfort rule emits `american` only, and the server now IGNORES an unknown cuisine token instead of answering 400 (old clients keep working). Shown: 18 cuisines; hidden under 5: brazilian, spanish, vietnamese, caribbean, african. A "Comfort Food" COLLECTION is a later catalog pass if Hans wants one. Ships release #5 (server + OTA + web) · **Priority:** P1 · **Cross-ref:** BOOK-1C1 · D-WS9-312.
+
+---
+
+### BUG-509 — Prep the Week and Cook Mode polish from the release #4 pass: "Skip this Prep" must be available at any time (the label-step gate blocks previewing); the containers card opens with a reassurance line; "Next step in N minutes" bold in dark sage; a prepped mix used inside a cooking step gets a visible "you prepped this" marker (P1, small, one client lane)
+
+- **Date:** October 24, 2026 · **Found by:** Hans. His copy for the card: *"Don't worry, some of these containers combine at the end of the prep session. We'll take you step by step through the fastest and easiest way to prep your week."* On the marker: *"ladle ½ cup hot frying oil into a bowl and then add the mix… I read it as a cook and was like 'wait, THAT many ingredients now while the oil is hot?'… it's working, it's just a clarity enhancement."*
+- **Status:** ✅ BUILT on `next` Oct 25, pushed `cd69d5d0..781a8c43`: B1–B3 (CLIENT-2 `67a41099`: Skip at any time, Hans's containers line verbatim, "Next step in" `sage[700]` + DM Sans 700) and B4 (CLIENT-2b `a4faa297`: the **You prepped this · <label>** chip from the server's `preppedRefs` — `.nullish()` on the client schema; nothing until round 5's server deploys; never on a collapsed done-in-prep row; THX-3d round 5 `b7d2975d` sends the field and says mixes as "you prepped", 16 of 16 on hans+8's WEEK plans). Ships release #5 · **Priority:** P1 (small) · **Cross-ref:** BUG-493 · BUG-507 · D-WS9-321 · CLIENT-1 item 3.
+
+---
+
+### BUG-510 — "Pat dry the chicken breast tenderloins" is offered as a Prep the Week protein step; patting dry belongs to the minute before cooking (P2, server)
+
+- **Date:** October 24, 2026 · **Found by:** Hans. Prep-worthiness (D-WS9-299): a protein's cook-day prep (pat dry, season right before the pan) is never a prep-session step.
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 4, `cd69d5d0` 4D, not pushed): a pat-dry-only protein is demoted regardless of a marinade join, except where the protein enters the marinade at the prep session itself (overnight; the H7 tests); "skin-on" / "skin-side down" no longer read as skinning (the WEEK device plans' salmon). Census of hans+8's 172 plans: 39 protein steps leave Prep the Week, none join; pat-dry-only 2 → 0 on the device plans. **`PREP_ENGINE_VERSION` 16 → 17** — every cached Prep page rebuilds on its next read after the deploy · **Priority:** P2 · **Cross-ref:** D-WS9-299 · BUG-493.
+
+---
+
+### BUG-511 — ENHANCEMENT: avoidances vs preferences — let a user mark "gluten-free" (or vegetarian) as a preference rather than a rule, so meals are weighted, not excluded (P2, post-launch)
+
+- **Date:** October 24, 2026 · **Found by:** Hans. Today every allergy/avoidance is a hard filter.
+- **Status:** 💡 IDEA · **Priority:** P2 post-launch · **Cross-ref:** FIX-4 (eating style as a hard filter) · D-WS9-283.
+
+---
+
+### BUG-512 — The five Thanksgiving feasts aren't findable in the app today: Cookbook search for "Thanksgiving" returns nothing; the Featured rail shows them only from Nov 2 (P1 before Nov 2)
+
+- **Date:** October 24, 2026 · **Found by:** Hans, on the live app after release #4. Hans: they should be in **Hosting & events** (and the Cookbook) now; they take over the rail from a few days after Halloween into Thanksgiving.
+- **The fix:** tag/section the five `thanksgiving-feast` meals into the Cookbook's Hosting & events and make them searchable; confirm they're public on production. Catalog data + a Cookbook filter check; no new UI.
+- **Resolution (CLIENT-2 E, Oct 25):** two flags, not search. "Hosting & Events" is the template flag `isHostingFeatured` inside the featuring window; the five Thanksgiving templates are Featured with a window from Nov 2 and not Hosting; the Cookbook band is config opening Nov 2. ✅ BUILT on `next` (`5e825b0c`, not pushed): the featured spec gains `featured` (default true) and `hosting` (default false; needs both window ends); `featured: false` also clears `railPosition`, because the Home rail's membership test IS `railPosition` (`planQueries.ts:283`) — without it step 1 would put the feasts on the Home rail; the band opens **Oct 26** (`seasons.ts` `startsOn: "10-26"`). The everyday spec dry-runs to ZERO changes. **Owed:** the Oct 16 production spec file was not found anywhere on the laptop → CLIENT-2b adds a read-only `dumpFeaturedSpec.ts` so Hans can regenerate it from production; then **step 1 (Oct 26): hosting on, featured off, window from Oct 26** and **step 2 (Nov 2): featured on** — two guarded `applyFeaturedTemplates.ts --spec` runs, Hans; the band's `featuredNote` must read "under Hosting & events" (CLIENT-2b). **Public on production is still UNVERIFIED:** on dev all 15 `thx2-*` are `public=false image=pending`; the Oct 16 production apply would have aborted on a non-public meal, so they were public then — Hans's read-only `approve.ts --all` dry run on production settles it.
+- **Resolution, part 2 (CLIENT-2b `88ec59b0` + the Oct 23 production export):** `scripts/featured/dumpFeaturedSpec.ts` (read-only, host-guarded, `--out <path>` writes UTF-8 — PowerShell 5.1's `>` writes UTF-16 the apply cannot parse) regenerates the spec from the database; on dev it round-trips to ZERO CHANGES. 🔴 **And the real Cookbook cause is confirmed from data: production's five feasts are `isPublic: false`** (the Oct 23 export; images ready, allergens stamped, times derived — `approve.ts --all --apply` passes its checks). The band's note now reads "under Hosting & Events" (`d448d677`) and its button opens the Hosting & Events chip (client, by OTA).
+- ✅ **Release #5, October 25 (Hans ran it, chat-Claude read every paste):** `approve.ts --all --apply` flipped all 27 `thx2-*` meals public. 🔴 **CORRECTION: the five Thanksgiving templates had NEVER been created on production or dev.** `dumpFeaturedSpec.ts` found only the everyday five. The "Oct 16 production apply" above was an inference from a missing file, never checked. Chat-Claude authored the five Thanksgiving weeks into `featured-prod-2026-10-26.hosting.json`: the everyday five unchanged; Mon–Wed easy catalog dinners of 30 min or less picked from the public Cookbook (no turkey, no meal twice, pizza night on Classic's Wednesday); Thursday the feast at 10 (Small at 4); Friday the leftovers; `hosting: true`, `featured: false`, `anchorDate 2026-11-26`, window `2026-10-26T04:00:00Z`..`2026-11-27T09:59:59Z`. Applied: 5 create, 0 update, 6 allergen restamps; the re-run reported ZERO CHANGES. Hans checked the live app: the feasts appear in Cookbook search and the five plans appear under Hosting & Events. Nov 2: the same spec with `featured: true` and the Thanksgiving five first.
+- **Status:** ✅ **FIXED on production October 25** (Top Rated placement → BUG-530) · *was:* 🟡 code BUILT and pushed; the three production data steps ride the release #5 runbook (`approve.ts --all --apply` → the feasts public; `dumpFeaturedSpec.ts` → chat-Claude edits the five to `hosting: true, featured: false, featuredFrom 2026-10-26` → `applyFeaturedTemplates.ts --spec … --apply`; Nov 2 the same spec with `featured: true`) · **Priority:** P1 (before Nov 2) · **Cross-ref:** D-WS9-311 · D-WS9-313 · BUG-508.
+
+---
+
+### BUG-513 — The password-reset email shows the full reset URL as text; Hans wants a "Reset password" hyperlink (and the same for the other transactional links) (P3, next server round)
+
+- **Date:** October 25, 2026 · **Found by:** Hans, on the live web app (release #4 Part 7.1 PASSED: the link starts `https://app.kitchenwizard.ai/reset-password?token=`, the styled page opens, a new password signs in).
+- **The fix:** the email template renders an anchor with link text ("Reset password" / "Confirm my email" / "Unsubscribe") and keeps the raw URL below it in small type for clients that strip links. Server only; no release gate.
+- **Status:** 🔴 OPEN → the next server lane that touches the email templates (after THX-3d round 4; not that lane) · **Priority:** P3 · **Cross-ref:** BUG-498 · BUG-505 · LIFE-1.
+
+---
+
+### BUG-514 — Cook Mode wording: "pour you prepped over the top" — the citrus phrase comes out empty on Roasted Asparagus with Lemon #4 (P2, server wording)
+
+- **Date:** October 25, 2026 · **Found by:** CLIENT-2's B0 read of hans+8's WEEK device plans (hh2 and hh4, Monday).
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 5 `b7d2975d`, pushed): the cause was the citrus pour's own words deleted by the next pass; now "pour the lemon juice you prepped over the top", and any remaining empty phrase keeps the stored text and logs a WARN naming the dish and step (0 on hans+8's plans). Ships release #5 · **Priority:** P2 · **Cross-ref:** BUG-509 · D-WS9-321.
+
+---
+
+### BUG-515 — Cook Mode wording: a count noun disagrees with its number — "the minced garlic you prepped (2 clove)"; a bare "(½)" on "squeeze over the lemon juice you prepped (½)" (P2, server wording)
+
+- **Date:** October 25, 2026 · **Found by:** CLIENT-2's B0 read (hh2, Wednesday).
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 5 `b7d2975d`, pushed): the noun follows the number Cook Mode shows (BUG-437's rounding); a lone "(½)" gets its noun ("(½ lemon)") or is dropped. Ships release #5 · **Priority:** P2 · **Cross-ref:** BUG-509 · BUG-437 · D-WS9-321.
+
+---
+
+### BUG-516 — VOID (reserved to CLIENT-2's range, unused)
+
+- Void stub per D-WS9-088's convention; never reuse.
+
+---
+
+### BUG-517 — VOID (reserved to CLIENT-2's range, unused)
+
+- Void stub per D-WS9-088's convention; never reuse.
+
+---
+
+### BUG-518 — VOID (reserved to CLIENT-2's range, unused)
+
+- Void stub per D-WS9-088's convention; never reuse.
+
+---
+
+### BUG-519 — VOID (reserved to CLIENT-2's range, unused)
+
+- Void stub per D-WS9-088's convention; never reuse.
+
+---
+
+### BUG-520 — A sheet-pan count in feast step text is written at the feast's own servings ("two" pans for 3–4 lb) and still reads "two" at 1¼–1.6 lb in a household copy (P2, read-time text)
+
+- **Date:** October 25, 2026 · **Found by:** THX-3d round 4 (what BUG-496 called "pan counts don't scale" — the stored text is RIGHT at 10 servings; the household view is the defect).
+- **The fix:** read-time — the client, or the server meal-detail rewrite — recomputes the pan count from the copy's scaled weight (the `ovenRacks.ts` rule) and rewrites the number; the scheduler already uses the scaled count.
+- **Status:** 🔴 OPEN → a later wording lane · **Priority:** P2 · **Cross-ref:** BUG-496 · BUG-443 · D-WS9-322.
+
+---
+
+### BUG-521 — REGRESSION on `next` (not shipped): Classic's mashed potatoes are plated at T−30 (release 4: T−5); from the carve to serving the cook's hands are full and `serveLate` never moves serving (P1 before release #5)
+
+- **Date:** October 25, 2026 · **Found by:** THX-3d round 4's Thursday offsets after 4A/4C.
+- **Status:** ✅ BUILT on `next` Oct 25 (THX-3d round 5 `b6d340de` + follow-ups `35848866` · `781a8c43`, pushed): a kept side's plating moves to within 15 minutes of serving (Classic's potatoes: covered at T−33 right after the seasoning, into the bowl T−4 for T−2); a keep-warm starts the moment its pot's last step ends; warm steps are decided after the carve is placed; in a feast a side's own rest, the keep-warm's lid and the oven-off's knob take no hands (two platings had shared a minute since round 3 — 0 overlaps now on all five at own servings and at 4). When nothing fits, `carveLate` moves serving later by at most 10 rather than letting the carved bird wait. No weeknight schedule changed (624 meals). Ships release #5 · **Priority:** P1 · **Cross-ref:** BUG-496 · BUG-497 · D-WS9-322 · BUG-523 · BUG-524.
+
+---
+
+### BUG-522 — Vegetarian Friendsgiving at 4 servings: the Mushroom Wellington comes out 16 minutes before serving (own servings: 13; the target was ≤ 10) — the sprouts' two-rack reheat must follow it out of the oven (P3)
+
+- **Date:** October 25, 2026 · **Found by:** THX-3d round 5 (D-WS9-322's main-finishes-last rule, measured). A layout near 10 exists at 4 servings; the scheduler doesn't find it.
+- **Status:** 🔴 OPEN → a later scheduler pass · **Priority:** P3 (a Wellington rests 10–15 minutes anyway) · **Cross-ref:** BUG-496 · D-WS9-322 · D-WS9-323.
+
+---
+
+### BUG-523 — New Twist: the smashed potatoes come out at T−23 and the step says "Immediately scatter" the Parmesan at T−7 (P2, content)
+
+- **Date:** October 25, 2026 · **Found by:** THX-3d round 5's Thursday read.
+- **The fix:** the scatter rides the come-out step (content, `patch.ts`), or the scheduler keeps a step that says "immediately" adjacent to its predecessor.
+- **Status:** 🔴 OPEN → the next Thanksgiving content pass (before Nov 16) · **Priority:** P2 · **Cross-ref:** BUG-497 · BUG-521.
+
+---
+
+### BUG-524 — The Make-Ahead and Vegetarian gravies already say "keep warm" in their own step, and the code-written keep-warm step repeats it (P3, content)
+
+- **Date:** October 25, 2026 · **Found by:** THX-3d round 5 (BUG-521's keep-warm extension).
+- **The fix:** `feastWarmSteps` skips a dish whose last hot step already keeps it warm.
+- **Status:** 🔴 OPEN → with BUG-523 · **Priority:** P3 · **Cross-ref:** BUG-521.
+
+---
+
+### BUG-525 — A fresh store install runs the binary's embedded bundle (built October 10) on its first launch; the update only takes over after a force-quit, so new iPhone users meet the old preview sheet (P2)
+
+- **Date:** October 25, 2026 · **Surface:** every fresh install from the App Store or Play, first launch · **Found by:** Hans's neighbour (iPhone, App Store 1.1.0 (8)): the Featured rail's preview sheet showed no meal photos and the meals were not tappable; after "Save for later" / "Use this week" the plan showed photos and opened meals. **The same sighting as BUG-441 (Hans's Play phone, October 18, closed as not a code defect after two relaunches fixed it).**
+- **Cause (verified in code, not on the device):** `app.json` sets only `updates.url`; there is no `fallbackToCacheTimeout`, and nothing in the client calls `Updates.checkForUpdateAsync` / `fetchUpdateAsync` / `reloadAsync`. expo-updates' default is therefore: first launch runs the bundle embedded in the binary (both store binaries were built from the October 10 commit — `ota-update.ps1` line 71), downloads the current update in the background, and runs it only on the NEXT cold start. On iOS a backgrounded app is rarely cold-started, so a new user can stay on the October 10 bundle for days. That bundle predates PREVIEW-1 (BUG-396: photos and tappable rows in the preview sheet) and BUG-445's footer line, which is why the symptom is exactly BUG-441's and why the footer shows no "update <id>" on such a phone.
+- **Not a code defect in the preview sheet:** `PlanPreviewMealRow` is a `Pressable` with `TreatedImage` from `meal.image`; `GET /plans/templates/:id` composes every item's meal with `image`; the client parses `meal: MealDetailSchema.nullable()` with `image` kept. HEAD `781a8c43`.
+- **The fix, two halves:**
+  1. **1.2 binary (native, rides the October 31 submission):** `updates.fallbackToCacheTimeout` in `app.json` (e.g. 5000 ms) — a fresh install waits up to 5 s on first launch for the current update and runs it, so every new user starts on current code. Only a binary carries this; no OTA can.
+  2. **OTA (any client lane):** on foreground, `checkForUpdateAsync` → `fetchUpdateAsync` → a quiet "Kiwi updated — restart" affordance (or `reloadAsync` at the next cold-safe moment), so phones left running pick up an update without a force-quit. Helps from the next OTA onward; cannot help the first launch of a fresh install (the embedded bundle has no such code).
+- **Workaround for a user today:** force-quit Kiwi and reopen it twice on wifi; Profile's footer then reads `Version 1.1.0 · runtime 1.1.0 · update <id>` (no update line = still the embedded bundle).
+- ✅ **BUILT by 1.2-NATIVE (Oct 26, audited PASS, not pushed):** `376cd1d9` A — the JS half (on return to the foreground, at most every 10 min: check, download, "Kiwi updated — tap to restart" for 8 s; never on web, in a dev build, Cook Mode or Prep the Week; restart only on tap; reaches 1.1 by update) · `d54b580f` — `fallbackToCacheTimeout: 5000` in the 1.2.0 binary. Proof waits for a preview APK or the store build.
+- **Status:** 🔵 BUILT on `next` (not pushed) · *was:* 🔴 OPEN · **Priority:** P2 (every new install sees the October 10 app first) · **Target:** half 1 in App 1.2's native list; half 2 the next client lane · **Cross-ref:** BUG-441 · BUG-445 · BUG-396 · OTA-1 · D-WS9-279.
+
+---
+
+### BUG-526 — Cook Mode's "Already prepped — skip to cooking" card: the "Skip to cooking" control looks like a button and does nothing (P2, client)
+
+- **Date:** October 25, 2026 · **Surface:** Cook Mode, the card at the top of a meal opened after prep · **Found by:** Hans, release #5 device pass item 7 (Pixel dev build, `781a8c43`).
+- Tapping "Skip to cooking" does nothing. Hans expected it to collapse the prepped steps into the muted "done in prep" style.
+- **The fix:** the client lane traces where the card comes from (CLIENT-1's `?prepped=1` gate or later), then either wires it to the muted "done in prep" rows or removes the control.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · CLIENT-3 `5e2a1bb7`: wired, not removed — scrolls past the recap and the muted "Done in prep" rows to the first step left to cook · **Priority:** P2 · **Cross-ref:** CLIENT-1 · BUG-527.
+
+---
+
+### BUG-527 — "You prepped this" chips do not appear on a weeknight plan meal after Prep the Week; they DO appear on Thanksgiving Thursday (P2)
+
+- **Date:** October 25, 2026 · **Surface:** Cook Mode on a weeknight plan meal (Pixel dev build + dev server, both at `781a8c43`) · **Found by:** Hans, release #5 device pass item 7.
+- Thanksgiving Thursday shows the sage chip (item 9 PASS), so the client renders `preppedRefs`. On a fresh plan made Oct 25, Hans prepped one step of a plan meal, answered that he prepped, and saw no chip. "Cook Now" on a My Meals meal outside a plan shows none, which is correct: no Prep the Week session, nothing prepped.
+- Round 5 measured `preppedRefs` on 51 of hans+8's weeknight steps, so the server emits them on some path. **UNVERIFIED:** whether the plan-meal Cook Mode path that Hans used carries them; whether a partly prepped session counts as prepped; whether the dev server ran round 5's code at the time.
+- **The fix:** the next lane reproduces the exact path (plan → Prep the Week → tick one step → the meal's Cook Mode with "yes, I prepped") on dev, logs the meal read's `preppedRefs`, and fixes the side that drops them.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · CLIENT-3 `71f05f0e`: client-side — "Did you prep this already?" opened without a plan item, so the read had no `planItemId`; after a "yes" the read now uses this meal's item in this week's plan with `prepped=1`. Server oddities found in the probe → BUG-556 · 557 · 558 · **Priority:** P2 · **Cross-ref:** D-WS9-321 · BUG-509.
+
+---
+
+### BUG-528 — Edit meal → "Add dish" → a saved dish: nothing is added to a plan meal, with no error (P1)
+
+- **Date:** October 25, 2026 · **Surface:** the meal editor on a plan item (a Tell Kiwi braised-beef meal added to a plan) · **Found by:** Hans, Pixel dev build.
+- Twice (one saved dish was "al dente spaghetti", then another) the dish never reached the meal. Server log: `GET /api/me/dishes` 200 → `GET /api/meals/41f3ae23…` 200 → **`PATCH /api/plans/9eddbfac…/items/d193fb41…` 200** → `/home`, `/plans` refetches → a nutrition AI call → `POST /plans/…/recalc-macros` 200 → `GET /plans/…` 200. No `POST …/dishes` call appears. Either the client sends the add through the item PATCH, which ignores it, or it never calls the add route at all.
+- **The fix:** trace the client's add-dish path on a plan item vs on a saved meal (`POST /me/meals/:id/dishes/from-catalog` exists from THX-2S); make the add land and show, or show an error.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · CLIENT-3 `d4c11d8f`: the pick read only the list row (no ingredients/steps) and "Just this time" matched dishes by position; the pick now reads the full dish and scales it, and added dishes always save to the recipe (prompt says so); an error shows on failure. No server change · **Priority:** P1 · **Cross-ref:** THX-2S · BUG-252.
+
+---
+
+### BUG-529 — Classic Thursday: the sweet potato casserole goes back into the oven at the end (marshmallows, if using) and has no step that serves it (P2, scheduler)
+
+- **Date:** October 25, 2026 · **Surface:** Cook Mode, Thanksgiving Thursday (Classic, dev) · **Found by:** Hans, release #5 device pass item 9.
+- Every other dish ends with a plating or serving step; the casserole's last step is its final short bake. BUG-521's plating logic covers kept-warm sides, and a side that finishes in the oven may fall outside it.
+- **The fix:** the next THX lane confirms on the five prod copies at own servings and at 4 that every dish ends with a serving step, and adds one for a side whose last step is an oven finish.
+- ✅ **BUILT by THX-4 server `4b83faf5` (Oct 26, audited PASS):** `patch.ts` writes "Take the sides out of the oven." after every oven-off, served at the side's serve time (Classic T−6, Make-Ahead T−14; New Twist, Small, Vegetarian T−1 / T−1 / T−5, whose stuffings had no way out either); the stale "with the … cooking" cues removed (Classic's and 11 others: a cue is kept only if its dish is doing that when the step starts). No day changes length; hands-on +1 min per feast. Production needs release #6's `patch.ts` (28 changes vs `release6.reference.dry.txt`; 416 from export).
+- **Status:** 🔵 BUILT on `next` (not pushed) · *was:* 🔴 OPEN · **Priority:** P2 · **Target:** release #6 · **Cross-ref:** BUG-521 · BUG-523.
+
+---
+
+### BUG-530 — The five Thanksgiving plans show under Top Rated; Hans wants them under Hosting & Events only (P2)
+
+- **Date:** October 25, 2026 · **Surface:** Plans tab chips (seen on the web app BEFORE release #5's web export, so on the old client) · **Found by:** Hans.
+- **UNVERIFIED** whether the new client (CLIENT-2b) or the Top Rated query (algorithmic, PRD §15.6.4) admits newly public templates. First check: the same view after the web export (release #5 step 28) and on the updated phone app.
+- **The fix, if it persists:** Top Rated excludes dated (`anchorDate`) and hosting-window templates, which live on their own chips.
+- **Status:** 🔴 OPEN (verify first) · **Priority:** P2 · **Target:** after the release #5 web export · **Cross-ref:** BUG-512.
+
+---
+
+### BUG-531 — Many copies of the Thanksgiving feast meal in My Meals on hans+8 (dev): check that a production user who adopts a plan twice does not get duplicates (P2, verify)
+
+- **Date:** October 25, 2026 · **Surface:** My Meals · **Found by:** Hans.
+- Adopting a template forks its meals into the user's copies (`copyTemplateForUser`), so every adoption adds a copy. On dev this is test residue from many adoptions; D-WS9-230 (no backfills) means dev is not cleaned.
+- **The question for production:** does My Meals list plan-forked meals, and does adopting the same Thanksgiving plan twice (easy to do from a rail card) give the user two feast meals in My Meals? If yes, My Meals should show one meal per lineage or hide plan forks.
+- **Status:** 🔴 OPEN (verify) · **Priority:** P2 · **Target:** the next client or plans lane (PLANS-1 is the natural home) · **Cross-ref:** THX-2S · BUG-467.
+
+---
+
+### BUG-532 — "Cook Now" from My Meals: `POST /meals/:id/cooking-sequence` took 80 s for a large meal (Steak Fajita Bowl…), and the app's spinner never resolved; some meals work, some don't (P1)
+
+- **Date:** October 25, 2026 · **Surface:** Cook Now on a My Meals meal, with "prepped" yes or no (dev build + dev server) · **Found by:** Hans.
+- Server log: `POST /api/meals/f68f4c01…/cooking-sequence` **200 after 79,918 ms**; `POST /api/meals/2ce40a49…/cooking-sequence` 200 after 11,358 ms; `GET /me/meals` up to 96,943 ms in the same minutes. Earlier in the same minutes, `P1001 Can't reach database server` at the DEV host (`ep-broad-haze`) → 503s from `requireAuth`'s revocation check. The 503s are a dev database outage, not code; the 80 s sequence is a separate question.
+- **UNVERIFIED cause of the 80 s:** an AI sequence call on a meal with no stored sequence, serialised behind the DB stall, or both. The client appears to wait with no timeout or error.
+- **The fix:** measure the route on production-shaped meals (time to first byte, AI or not); give the client a timeout with a retry message; cache the sequence once built.
+- **Status:** 🔴 OPEN · **Priority:** P1 (Cook Mode is the product's last step) · **Target:** OBS-1 or the next server lane · **Cross-ref:** BUG-420.
+
+---
+
+### BUG-533 — Two production feast images look wrong: Make-Ahead's green beans with crispy shallots (the shallots read as worms) and New Twist's green beans (the almonds read as bean tips) (P2, content)
+
+- **Date:** October 25, 2026 · **Surface:** the feast meal images on production (Hosting & Events cards, plan preview, the Thanksgiving site if reused) · **Found by:** Hans.
+- **The fix:** regenerate those two images through the image pipeline (D-WS9-246) with a prompt that keeps the toppings legible (shallot rings golden and flat; almonds sliced on top, not at the ends), judge, review, swap. Hans: in the next day or so.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** chat-Claude + Hans, by Oct 27 · **Cross-ref:** D-WS9-246.
+
+---
+
+### BUG-534 — Prep the Week copy: the label step and how a mix is made (P2, copy — Hans's wording)
+
+- **Date:** October 25, 2026 · **Surface:** Prep the Week, the containers step and every mix step · **Found by:** Hans, release #5 device pass item 5.
+- **The label step, Hans's copy (chat-Claude's polish in brackets, silence = yes):** title "Prepare your prep area" [→ "Set up your prep area"]; body: *"As you chop and measure in this session, you'll need 11 places to hold ingredients. Organize the containers however works best for you (some tape and a pen work well):"* [→ *"As you chop and measure in this session, you'll fill 11 containers. Set them out however works for you (tape and a pen work well for labels):"*] then the list. It replaces "Label X containers", "Don't worry, some of these containers combine…" and "write these on tape, one per container". The count is the session's own.
+- **A mix is made in a named bowl:** today "Measure the teriyaki chicken sauce spices · into the Teriyaki chicken sauce: 1 tbsp brown sugar, 1 tsp cornstarch. Set aside for the produce step." Hans: *"get a small bowl to make the teriyaki chicken sauce. Into the bowl: ingredients"*, and every later step that adds to it says *"into the teriyaki chicken sauce bowl"*. Chopped produce keeps "container".
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · CLIENT-3 `1c8102c0` (the prep-area card, both Prep the Week and Prep the feast; `{n}` parsed from the server's "Label N containers" title — a server count field is owed) · SERVER-6 `22ccad07` (named mix bowls at read time; 169/181 served mix steps caught; the rest → BUG-554 and stale narrations) · **Priority:** P2 · **Cross-ref:** BUG-509 · PREP-3c · BUG-554.
+
+---
+
+### BUG-535 — The Instacart search-name cleaner leaves a stray "pack" in front of the ingredient ("3 lb pack bone-in skin-on chicken thighs" → "pack bone-in…"), and Instacart gets that term today (P3)
+
+- **Date:** October 26, 2026 · **Surface:** `instacartSearchName` (server, the Instacart link's line names; Shop Your Store will reuse it) · **Found by:** SHOP-0 Phase 0 (10 rows on dev's live lists).
+- Also from the same read: `grocery.ts:283`'s comment overstates what was verified about `retailer_key` (doc drift, fix on touch).
+- **The fix:** strip a leading pack word after the size is removed; a test on the 10 rows. Rides Shop Your Store v0's server half.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · SERVER-6 `a6c9ef60`: fixed in the shared cleaner, so Instacart's names change too (32 dev rows) · **Priority:** P3 · **Cross-ref:** D-WS9-325.
+
+---
+
+### BUG-536 — New Twist's plan copies show a stale card time: 223 minutes, where Cook Mode at the copy's 4 servings says 180 (P3)
+
+- **Date:** October 26, 2026 · **Found by:** THX-4 server (minted from its reserved range).
+- The card reads the meal's stamped total at its own servings; Cook Mode schedules the plan's servings. **The fix:** the card reads the scheduled total for the item's servings (or the stamp follows the item). Next THX server touch.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · SERVER-6 `19ce3cf5`: forks copied the source's `estimatedTimeMinutes` and never re-stamped; feast copies are now re-stamped at their own servings. `scripts/thx2/restampCopies.ts` fixes existing copies at release #6 (scope D-WS9-334). Card time can't follow `servingsOverride` → BUG-553 · **Priority:** P3 · **Cross-ref:** D-WS9-324 · BUG-497 · BUG-553.
+
+---
+
+### BUG-537 — A turkey written by COUNT with a chosen weight still reads "1 whole turkey" and its note's "12–14 lb" (P3)
+
+- **Date:** October 26, 2026 · **Found by:** THX-4 server.
+- The buttermilk alternate is bought by count; with a weight chosen, the line and the note should say the chosen weight. **The fix:** the read-time rewrite covers the count line and the note. THX-4 client (C) covers the client's half.
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · server half SERVER-6 `19ce3cf5`; meal-screen half CLIENT-4 `9447fc5e` ("1 whole turkey (16 lb)", display only, scaling byte-identical). The Hub dish screen still says "(12–14 lb)" → D-WS9-339 · **Priority:** P3 · **Cross-ref:** BUG-462 · D-WS9-324 · D-WS9-339.
+
+---
+
+### BUG-538 — `servingsOverride` has no upper bound on the server (P3)
+
+- **Date:** October 26, 2026 · **Found by:** THX-4 server. The client steppers stop at 30 (BUG-453); the API accepts any integer.
+- **The fix:** the plan-item PATCH rejects outside 1–30 with a 400 naming the range, like `birdWeightLb`.
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · SERVER-6 `19ce3cf5`: POST and PATCH plan items, 400 "servingsOverride must be 1–30" · **Priority:** P3 · **Cross-ref:** BUG-453.
+
+---
+
+### BUG-539 · BUG-540 · BUG-541 · BUG-542 · BUG-543 — VOID (reserved for THX-4 server / 1.2-NATIVE, unused)
+
+---
+
+### BUG-544 · BUG-545 · BUG-546 — VOID (reserved for THX-4 client, unused)
+
+---
+
+### BUG-547 — `plan_prep_started` is never emitted: no client sends the `prepStatus` PATCH that writes it (P2)
+
+- **Date:** October 26, 2026 · **Found by:** LIFE-2. The lifecycle emails' "prep started" fact (#5's skip, #8's skip) can't rest on an event nothing emits.
+- **LIFE-2's workaround (built):** "prep started" = the first prep check-off of the plan, or that activity, whichever comes first.
+- **The fix:** the server emits `plan_prep_started` on the first prep check-off of a plan, once per plan (SERVER-6 item E).
+- **Status:** ✅ BUILT (Oct 27; audited PASS by chat-Claude; ships at release #6 + the 1.2 bundle) · SERVER-6 `ca218b32`: emitted on a plan's first prep check-off (completions PUT), once per plan; never fails the check-off · **Priority:** P2 · **Cross-ref:** D-WS9-331 · LIFE-2.
+
+---
+
+### BUG-548 · BUG-549 — VOID (reserved for LIFE-2, unused)
+
+---
+
+### BUG-550 · BUG-551 · BUG-552 — VOID (reserved for CLIENT-3, unused)
+
+---
+
+### BUG-553 — Cook Mode's oven racks, and so the card time, follow the dish's servings and ignore the plan item's `servingsOverride`, while grocery follows the override (P3)
+
+- **Date:** October 27, 2026 · **Found by:** SERVER-6 (in code, while fixing BUG-536). The time is one number on the Meal; several plan items can share a meal.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** a later Cook Mode / plan lane (needs a ruling on whether Cook Mode should scale to the item) · **Cross-ref:** BUG-536 · BUG-453.
+
+---
+
+### BUG-554 — Produce lines that add to a mix with "for the {label}" ("1 tbsp fresh orange juice for the Tacos marinade.") aren't reworded to the named bowl (P3)
+
+- **Date:** October 27, 2026 · **Found by:** SERVER-6 (about 20 lines on dev).
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · SERVER-7 `6f6e2350`: 31 dev lines before, 0 after (6 "— into a small bowl for the …", 25 "— into the … bowl") · **Priority:** P3 · **Cross-ref:** BUG-534.
+
+---
+
+### BUG-555 — VOID (reserved for SERVER-6, unused)
+
+---
+
+### BUG-556 — A plan-context meal read with `prepped=1` returns fewer prepped refs than the ticks alone (Carbonara, plan `c3872cd6`: ticks give 1 ref, `prepped=1` gives 0); `prepped=1` should be a superset (P2)
+
+- **Date:** October 27, 2026 · **Found by:** CLIENT-3's read-only BUG-527 probe on dev.
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · SERVER-7 `cf8a6606` + `ca2fef91`: ticks resolve against the stored cache; old keys map to today's steps by what the step held; regeneration carries ticks, unmapped ones are kept and logged; one containerId per container. Dev probe: ticks-only refs 121 → 158, labels with two ids 10 → 0, orphans 172 → 101 (kept). The `isPrepped` rollup → BUG-568 · **Priority:** P2 · **Cross-ref:** BUG-527 · BUG-557 · BUG-568.
+
+---
+
+### BUG-557 — Some fully prepped meals (`isPrepped=true`) get 0 prepped refs either way (Smash Burgers in plan `d01f797c`, Carne Asada in `cd941229`) (P2)
+
+- **Date:** October 27, 2026 · **Found by:** CLIENT-3's BUG-527 probe on dev.
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · SERVER-7 `cf8a6606` (same cause as BUG-556) · **Priority:** P2 · **Cross-ref:** BUG-527 · BUG-556.
+
+---
+
+### BUG-558 — One plan-context meal read returned 503 (plan `8c8a7067`, item `91c8e308`) (P2)
+
+- **Date:** October 27, 2026 · **Found by:** CLIENT-3's BUG-527 probe on dev. Cause unknown; reproduce first.
+- **Status:** ⚪ CLOSED — NOT A DEFECT (QA-6, Oct 27): `91c8e308` is the meal, the item is `209dcba9`; the read is 200 today. CLIENT-3's capture shows P1001 (dev database unreachable) in `readTokensValidFrom` (`tokenRevocation.ts:112`) from `requireAuth`; auth failed closed with 503 `db_unavailable` after 76 s — a dev Neon connection drop, and the correct behavior · **Priority:** — · **Cross-ref:** BUG-527.
+
+---
+
+### BUG-559 — THX-4: at its authored weight, the turkey thaws on a different day than with no weight (Classic: no weight → Fri Nov 20, 6 days, from the dish's `thaw-6d` tag; 14 lb → Sat Nov 21, from `weighedThaw`) (P1 for Thanksgiving)
+
+- **Date:** October 27, 2026 · **Found by:** QA-6 (check 5). Location: `makeAheadSchedule.ts:196-197`, where any weight replaces the tag. Card time, roast and grocery agree at the authored weight; only the thaw differs. The recipe note says "move from freezer to fridge Friday".
+- **Ruled D-WS9-337:** the weight rule is right (USDA: a thawed bird keeps 1–2 days in the fridge; 6 days for 14 lb leaves it thawed ~2½ days before the roast). No weight computes from the authored weight; the note's day is rewritten at read time.
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · SERVER-7 `bdd464ea`: with no weight the thaw uses the recipe's weight and the weight rule (thaw step, the turkey note, the Hub row). Dev: Classic ×23 and New Twist ×23 Fri → Sat; Make-Ahead stays Fri (brines Tue night), wording only. The roast at the recipe weight vs no weight still differs for Make-Ahead (131 vs 140) → D-WS9-341 · **Priority:** P1 · **Cross-ref:** D-WS9-324 · D-WS9-337 · D-WS9-341 · BUG-567.
+
+---
+
+### BUG-560 — Web: on a reload or direct link into Cook Mode, Back leaves the page, so "cook finished" is never sent (P3)
+
+- **Date:** October 27, 2026 · **Found by:** QA-6. Entering through Cook Now works.
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · CLIENT-4 `6908794d` (1.2 only): the POST goes when the cook advances onto the last live step, and on Header back from it; `onLeaveAfterLastStep` still covers a session that opens on its last step. Remaining gap: a direct web load already on the last step, closed by the browser's own back · **Priority:** P3 · **Cross-ref:** LIFE-2 #9 · BUG-564.
+
+---
+
+### BUG-561 — The "free trial was already used" paywall sheet opens on top of "How did you hear about Kiwi?" and its backdrop blocks the question until "Not now" (P2)
+
+- **Date:** October 27, 2026 · **Found by:** QA-6 (sec3 D; `qa6-rerun-sec3/05-D-trial-used-sheet.png`).
+- **Status:** ✅ BUILT (Oct 27–28; audited PASS by chat-Claude; QA-7 verifies; ships at release #6) · CLIENT-4 `25a5b571`: while the route is `/how-heard` the paywall sheet waits (however it opens) and opens after an answer or Skip · **Priority:** P2 · **Cross-ref:** ATTR · SEC-3b.
+
+---
+
+### BUG-562 · BUG-563 — VOID (reserved for QA-6, unused)
+
+---
+
+### BUG-570 — ENHANCEMENT: "Send my list" from the grocery list (P2)
+
+- **Date:** October 27, 2026 · **Raised by:** Hans. Use case: one partner has the list in Kiwi; the other is driving past a store on the way home. One tap sends the list, and they shop it on the way.
+- **Shape (chat-Claude's suggestion, to confirm in the lane's Phase 0):** use the phone's share sheet (text, email, WhatsApp) with a plain-text list grouped by aisle, unchecked items only, plus quantities. On the web, `mailto:` plus copy-to-clipboard. No server email, and no account needed on the other end. Optionally include a read-only web link later.
+- **Copy:** follows the grocery standard ("order online, or shop your local store"); the list is described as accurate, complete and sorted by aisle.
+- **Status:** ✅ BUILT (Oct 28; CLIENT-5 audited PASS; ships at release #6) · `cbd2f90f`: "Send list" in the grocery header; RN `Share` / web `navigator.share` or Copy / Email (cut under 1,800 encoded characters at a whole line); unchecked items by aisle; default staples left out · **Priority:** P2 (enhancement) · **Cross-ref:** D-WS9-325.
+
+---
+
+### BUG-564 — Web: after Header back on a direct load of `/cook-session`, the URL was still `/cook-session` 2.5 s later (one observation, unconfirmed) (P3)
+
+- **Date:** October 28, 2026 · **Found by:** CLIENT-4, during BUG-560's web check. QA-6 saw the opposite (Back left the page).
+- **Status:** ✅ BUILT (Oct 28; CLIENT-5 audited PASS; ships at release #6) · `df4c51d8`: the route's router uses the shared `goBack()` for all four back calls (no edit inside CLIENT-4 D's 1.2-only block); with no history it falls back to the meal / dish / Prep & Cook Hub / Home; web 5/5 · **Priority:** P2 · **Cross-ref:** BUG-560.
+
+---
+
+### BUG-565 · BUG-566 — VOID (reserved for CLIENT-4, unused)
+
+---
+
+### BUG-567 — A feast not on Thursday reads the Thanksgiving weekday tags literally: a Wednesday feast brines a week early, so its thaw starts 11 days out (P1 for Friendsgiving and moved feasts)
+
+- **Date:** October 28, 2026 · **Found by:** SERVER-7 (a chosen weight already did this under THX-4).
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · SERVER-8 `aefd0e32`: weekday tags read as days before the feast; Hub, meal read and Prep the feast in the feast's real week; Thursday byte-identical (12/12 hashes); the literal "On Thursday:" token kept (D-WS9-351) · **Priority:** see above.
+
+---
+
+### BUG-568 — The `isPrepped` rollup still compares ticks with today's rebuilt week, so a plan on a stale cache reads not-prepped until its Prep the Week regenerates (P2)
+
+- **Date:** October 28, 2026 · **Found by:** SERVER-7 (same cause as BUG-556; left unchanged).
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · SERVER-8 `838ccea6`: the rollup uses the tick-carrying rule; 15 of 25 ticked dev plans move · **Priority:** see above.
+
+---
+
+### BUG-569 — VOID (reserved for SERVER-7, unused)
+
+---
+
+### BUG-571 — Prep the feast never shows the "Set up your prep area · you'll fill N" card: the server keys the step `feast#feast-labels`, the client looks for bare `feast-labels` (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-7 (check 5). `prepWeekBuild.ts:244` vs `prepWeekFooter.ts:38`; the client tests use the bare key too. Ships to 1.1 through `1c8102c` and `1aeec024`, so it must be fixed before release #6.
+- **Steps:** open `/cook-session?mode=prep-week&planId=<a plan with a feast>&session=feast` → the first step renders as a plain "Label 13 containers" step.
+- **Status:** ✅ BUILT (Oct 28; CLIENT-5 audited PASS; ships at release #6) · `2db83be0`: the client keys `feast#feast-labels`; web: the feast card says "fill 13", the week's unchanged · **Priority:** P2 · **Cross-ref:** BUG-534.
+
+---
+
+### BUG-572 — Two Prep the Week narrations for one plan when two Cook Mode loads miss a stale cache seconds apart (~$0.056 each time) (P3)
+
+- **Date:** October 28, 2026 · **Found by:** QA-7 (seen once: two calls 5 s apart for `8c8a7067`). Data stayed consistent; only cost.
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · SERVER-8 `1e19926c`: single-flight per plan/session/fingerprint/prompt version — process-local only; cross-instance needs a lease column (migration, not built) · **Priority:** see above.
+
+---
+
+### BUG-573 · BUG-574 · BUG-575 — VOID (reserved for QA-7, unused)
+
+---
+
+### BUG-582 — Prep selected meals / Prep one meal: ticking one meal's prep marks other meals as prepped (P1)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10).
+- **Steps:** a 7-dinner plan → Prep one meal → tick its steps → open another meal's Cook Mode → "Add the minced garlic you prepped (4 cloves)", "the Casserole vegetables you prepped" — never prepped. The subset step "Mince the garlic" is served under the WEEK's key, which covers three meals, so the tick counts for all of them. A cook following it skips real knife work.
+- **Status:** ✅ BUILT both halves: server SERVER-9 C `feb220d8` (scoped tick keys `~mask.check~week key`; `completions[].scope`) · client CLIENT-7 D `2e61a387` (a session tick folds only its meals' Cook Mode steps, chips and recap day; an unscoped tick behaves as before). Ticks made before the change stay week-scoped. Ships release #6 · **Priority:** P1 · **Cross-ref:** BUG-568.
+
+---
+
+### BUG-583 — Recipes → Cook Mode → "Yes, I prepped": knife steps prep already covered still show in full (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10). The "Done in prep" fold reads only ticks; "Yes" writes none (CLIENT-3 F reads `prepped=1` for the chips, not the fold).
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · CLIENT-6 `37d5ee67`: after "Yes, I prepped" the fold reads the plan's free prep structure and counts non-skipped steps as done, under BUG-584's rule · **Priority:** see above.
+
+---
+
+### BUG-584 — Partial prep folds an un-prepped food into "Done in prep": the onion is never diced (P1 by effect)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10). The cook step "Finely dice the yellow onion and mince the 2 garlic cloves" is linked only to the garlic prep step. Tick garlic, not onion → the whole step folds away.
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · CLIENT-6 `94007ef5`: a step folds only when every covering prep step is ticked and every food it names is in their words; else shown in full with chips (10 of 36 replayed steps move folded → shown) · **Priority:** see above.
+
+---
+
+### BUG-585 — Classic Savory Beef and Broccoli: prep merges the marinade and the stir-fry sauce into one bowl, then Cook Mode adds the sauce ingredients again (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10). Cook step 0 puts the whole "Beef & broccoli sauce" bowl in the marinade; step 1 still says whisk the oyster sauce, dark soy and sesame oil — they go in twice.
+- **Status:** ✅ BUILT (SERVER-10 F `8364bccd`): the split soy/Shaoxing/cornstarch went to one bowl, a later grouping re-merged it, and Cook Mode read "soy sauce" as dark soy. The sauce bowl is used once, at the sauce step; this shape went from 11 catalog meals to 0. The 57 bowl-plus-stove splits → D-WS9-362. The AI prep narration re-runs once on next open where bowls change · **Priority:** P2 · **Cross-ref:** D-WS9-362.
+
+---
+
+### BUG-586 — After a full Prep the Week, Cook Mode still says "Husk and halve 12 oz tomatillos…" with no chip and no fold (P3)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10). The prep step isn't linked to the cook step it does the work for (same family as BUG-584; safe but redundant).
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** D-WS9-350 phase 2 (structured links) · **Cross-ref:** BUG-584.
+
+---
+
+### BUG-587 — Friendsgiving list: shallots need 3 where the recipe needs 3.2 — whole produce appears to round down (P3)
+
+- **Date:** October 28, 2026 · **Found by:** QA-NIGHT-1's first run (households 1, 6, 10).
+- **Status:** ✅ BUILT (SERVER-10 B `c7c09216`, Oct 29): each recipe's share rounds UP on the list (3.2 shallots → 4); the prep card still rounds to the nearest ½ · ships release #6 (Fri Oct 30; Sunday fallback); existing lists keep their rows until they regenerate · **Priority:** P2 · **Cross-ref:** D-WS9-360.
+
+---
+
+### BUG-588 · BUG-589 — VOID (reserved for QA-NIGHT-1, unused)
+
+---
+
+### BUG-579 · BUG-580 · BUG-581 — VOID (reserved for CLIENT-5, unused)
+
+---
+
+### BUG-590 — The turkey's grocery row reads "1 whole turkey (16 lb) (1 each)" (P3)
+
+- **Date:** October 28, 2026 · **Found by:** CLIENT-5 (D). The client appends "(1 each)" to a name that already carries its quantity.
+- **Status:** ✅ BUILT (Oct 28 night; audited PASS; ships at release #6) · CLIENT-6 `844790a6` · **Priority:** see above.
+
+---
+
+### BUG-591 — Fajitas: Cook Mode warms the tortillas first, then a lime cut and the peppers, and only 4 steps later "stack the warm tortillas in a towel" — no "while" cue, a knife task inside stovetop work, a finished warm component held (P2)
+
+- **Date:** October 28, 2026 · **Found by:** Hans, cooking on production (hans@kitchenwizard.ai), "Smoky Chipotle Chicken Fajitas with Peppers and Warm Flour Tortillas".
+- **What a cook hits:** warming tortillas one at a time in the dry skillet while also told to cut a lime and start the vegetables, with nothing saying what overlaps; the tortillas are done long before serving.
+- **Class:** the sequencer places finish-warm components (tortillas, bread, flatbread) early and lets knife work interrupt pan work. QA-COOK-1 must catch this case (K1, K3) and size the pattern across the catalog; the sequencer fix follows its pattern list.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** after QA-COOK-1's patterns · **Cross-ref:** QA-COOK-1.
+
+---
+
+### BUG-603 — Sign-up and password reset accept the most common passwords ("password" was accepted on production) (P1, security)
+
+- **Date:** October 28, 2026 · **Found by:** Hans — Google Password Manager flagged his production login (hans@kitchenwizard.ai) as compromised; its password was "password". Whether that pair appeared in a breach corpus or Google matched a ubiquitous password is unknown; no evidence of a Kiwi breach at the time of logging.
+- **The fix:** reject passwords on a common/breached list (NIST SP 800-63B: block commonly used and compromised values) at sign-up, reset and change; a clear message; existing accounts are not forced to change. Consider a login-failure rate limit review in the same lane.
+- **Status:** ✅ BUILT both halves: server SERVER-9 B `2c24aa64` (SecLists top 10k plus "kiwi", "kitchenwizard" and the email's local part; 400 `{ error: "password_too_common", userFacingMessage }` on sign-up, reset and change; login untouched) · client CLIENT-7 B `ea0dbf17` + `c014587e` (the server's line shows under the password field on all three screens; the reset screen no longer reads it as "Link not valid"). Ships release #6 · **Priority:** P1 (security) · **Cross-ref:** SEC-2 · BUG-616.
+
+---
+
+### BUG-576 · 577 · 578 · 598 · 599 · 600 · 601 · 602 — VOID (reserved for SERVER-8 / QA-COOK-1 / CLIENT-6, unused)
+
+---
+
+### BUG-592 — The Sequencer treats one-at-a-time and shimmering-oil steps as hands-free and overlaps hands-on work with them (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`). Pattern 12 (9 meals). Rule: `isUnattended` reads the step text ("one at a time", "per side", "sear", "until shimmering") or the catalog's timing flag is re-stamped. The fajita K2.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** a sequencer lane after release #6 · **Cross-ref:** BUG-591.
+
+---
+
+### BUG-593 — Warm bread or tortillas are finished early and the wrap step comes steps later (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`). Pattern 10 (11 meals); the fajita K1 (tortillas held 23 min). Rule: bread is a serve-time dish — warm it to finish ≤3 min before serving, the wrap step right after.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** the sequencer lane · **Cross-ref:** BUG-591.
+
+---
+
+### BUG-594 — Knife or board work is placed inside pan work that can't be left (P1 by reach)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`). Pattern 1 (27 of 30 meals; 292 sequencer hits). Rule: after a stove step that needs the cook and doesn't take food off the heat, the next step must use that pan; knife work moves before the pan goes on or into a hands-free wait. The fajita K3 (the lime).
+- **Status:** 🔴 OPEN · **Priority:** P1 (most meals) · **Target:** the sequencer lane · **Cross-ref:** BUG-591.
+
+---
+
+### BUG-595 — Hot dishes are finished early and wait uncovered (P2)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`). Pattern 2 (25 meals). Rule: finish hot dishes at serving time, or a keep-warm step right after the last heat step.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** the sequencer lane.
+
+---
+
+### BUG-596 — Cues misstate a dish's state ("With the Pasta e Fagioli marinating", "With the Creamy Mashed Potatoes marinating") (P3)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`). Pattern 8 (14 meals; 318 of 320 hits from the Sequencer). Rule: word cues from the dish's real state.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the sequencer lane.
+
+---
+
+### BUG-597 — Scaled amounts keep the authored plural: "1 limes", "1 eggs", "1 porterhouse steaks" (P3)
+
+- **Date:** October 28, 2026 · **Found by:** QA-COOK-1 (30 meals × 2 servings × unprepped/prepped, kitchen simulator K1–K7 + three Haiku home cooks; summary in `e2e/out/cooksim-2026-10-29/summary.md`).
+- **Status:** ✅ BUILT, server half (SERVER-10 E `a91e031a`): the server adjusts the noun after the plan's number when it sends a meal for a plan item ("1 lime", "2 limes"), checked against every catalog step. Client half (Meal Detail's servings stepper, `amountSegments.ts:362-394`) → BUG-618 · **Priority:** P3 · **Cross-ref:** BUG-618.
+
+---
+
+### BUG-604 — One-meal prep repeats "Measure the Burgers sauce", so the worcestershire is measured twice (2 tsp where the recipe needs 1) (P2)
+
+- **Date:** October 29, 2026 · **Found by:** the first full night run (10 households, $0.73, 17 min; `e2e/out/night-2026-10-29/summary.md`). h10. R4 `prepped-twice` / `prep-exceeds-list`.
+- **Status:** ⛔ VOID — NOT A DEFECT (SERVER-9 D, refused with evidence, Oct 29): h10's one-meal session has one "Measure the Burgers sauce" step (1 tsp worcestershire); the night run's R4 matched "1 tsp hot sauce" to worcestershire on the head word and named the step twice → BUG-609 · **Cross-ref:** BUG-609.
+
+---
+
+### BUG-605 — Grocery shortfall: fresh basil 0.5 cup bought where two meals need 0.5 + 0.25 cup (P2)
+
+- **Date:** October 29, 2026 · **Found by:** the first full night run (10 households, $0.73, 17 min; `e2e/out/night-2026-10-29/summary.md`). h3 (Ratatouille + Cajun Grilled Salmon). The consolidation doesn't sum the two needs.
+- **Status:** ✅ BUILT (SERVER-10 A `af568666`, Oct 29): a recipe's part lines (basil leaves) folded into the bought item now add to the need when their yield per pack equals the parent's; stems, rinds and brine still ride free; absorbed parts keep their meals. Basil ¾ cup for both meals · ships release #6 (Fri Oct 30; Sunday fallback); existing lists keep their rows until they regenerate · **Priority:** P2.
+
+---
+
+### BUG-606 — The Friendsgiving list buys "13.625 clove" of garlic, and feast prep minces 16 (P3)
+
+- **Date:** October 29, 2026 · **Found by:** the first full night run (10 households, $0.73, 17 min; `e2e/out/night-2026-10-29/summary.md`). h7. A fractional clove count on the list, and prep over the list.
+- **Status:** ✅ BUILT (SERVER-10 B `c7c09216`): whole cloves per share on the need line, heads on the buy line (10 cloves a head) · ships release #6 (Fri Oct 30; Sunday fallback); existing lists keep their rows until they regenerate · **Priority:** P3 · **Cross-ref:** D-WS9-360.
+
+---
+
+### BUG-607 — A parmesan wedge is attributed to Classic Tomato-Vegetable Minestrone, whose recipes name no parmesan (P3)
+
+- **Date:** October 29, 2026 · **Found by:** the first full night run (10 households, $0.73, 17 min; `e2e/out/night-2026-10-29/summary.md`). h3, after a swap. Likely the optional Parmesan rind's row mis-attributed.
+- **Status:** ✅ BUILT (SERVER-10 C `bf8cf8b9`): optional-only lines are no longer folded, so the row is "Parmesan rind" again (now only BUG-409); 1 of 1,123 corpus rows moved · ships release #6 (Fri Oct 30; Sunday fallback); existing lists keep their rows until they regenerate · **Priority:** P3 · **Cross-ref:** BUG-409.
+
+---
+
+### BUG-608 — Week prep chops 88.7 ml (~6 tbsp) of parsley where the recipes need 33–55 ml (P3)
+
+- **Date:** October 29, 2026 · **Found by:** the first full night run (10 households, $0.73, 17 min; `e2e/out/night-2026-10-29/summary.md`). h4. Prep over the recipe for a herb.
+- **Status:** ⛔ VOID — NOT A DEFECT (SERVER-10 D, declined with evidence): "Chop 6 tbsp parsley" is exactly the recipes' total, garnish lines included. The night run treats "fresh parsley" and "flat-leaf parsley" as two foods and charges one step to each → checker fix in QA-8 A2 · **Cross-ref:** BUG-609.
+
+---
+
+### BUG-609 — Night run R4 (`stepAmounts`) matches ingredients on the head word, so "1 tsp hot sauce" counts as worcestershire and one step is reported twice (P3, checker)
+
+- **Date:** October 29, 2026 · **Found by:** SERVER-9 (refusing BUG-604). Still present after QA-NIGHT-2 `6fbb7355`. Every one-meal session in both night runs has no duplicate titles, keys or ingredient lines.
+- **Status:** 🔴 OPEN · **Priority:** P3 (false findings) · **Target:** QA-8 · **Cross-ref:** BUG-604.
+
+---
+
+### BUG-610 · 611 · 615 — VOID (reserved for SERVER-9 / QA-NIGHT-2, unused)
+
+---
+
+### BUG-614 — Week prep's "Chop all cilantro" says ⅔ cup where the recipes need about ½ cup and the list buys ½ cup (P3)
+
+- **Date:** October 29, 2026 · **Found by:** QA-NIGHT-2's proof (h4). Same shape as BUG-608 (parsley).
+- **Status:** ✅ BUILT (SERVER-10 D `833132c6`): double rounding — step totals summed displayed amounts; spoon/cup/oz/lb totals now sum raw and round once. h4 cilantro ½ cup. The AI prep narration re-runs once on next open where totals change · **Priority:** P3.
+
+---
+
+### BUG-616 — Login rate limits live in memory on each Cloud Run instance and have no daily per-account cap (P2, security)
+
+- **Date:** October 29, 2026 · **Found by:** SERVER-9 (BUG-603 review). Per IP 10 at once then 1 per 6 s (~600/h; `TRUST_PROXY_HOPS=1` live); per account 10 failures per 15 min (~40/h), cleared by a reset. More instances allow more attempts. Adequate against one source on one account; weak against credential stuffing across many IPs; an existing weak password can take ~1,000 guesses a day.
+- **The fix:** a shared store (the database or a small Redis) for the counters, and a daily per-account cap with an email to the owner.
+- **Status:** 🔴 OPEN · **Priority:** P2 · **Target:** a server lane after release #6 · **Cross-ref:** BUG-603.
+
+---
+
+### BUG-617 — QA specs sec3b and client4 expect `trial_already_used`, which a free-launch server no longer sends (P3, specs)
+
+- **Date:** October 29, 2026 · **Found by:** SERVER-9 (release impact of A, D-WS9-356).
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** QA-8 (pin them to an enforced-mode server or branch on `billing.mode`) · **Cross-ref:** D-WS9-356.
+
+---
+
+### BUG-612 — The server and the app disagree on steps that open with "Thaw (about 10 minutes)…" or "Make ahead (up to 3 days)…": the server starts a make-ahead run there, the app doesn't (P2, impact under investigation)
+
+- **Date:** October 29, 2026 · **Found by:** CLIENT-7. Repro: `artifacts/api-server/scripts/_scratch/client-7/diverge.ts`.
+- **Status:** 🔵 INVESTIGATING (INV-612, read-only, Oct 29 night: impact, and whether it blocks release #6) · **Priority:** P2 until sized · **Cross-ref:** D-WS9-351 · BUG-567.
+
+---
+
+### BUG-613 — VOID (reserved for CLIENT-7, unused)
+
+---
+
+### BUG-618 — Meal Detail's servings stepper words scaled amounts on the client and keeps the authored plural ("1 limes") (P3)
+
+- **Date:** October 29, 2026 · **Found by:** SERVER-10 E. `lib/cooking/amountSegments.ts:362-394` (Cook Mode, Meal Detail, Dish) words scaled amounts itself; Meal Detail's stepper has no plan item, so only the client can fix it.
+- **Status:** 🔴 OPEN · **Priority:** P3 · **Target:** the next client lane · **Cross-ref:** BUG-597.
 
 ---
 
